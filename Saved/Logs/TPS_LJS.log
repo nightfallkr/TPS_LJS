@@ -1,9 +1,9 @@
-﻿Log file open, 11/02/16 10:34:53
+﻿Log file open, 11/02/16 10:50:38
 LogInit:Display: Running engine for game: TPS_LJS
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(-33375620) SRandInit(-33375620).
+LogInit:Display: RandInit(-1007602470) SRandInit(-1007602470).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.088436
+LogStats: Stats thread started at 0.090726
 LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files/Epic Games/4.13/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
 LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
 LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
@@ -133,483 +133,445 @@ LogInit: Base directory: C:/Program Files/Epic Games/4.13/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2016.11.02-01.34.53:976][  0]LogInit: Selected Device Profile: [Windows]
-[2016.11.02-01.34.53:976][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2016.11.02-01.34.53:984][  0]LogInit: Computer: EMPRISE-PC1
-[2016.11.02-01.34.53:984][  0]LogInit: User: emprise
-[2016.11.02-01.34.53:984][  0]LogInit: CPU Page size=65536, Cores=4
-[2016.11.02-01.34.53:984][  0]LogInit: High frequency timer resolution =3.515654 MHz
-[2016.11.02-01.34.53:984][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
-[2016.11.02-01.34.53:984][  0]LogMemory: Platform Memory Stats for Windows
-[2016.11.02-01.34.53:984][  0]LogMemory: Process Physical Memory: 259.96 MB used, 259.96 MB peak
-[2016.11.02-01.34.53:984][  0]LogMemory: Process Virtual Memory: 262.57 MB used, 262.57 MB peak
-[2016.11.02-01.34.53:984][  0]LogMemory: Physical Memory: 8839.48 MB used, 16334.92 MB total
-[2016.11.02-01.34.53:984][  0]LogMemory: Virtual Memory: 593.67 MB used, 8388608.00 MB total
-[2016.11.02-01.34.54:213][  0]LogInit: Overriding culture en w/ editor configuration.
-[2016.11.02-01.34.55:117][  0]LogD3D11RHI: D3D11 adapters:
-[2016.11.02-01.34.55:290][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 750' (Feature Level 11_0)
-[2016.11.02-01.34.55:290][  0]LogD3D11RHI:       972/0/3072 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2016.11.02-01.34.55:290][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2016.11.02-01.34.55:297][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2016.11.02-01.34.55:297][  0]LogD3D11RHI:     GPU DeviceId: 0x1381 (for the marketing name, search the web for "GPU Device Id")
-[2016.11.02-01.34.55:297][  0]LogWindows: EnumDisplayDevices:
-[2016.11.02-01.34.55:297][  0]LogWindows:    0. 'NVIDIA GeForce GTX 750' (P:1 D:1)
-[2016.11.02-01.34.55:298][  0]LogWindows:    1. 'NVIDIA GeForce GTX 750' (P:0 D:1)
-[2016.11.02-01.34.55:298][  0]LogWindows:    2. 'NVIDIA GeForce GTX 750' (P:0 D:0)
-[2016.11.02-01.34.55:298][  0]LogWindows:    3. 'NVIDIA GeForce GTX 750' (P:0 D:0)
-[2016.11.02-01.34.55:299][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
-[2016.11.02-01.34.55:299][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
-[2016.11.02-01.34.55:299][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
-[2016.11.02-01.34.55:299][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2016.11.02-01.34.55:299][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 750
-[2016.11.02-01.34.55:299][  0]LogD3D11RHI:   Driver Version: 368.81 (internal:10.18.13.6881, unified:368.81)
-[2016.11.02-01.34.55:299][  0]LogD3D11RHI:      Driver Date: 7-10-2016
-[2016.11.02-01.34.55:299][  0]LogRHI: Texture pool is 680 MB (70% of 972 MB)
-[2016.11.02-01.34.55:438][  0]LogD3D11RHI: Async texture creation enabled
-[2016.11.02-01.34.55:453][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2016.11.02-01.34.55:453][  0]LogShaderCompilers: Guid format shader working directory is 3 characters bigger than the processId version (D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Intermediate/Shaders/WorkingDirectory/8688/).
-[2016.11.02-01.34.55:453][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/EMPRISE/AppData/Local/Temp/UnrealShaderWorkingDir/D776C7AD469186C7C2FDB78C8E827249/'.
-[2016.11.02-01.34.55:453][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2016.11.02-01.34.57:515][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2016.11.02-01.34.57:525][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2016.11.02-01.34.57:538][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2016.11.02-01.34.57:550][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2016.11.02-01.34.57:561][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2016.11.02-01.34.57:573][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2016.11.02-01.34.57:584][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2016.11.02-01.34.57:594][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2016.11.02-01.34.57:607][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2016.11.02-01.34.57:617][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2016.11.02-01.34.57:627][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2016.11.02-01.34.57:647][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2016.11.02-01.34.57:647][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2016.11.02-01.34.57:652][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2016.11.02-01.34.57:687][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2016.11.02-01.34.57:696][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2016.11.02-01.34.57:706][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2016.11.02-01.34.57:717][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2016.11.02-01.34.57:728][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2016.11.02-01.34.57:743][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2016.11.02-01.34.57:743][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2016.11.02-01.34.58:006][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2016.11.02-01.34.58:064][  0]LogDerivedDataCache: Loaded boot cache 0.06s 62MB C:/Users/EMPRISE/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
-[2016.11.02-01.34.58:064][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/EMPRISE/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc
-[2016.11.02-01.34.58:065][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2016.11.02-01.34.58:065][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2016.11.02-01.34.58:065][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2016.11.02-01.34.58:065][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2016.11.02-01.34.58:082][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2016.11.02-01.34.58:095][  0]LogDerivedDataCache: Using Local data cache path C:/Users/EMPRISE/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2016.11.02-01.34.58:402][  0]LogInit: Selected Device Profile: [Windows]
-[2016.11.02-01.34.58:402][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2016.11.02-01.34.58:405][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2016.11.02-01.34.58:563][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2016.11.02-01.34.58:563][  0]LogMeshUtilities: No automatic mesh merging module available
-[2016.11.02-01.34.58:563][  0]LogMeshUtilities: No distributed automatic mesh merging module available
-[2016.11.02-01.34.58:885][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3106830, ProjectName: tps_ljs, ProjectVersion: , EngineNetworkVersion: 1, GameNetworkVersion: 0, NetworkChecksum: 3890732095
-[2016.11.02-01.34.58:928][  0]LogAssetRegistry: FAssetRegistry took 0.0205 seconds to start up
-[2016.11.02-01.34.58:951][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.014822 seconds
-[2016.11.02-01.34.58:956][  0]LogUObjectArray: 29778 objects as part of root set at end of initial load.
-[2016.11.02-01.34.58:956][  0]LogUObjectAllocator: 6125448 out of 0 bytes used by permanent object pool.
-[2016.11.02-01.34.58:956][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2016.11.02-01.34.59:032][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2016.11.02-01.35.00:036][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2016.11.02-01.35.00:036][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2016.11.02-01.35.00:970][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2016.11.02-01.35.01:001][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2016.11.02-01.35.01:472][  0]SourceControl: Info Source control is disabled
-[2016.11.02-01.35.01:472][  0]SourceControl: Info Source control is disabled
-[2016.11.02-01.35.01:522][  0]SourceControl: Info Source control is disabled
-[2016.11.02-01.35.01:546][  0]SourceControl: Info Source control is disabled
-[2016.11.02-01.35.02:201][  0]LogEngine: Initializing Engine...
-[2016.11.02-01.35.02:202][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2016.11.02-01.35.02:380][  0]LogAIModule: Creating AISystem for world Untitled
-[2016.11.02-01.35.02:420][  0]LogInit: XAudio2 using '스피커(2- Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.11.02-01.35.02:437][  0]LogInit: FAudioDevice initialized.
-[2016.11.02-01.35.02:467][  0]LogDerivedDataCache: Saved boot cache 0.03s 62MB C:/Users/EMPRISE/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
-[2016.11.02-01.35.02:472][  0]LogInit: Texture streaming: Enabled
-[2016.11.02-01.35.02:522][  0]LogInit: Transaction tracking system initialized
-[2016.11.02-01.35.02:736][  0]BlueprintLog: New page: Editor Load
-[2016.11.02-01.35.03:175][  0]LocalizationService: Info Localization service is disabled
-[2016.11.02-01.35.03:404][  0]LogConsoleResponse:Display: 
-[2016.11.02-01.35.03:506][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2016.11.02-01.35.03:506][  0]LogCook:Display: Mobile HDR setting 1
-[2016.11.02-01.35.03:844][  0]LogFileCache: Scanning file cache for directory 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Content/' took 0.02s
-[2016.11.02-01.35.03:844][  0]SourceControl: Info Source control is disabled
-[2016.11.02-01.35.03:845][  0]Cmd: MAP LOAD FILE="D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Content/SteamMultiplayer/SteamMaps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2016.11.02-01.35.03:845][  0]LightingResults: New page: Lighting Build
-[2016.11.02-01.35.03:856][  0]MapCheck: New page: Map Check
-[2016.11.02-01.35.03:856][  0]LightingResults: New page: Lighting Build
-[2016.11.02-01.35.04:169][  0]LogAIModule: Creating AISystem for world MainMenu
-[2016.11.02-01.35.04:170][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2016.11.02-01.35.04:170][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2016.11.02-01.35.04:248][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 77.739ms to complete.
-[2016.11.02-01.35.04:248][  0]LogFileHelpers: Loading map 'MainMenu' took 0.404
-[2016.11.02-01.35.04:370][  0]LogCollectionManager: Loaded 0 collections in 0.001439 seconds
-[2016.11.02-01.35.04:421][  0]LogFileCache: Scanning file cache for directory 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Saved/Collections/' took 0.01s
-[2016.11.02-01.35.04:421][  0]LogFileCache: Scanning file cache for directory 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Content/Developers/emprise/Collections/' took 0.01s
-[2016.11.02-01.35.04:421][  0]LogFileCache: Scanning file cache for directory 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Content/Collections/' took 0.01s
-[2016.11.02-01.35.04:421][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
-[2016.11.02-01.35.04:428][  0]LogContentBrowser: Native class hierarchy populated in 0.0072 seconds. Added 2141 classes and 415 folders.
-[2016.11.02-01.35.04:439][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2016.11.02-01.35.04:439][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2016.11.02-01.35.04:439][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0007 seconds. Added 12 classes and 0 folders.
-[2016.11.02-01.35.04:458][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2016.11.02-01.35.04:536][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
-[2016.11.02-01.35.04:557][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
-[2016.11.02-01.35.04:617][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2016.11.02-01.35.04:621][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2016.11.02-01.35.04:657][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
-[2016.11.02-01.35.04:657][  0]LogLoad: (Engine Initialization) Total time: 12.45 seconds
-[2016.11.02-01.35.04:657][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.13 seconds
-[2016.11.02-01.35.04:657][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2016.11.02-01.35.04:657][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2016.11.02-01.35.04:671][  0]LogOcInput: OculusInput pre-init called
-[2016.11.02-01.35.04:690][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2016.11.02-01.35.04:822][  0]LogRenderer: Reallocating scene render targets to support 1208x652 (Frame:2).
-[2016.11.02-01.35.04:910][  1]LogAssetRegistry: Asset discovery search completed in 6.0027 seconds
-[2016.11.02-01.35.04:910][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2016.11.02-01.35.04:910][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000016 seconds (updated 0 objects)
-[2016.11.02-01.35.10:256][514]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 112 classes and 0 folders.
-[2016.11.02-01.36.57:188][  5]BlueprintLog: New page: Compile GameInfoInstance
-[2016.11.02-01.36.57:817][ 47]LogSavePackage: Save=78.27ms
-[2016.11.02-01.36.57:817][ 47]LogSavePackage: Moving 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Saved/GameInfoInstance17840DDE420B99C93867D598181EA2A9.tmp' to 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Content/SteamMultiplayer/SteamBluprints/AllLevels/GameInfoInstance.uasset'
-[2016.11.02-01.36.57:820][ 47]LogSavePackage:Display: Finished SavePackage D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Content/SteamMultiplayer/SteamBluprints/AllLevels/GameInfoInstance.uasset
-[2016.11.02-01.37.11:942][714]BlueprintLog: New page: Compile OptionsMenu
-[2016.11.02-01.37.12:750][783]LogSavePackage: Save=50.12ms
-[2016.11.02-01.37.12:750][783]LogSavePackage: Moving 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Saved/OptionsMenuB19DBED94A6CAE7700018E954F27A291.tmp' to 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Content/SteamMultiplayer/SteamUI/MainMenu/OptionsMenu.uasset'
-[2016.11.02-01.37.12:753][783]LogSavePackage:Display: Finished SavePackage D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Content/SteamMultiplayer/SteamUI/MainMenu/OptionsMenu.uasset
-[2016.11.02-01.37.28:267][638]BlueprintLog: New page: Compile OptionsMenu
-[2016.11.02-01.37.28:776][676]LogSavePackage: Save=49.03ms
-[2016.11.02-01.37.28:776][676]LogSavePackage: Moving 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Saved/OptionsMenuAF14BB204A6D1BEDBF5CE5953D5A49C4.tmp' to 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Content/SteamMultiplayer/SteamUI/MainMenu/OptionsMenu.uasset'
-[2016.11.02-01.37.28:780][676]LogSavePackage:Display: Finished SavePackage D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Content/SteamMultiplayer/SteamUI/MainMenu/OptionsMenu.uasset
-[2016.11.02-01.37.37:025][659]BlueprintLog: New page: Compile OptionsMenu
-[2016.11.02-01.37.37:499][687]LogSavePackage: Save=47.86ms
-[2016.11.02-01.37.37:499][687]LogSavePackage: Moving 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Saved/OptionsMenu5C0F34F64450E991C7943BADC14FAECB.tmp' to 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Content/SteamMultiplayer/SteamUI/MainMenu/OptionsMenu.uasset'
-[2016.11.02-01.37.37:503][687]LogSavePackage:Display: Finished SavePackage D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Content/SteamMultiplayer/SteamUI/MainMenu/OptionsMenu.uasset
-[2016.11.02-01.37.52:229][590]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu:PersistentLevel.MainMenu'
-[2016.11.02-01.37.52:229][590]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.11.02-01.37.52:231][590]PIE: New page: PIE session: MainMenu (Nov 2, 2016, 7:37:52 PM)
-[2016.11.02-01.37.52:239][590]LogPlayLevel: Creating play world package: /Game/SteamMultiplayer/SteamMaps/UEDPIE_0_MainMenu
-[2016.11.02-01.37.52:240][590]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000927s)
-[2016.11.02-01.37.52:241][590]LogAIModule: Creating AISystem for world MainMenu
-[2016.11.02-01.37.52:241][590]LogPlayLevel: PIE: World Init took: (0.000570s)
-[2016.11.02-01.37.52:241][590]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu to /Game/SteamMultiplayer/SteamMaps/UEDPIE_0_MainMenu.MainMenu (0.001664s)
-[2016.11.02-01.37.52:261][590]LogInit: XAudio2 using '스피커(2- Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.11.02-01.37.52:271][590]LogInit: FAudioDevice initialized.
-[2016.11.02-01.37.52:496][590]LogWorld: Game class is 'ThirdPersonGameMode_C'
-[2016.11.02-01.37.52:497][590]LogWorld: Bringing World /Game/SteamMultiplayer/SteamMaps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2016.11.02-10.37.52
-[2016.11.02-01.37.52:498][590]LogWorld: Bringing up level for play took: 0.000708
-[2016.11.02-01.37.52:511][590]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0009 seconds. Added 11 classes and 0 folders.
-[2016.11.02-01.37.52:511][590]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
-[2016.11.02-01.37.52:511][590]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2016.11.02-01.37.52:511][590]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
-[2016.11.02-01.37.52:516][590]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2016.11.02-01.37.52:518][590]PIE: Info Play in editor start time for /Game/SteamMultiplayer/SteamMaps/UEDPIE_0_MainMenu -0.226
-[2016.11.02-01.37.52:519][590]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu:PersistentLevel.MainMenu'
-[2016.11.02-01.37.52:549][590]LogRenderer: Reallocating scene render targets to support 1292x756 (Frame:1981).
-[2016.11.02-01.38.16:967][271]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu:PersistentLevel.MainMenu'
-[2016.11.02-01.38.17:008][271]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu:PersistentLevel.MainMenu'
-[2016.11.02-01.38.18:128][397]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu:PersistentLevel.MainMenu'
-[2016.11.02-01.38.18:128][397]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.11.02-01.38.18:128][397]PIE: New page: PIE session: MainMenu (Nov 2, 2016, 7:38:18 PM)
-[2016.11.02-01.38.18:129][397]LogPlayLevel: Creating play world package: /Game/SteamMultiplayer/SteamMaps/UEDPIE_0_MainMenu
-[2016.11.02-01.38.18:130][397]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001182s)
-[2016.11.02-01.38.18:131][397]LogAIModule: Creating AISystem for world MainMenu
-[2016.11.02-01.38.18:131][397]LogPlayLevel: PIE: World Init took: (0.000768s)
-[2016.11.02-01.38.18:131][397]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu to /Game/SteamMultiplayer/SteamMaps/UEDPIE_0_MainMenu.MainMenu (0.002140s)
-[2016.11.02-01.38.18:149][397]LogInit: XAudio2 using '스피커(2- Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.11.02-01.38.18:158][397]LogInit: FAudioDevice initialized.
-[2016.11.02-01.38.18:208][397]LogWorld: Game class is 'ThirdPersonGameMode_C'
-[2016.11.02-01.38.18:209][397]LogWorld: Bringing World /Game/SteamMultiplayer/SteamMaps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2016.11.02-10.38.18
-[2016.11.02-01.38.18:210][397]LogWorld: Bringing up level for play took: 0.000809
-[2016.11.02-01.38.18:210][397]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
-[2016.11.02-01.38.18:210][397]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2016.11.02-01.38.18:210][397]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
-[2016.11.02-01.38.18:212][397]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2016.11.02-01.38.18:216][397]PIE: Info Play in editor start time for /Game/SteamMultiplayer/SteamMaps/UEDPIE_0_MainMenu -0.53
-[2016.11.02-01.38.18:216][397]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu:PersistentLevel.MainMenu'
-[2016.11.02-01.38.30:562][755]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu:PersistentLevel.MainMenu'
-[2016.11.02-01.38.30:590][755]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu:PersistentLevel.MainMenu'
-[2016.11.02-01.39.32:725][800]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/SteamMultiplayer/SteamUI/MainMenu/HostMenu.HostMenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/SteamMultiplayer/SteamUI/MainMenu/MainMenu.MainMenu:WidgetTree.CanvasPanel_0
-[2016.11.02-01.39.32:725][800]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/SteamMultiplayer/SteamUI/MainMenu/HostMenu.HostMenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_10:ServerMenu_C_3.WidgetTree.CanvasPanel_0
-[2016.11.02-01.39.32:725][800]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/SteamMultiplayer/SteamUI/MainMenu/HostMenu.HostMenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/SteamMultiplayer/SteamUI/MainMenu/OptionsMenu.OptionsMenu:WidgetTree.CanvasPanel_0
-[2016.11.02-01.39.32:725][800]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/SteamMultiplayer/SteamUI/MainMenu/HostMenu.HostMenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_10:ServerMenu_C_2.WidgetTree.CanvasPanel_0
-[2016.11.02-01.39.32:725][800]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/SteamMultiplayer/SteamUI/MainMenu/HostMenu.HostMenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_8:HostMenu_C_1.WidgetTree.CanvasPanel_0
-[2016.11.02-01.39.32:725][800]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/SteamMultiplayer/SteamUI/MainMenu/HostMenu.HostMenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_8:HostMenu_C_0.WidgetTree.CanvasPanel_0
-[2016.11.02-01.39.32:725][800]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/SteamMultiplayer/SteamUI/MainMenu/HostMenu.HostMenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_6:OptionsMenu_C_12.WidgetTree.CanvasPanel_0
-[2016.11.02-01.39.32:725][800]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/SteamMultiplayer/SteamUI/MainMenu/HostMenu.HostMenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_6:OptionsMenu_C_11.WidgetTree.CanvasPanel_0
-[2016.11.02-01.39.32:725][800]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/SteamMultiplayer/SteamUI/MainMenu/HostMenu.HostMenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:ServerMenu_C_1.WidgetTree.CanvasPanel_0
-[2016.11.02-01.39.32:725][800]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/SteamMultiplayer/SteamUI/MainMenu/HostMenu.HostMenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/SteamMultiplayer/SteamUI/MainMenu/OptionsMenu.OptionsMenu_C:WidgetTree.CanvasPanel_0
-[2016.11.02-01.39.32:725][800]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/SteamMultiplayer/SteamUI/MainMenu/HostMenu.HostMenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_OptionsMenu_C_15:WidgetTree.CanvasPanel_0
-[2016.11.02-01.39.32:725][800]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/SteamMultiplayer/SteamUI/MainMenu/HostMenu.HostMenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/SteamMultiplayer/SteamUI/MainMenu/HostMenu.HostMenu_C:WidgetTree.CanvasPanel_0
-[2016.11.02-01.39.32:725][800]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/SteamMultiplayer/SteamUI/MainMenu/HostMenu.HostMenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:ServerMenu_C_0.WidgetTree.CanvasPanel_0
-[2016.11.02-01.39.32:725][800]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/SteamMultiplayer/SteamUI/MainMenu/HostMenu.HostMenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/SteamMultiplayer/SteamUI/MainMenu/MainMenu.MainMenu_C:WidgetTree.CanvasPanel_0
-[2016.11.02-01.39.32:725][800]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/SteamMultiplayer/SteamUI/MainMenu/HostMenu.HostMenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/SteamMultiplayer/SteamUI/MainMenu/ServerMenu.ServerMenu:WidgetTree.CanvasPanel_0
-[2016.11.02-01.39.32:725][800]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/SteamMultiplayer/SteamUI/MainMenu/HostMenu.HostMenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:OptionsMenu_C_10.WidgetTree.CanvasPanel_0
-[2016.11.02-01.39.32:725][800]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/SteamMultiplayer/SteamUI/MainMenu/HostMenu.HostMenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:OptionsMenu_C_1.WidgetTree.CanvasPanel_0
-[2016.11.02-01.39.32:725][800]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/SteamMultiplayer/SteamUI/MainMenu/HostMenu.HostMenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_OptionsMenu_C_10:WidgetTree.CanvasPanel_0
-[2016.11.02-01.39.32:725][800]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/SteamMultiplayer/SteamUI/MainMenu/HostMenu.HostMenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:OptionsMenu_C_3.WidgetTree.CanvasPanel_0
-[2016.11.02-01.39.32:725][800]LogProperty:Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Game/SteamMultiplayer/SteamUI/MainMenu/HostMenu.HostMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0) from referencer (Border /Engine/UMG/Editor/Transient.Border_0).  Import failed...
-[2016.11.02-01.39.32:725][800]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'CanvasPanel_0.CanvasPanelSlot_0''
-[2016.11.02-01.39.39:858][625]LogEditorTransaction: Undo Move Widget
-[2016.11.02-01.45.37:127][204]BlueprintLog: New page: Compile ServerMenu
-[2016.11.02-01.45.38:965][363]LogSavePackage: Save=25.45ms
-[2016.11.02-01.45.38:965][363]LogSavePackage: Moving 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Saved/ServerMenu77E57D694B3536F5CE77B7BB98A3F794.tmp' to 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Content/SteamMultiplayer/SteamUI/MainMenu/ServerMenu.uasset'
-[2016.11.02-01.45.38:970][363]LogSavePackage:Display: Finished SavePackage D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Content/SteamMultiplayer/SteamUI/MainMenu/ServerMenu.uasset
-[2016.11.02-01.45.44:470][925]Cmd: QUIT_EDITOR
-[2016.11.02-01.45.44:515][925]LogExit: Preparing to exit.
-[2016.11.02-01.45.45:200][925]LogExit: Editor shut down
-[2016.11.02-01.45.45:200][925]LogExit: Transaction tracking system shut down
-[2016.11.02-01.45.45:343][925]LogObj: Freed 0b from 0 cluster array pools.
-[2016.11.02-01.45.45:344][925]LogExit: Object subsystem successfully closed.
-[2016.11.02-01.45.45:358][925]LogD3D11RHI: Shutdown
-[2016.11.02-01.45.45:358][925]LogD3D11RHI: CleanupD3DDevice
-[2016.11.02-01.45.45:393][925]LogD3D11RHI: ~FD3D11DynamicRHI
-[2016.11.02-01.45.45:411][925]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (237)
-[2016.11.02-01.45.45:411][925]LogModuleManager: Shutting down and abandoning module SequencerWidgets (236)
-[2016.11.02-01.45.45:411][925]LogModuleManager: Shutting down and abandoning module BlueprintGraph (235)
-[2016.11.02-01.45.45:411][925]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (234)
-[2016.11.02-01.45.45:411][925]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (233)
-[2016.11.02-01.45.45:412][925]LogModuleManager: Shutting down and abandoning module CrashTracker (232)
-[2016.11.02-01.45.45:412][925]LogModuleManager: Shutting down and abandoning module SceneOutliner (231)
-[2016.11.02-01.45.45:412][925]LogModuleManager: Shutting down and abandoning module WidgetCarousel (230)
-[2016.11.02-01.45.45:412][925]LogModuleManager: Shutting down and abandoning module AddContentDialog (229)
-[2016.11.02-01.45.45:412][925]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/4.13/FeaturePacks/' was aborted.
-[2016.11.02-01.45.45:412][925]LogModuleManager: Shutting down and abandoning module GameplayTags (228)
-[2016.11.02-01.45.45:412][925]LogModuleManager: Shutting down and abandoning module EditorWidgets (227)
-[2016.11.02-01.45.45:412][925]LogModuleManager: Shutting down and abandoning module CollectionManager (226)
-[2016.11.02-01.45.45:412][925]LogDirectoryWatcher: A directory notification for 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Content/Collections/' was aborted.
-[2016.11.02-01.45.45:412][925]LogDirectoryWatcher: A directory notification for 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Content/Developers/emprise/Collections/' was aborted.
-[2016.11.02-01.45.45:412][925]LogDirectoryWatcher: A directory notification for 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Saved/Collections/' was aborted.
-[2016.11.02-01.45.45:412][925]LogModuleManager: Shutting down and abandoning module StatsViewer (225)
-[2016.11.02-01.45.45:412][925]LogModuleManager: Shutting down and abandoning module FoliageEdit (224)
-[2016.11.02-01.45.45:412][925]LogModuleManager: Shutting down and abandoning module LandscapeEditor (223)
-[2016.11.02-01.45.45:412][925]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (222)
-[2016.11.02-01.45.45:412][925]LogModuleManager: Shutting down and abandoning module ActorPickerMode (221)
-[2016.11.02-01.45.45:412][925]LogModuleManager: Shutting down and abandoning module GeometryMode (220)
-[2016.11.02-01.45.45:412][925]LogModuleManager: Shutting down and abandoning module TextureAlignMode (219)
-[2016.11.02-01.45.45:412][925]LogModuleManager: Shutting down and abandoning module BspMode (218)
-[2016.11.02-01.45.45:413][925]LogModuleManager: Shutting down and abandoning module HardwareSurvey (217)
-[2016.11.02-01.45.45:413][925]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (216)
-[2016.11.02-01.45.45:413][925]LogModuleManager: Shutting down and abandoning module SequenceRecorder (215)
-[2016.11.02-01.45.45:413][925]LogModuleManager: Shutting down and abandoning module AutomationWorker (214)
-[2016.11.02-01.45.45:413][925]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (213)
-[2016.11.02-01.45.45:413][925]LogModuleManager: Shutting down and abandoning module PlacementMode (212)
-[2016.11.02-01.45.45:413][925]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (211)
-[2016.11.02-01.45.45:413][925]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (210)
-[2016.11.02-01.45.45:413][925]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (209)
-[2016.11.02-01.45.45:413][925]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (208)
-[2016.11.02-01.45.45:413][925]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (207)
-[2016.11.02-01.45.45:413][925]LogModuleManager: Shutting down and abandoning module Media (206)
-[2016.11.02-01.45.45:413][925]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (205)
-[2016.11.02-01.45.45:413][925]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (204)
-[2016.11.02-01.45.45:413][925]LogModuleManager: Shutting down and abandoning module CharacterAI (203)
-[2016.11.02-01.45.45:413][925]LogModuleManager: Shutting down and abandoning module SmartSnapping (202)
-[2016.11.02-01.45.45:413][925]LogModuleManager: Shutting down and abandoning module SessionServices (201)
-[2016.11.02-01.45.45:413][925]LogModuleManager: Shutting down and abandoning module ViewportSnapping (200)
-[2016.11.02-01.45.45:413][925]LogModuleManager: Shutting down and abandoning module ViewportInteraction (199)
-[2016.11.02-01.45.45:413][925]LogModuleManager: Shutting down and abandoning module LogVisualizer (198)
-[2016.11.02-01.45.45:413][925]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (197)
-[2016.11.02-01.45.45:413][925]LogModuleManager: Shutting down and abandoning module IntroTutorials (196)
-[2016.11.02-01.45.45:413][925]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (195)
-[2016.11.02-01.45.45:413][925]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (194)
-[2016.11.02-01.45.45:413][925]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (193)
-[2016.11.02-01.45.45:413][925]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (192)
-[2016.11.02-01.45.46:317][925]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (191)
-[2016.11.02-01.45.46:317][925]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (190)
-[2016.11.02-01.45.46:317][925]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (189)
-[2016.11.02-01.45.46:317][925]LogModuleManager: Shutting down and abandoning module NiagaraEditor (188)
-[2016.11.02-01.45.46:317][925]LogModuleManager: Shutting down and abandoning module MergeActors (187)
-[2016.11.02-01.45.46:317][925]LogModuleManager: Shutting down and abandoning module SizeMap (186)
-[2016.11.02-01.45.46:317][925]LogModuleManager: Shutting down and abandoning module TreeMap (185)
-[2016.11.02-01.45.46:317][925]LogModuleManager: Shutting down and abandoning module ReferenceViewer (184)
-[2016.11.02-01.45.46:317][925]LogModuleManager: Shutting down and abandoning module LocalizationService (183)
-[2016.11.02-01.45.46:317][925]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (182)
-[2016.11.02-01.45.46:317][925]LogModuleManager: Shutting down and abandoning module HardwareTargeting (181)
-[2016.11.02-01.45.46:317][925]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (180)
-[2016.11.02-01.45.46:317][925]LogModuleManager: Shutting down and abandoning module UndoHistory (179)
-[2016.11.02-01.45.46:317][925]LogModuleManager: Shutting down and abandoning module UserFeedback (178)
-[2016.11.02-01.45.46:317][925]LogModuleManager: Shutting down and abandoning module XmlParser (177)
-[2016.11.02-01.45.46:317][925]LogModuleManager: Shutting down and abandoning module Blutility (176)
-[2016.11.02-01.45.46:317][925]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (175)
-[2016.11.02-01.45.46:317][925]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (174)
-[2016.11.02-01.45.46:317][925]LogModuleManager: Shutting down and abandoning module InputBindingEditor (173)
-[2016.11.02-01.45.46:317][925]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (172)
-[2016.11.02-01.45.46:318][925]LogModuleManager: Shutting down and abandoning module SettingsEditor (171)
-[2016.11.02-01.45.46:318][925]LogModuleManager: Shutting down and abandoning module ProjectLauncher (170)
-[2016.11.02-01.45.46:318][925]LogModuleManager: Shutting down and abandoning module SessionFrontend (169)
-[2016.11.02-01.45.46:318][925]LogModuleManager: Shutting down and abandoning module ProfilerClient (168)
-[2016.11.02-01.45.46:318][925]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (167)
-[2016.11.02-01.45.46:318][925]LogModuleManager: Shutting down and abandoning module DeviceManager (166)
-[2016.11.02-01.45.46:368][925]LogModuleManager: Shutting down and abandoning module AutomationController (165)
-[2016.11.02-01.45.46:368][925]LogModuleManager: Shutting down and abandoning module AutomationWindow (164)
-[2016.11.02-01.45.46:368][925]LogModuleManager: Shutting down and abandoning module Layers (163)
-[2016.11.02-01.45.46:368][925]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (162)
-[2016.11.02-01.45.46:368][925]LogModuleManager: Shutting down and abandoning module DetailCustomizations (161)
-[2016.11.02-01.45.46:368][925]LogModuleManager: Shutting down and abandoning module PackagesDialog (160)
-[2016.11.02-01.45.46:368][925]LogModuleManager: Shutting down and abandoning module AnimGraph (159)
-[2016.11.02-01.45.46:368][925]LogModuleManager: Shutting down and abandoning module Persona (158)
-[2016.11.02-01.45.46:368][925]LogModuleManager: Shutting down and abandoning module Kismet (157)
-[2016.11.02-01.45.46:377][925]LogModuleManager: Shutting down and abandoning module GraphEditor (156)
-[2016.11.02-01.45.46:377][925]LogModuleManager: Shutting down and abandoning module ClassViewer (155)
-[2016.11.02-01.45.46:377][925]LogModuleManager: Shutting down and abandoning module Toolbox (154)
-[2016.11.02-01.45.46:377][925]LogModuleManager: Shutting down and abandoning module ModuleUI (153)
-[2016.11.02-01.45.46:377][925]LogModuleManager: Shutting down and abandoning module MovieSceneTools (152)
-[2016.11.02-01.45.46:377][925]LogModuleManager: Shutting down and abandoning module OutputLog (151)
-[2016.11.02-01.45.46:377][925]LogModuleManager: Shutting down and abandoning module GammaUI (150)
-[2016.11.02-01.45.46:377][925]LogModuleManager: Shutting down and abandoning module Documentation (149)
-[2016.11.02-01.45.46:377][925]LogModuleManager: Shutting down and abandoning module Niagara (148)
-[2016.11.02-01.45.46:377][925]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (147)
-[2016.11.02-01.45.46:377][925]LogModuleManager: Shutting down and abandoning module AnalyticsET (146)
-[2016.11.02-01.45.46:377][925]LogModuleManager: Shutting down and abandoning module PortalServices (145)
-[2016.11.02-01.45.46:377][925]LogModuleManager: Shutting down and abandoning module PortalRpc (144)
-[2016.11.02-01.45.46:377][925]LogModuleManager: Shutting down and abandoning module MessagingRpc (143)
-[2016.11.02-01.45.46:377][925]LogModuleManager: Shutting down and abandoning module GameplayDebugger (142)
-[2016.11.02-01.45.46:377][925]LogModuleManager: Shutting down and abandoning module AITestSuite (141)
-[2016.11.02-01.45.46:377][925]LogModuleManager: Shutting down and abandoning module AIModule (140)
-[2016.11.02-01.45.46:377][925]LogModuleManager: Shutting down and abandoning module ProfilerService (139)
-[2016.11.02-01.45.46:525][925]LogModuleManager: Shutting down and abandoning module TaskGraph (138)
-[2016.11.02-01.45.46:525][925]LogModuleManager: Shutting down and abandoning module SlateRemote (137)
-[2016.11.02-01.45.46:525][925]LogModuleManager: Shutting down and abandoning module SteamVRController (136)
-[2016.11.02-01.45.46:525][925]LogModuleManager: Shutting down and abandoning module SteamVR (135)
-[2016.11.02-01.45.46:525][925]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (134)
-[2016.11.02-01.45.46:525][925]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (133)
-[2016.11.02-01.45.46:525][925]LogModuleManager: Shutting down and abandoning module OculusLibrary (132)
-[2016.11.02-01.45.46:525][925]LogModuleManager: Shutting down and abandoning module OculusInput (131)
-[2016.11.02-01.45.46:525][925]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (130)
-[2016.11.02-01.45.46:525][925]LogModuleManager: Shutting down and abandoning module CableComponent (129)
-[2016.11.02-01.45.46:525][925]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (128)
-[2016.11.02-01.45.46:525][925]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (126)
-[2016.11.02-01.45.46:525][925]LogModuleManager: Shutting down and abandoning module HTML5Networking (125)
-[2016.11.02-01.45.46:525][925]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (124)
-[2016.11.02-01.45.46:525][925]LogModuleManager: Shutting down and abandoning module GeometryCache (123)
-[2016.11.02-01.45.46:525][925]LogModuleManager: Shutting down and abandoning module AlembicLibrary (122)
-[2016.11.02-01.45.46:525][925]LogModuleManager: Shutting down and abandoning module AlembicImporter (121)
-[2016.11.02-01.45.46:525][925]LogModuleManager: Shutting down and abandoning module SuperSearch (120)
-[2016.11.02-01.45.46:525][925]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (119)
-[2016.11.02-01.45.46:525][925]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (118)
-[2016.11.02-01.45.46:525][925]LogModuleManager: Shutting down and abandoning module PluginBrowser (117)
-[2016.11.02-01.45.46:525][925]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (116)
-[2016.11.02-01.45.46:525][925]LogModuleManager: Shutting down and abandoning module EpicSurvey (115)
-[2016.11.02-01.45.46:525][925]LogModuleManager: Shutting down and abandoning module DesktopPlatform (114)
-[2016.11.02-01.45.46:525][925]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (113)
-[2016.11.02-01.45.46:525][925]LogModuleManager: Shutting down and abandoning module UObjectPlugin (112)
-[2016.11.02-01.45.46:525][925]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (111)
-[2016.11.02-01.45.46:525][925]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (110)
-[2016.11.02-01.45.46:525][925]LogModuleManager: Shutting down and abandoning module SourceControl (109)
-[2016.11.02-01.45.46:525][925]LogModuleManager: Shutting down and abandoning module GitSourceControl (108)
-[2016.11.02-01.45.46:525][925]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (107)
-[2016.11.02-01.45.46:525][925]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (106)
-[2016.11.02-01.45.46:525][925]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (105)
-[2016.11.02-01.45.46:525][925]LogModuleManager: Shutting down and abandoning module MeshPaint (104)
-[2016.11.02-01.45.46:525][925]LogModuleManager: Shutting down and abandoning module FbxAutomationBuilderModule (103)
-[2016.11.02-01.45.46:525][925]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (102)
-[2016.11.02-01.45.46:525][925]LogModuleManager: Shutting down and abandoning module HotReload (101)
-[2016.11.02-01.45.46:527][925]LogModuleManager: Shutting down and abandoning module MainFrame (100)
-[2016.11.02-01.45.46:527][925]LogModuleManager: Shutting down and abandoning module LevelEditor (99)
-[2016.11.02-01.45.46:528][925]LogModuleManager: Shutting down and abandoning module ContentBrowser (98)
-[2016.11.02-01.45.46:529][925]LogModuleManager: Shutting down and abandoning module Paper2DEditor (97)
-[2016.11.02-01.45.46:529][925]LogModuleManager: Shutting down and abandoning module UdpMessaging (96)
-[2016.11.02-01.45.46:629][925]LogModuleManager: Shutting down and abandoning module TcpMessaging (95)
-[2016.11.02-01.45.46:729][925]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (94)
-[2016.11.02-01.45.46:729][925]LogModuleManager: Shutting down and abandoning module Paper2D (93)
-[2016.11.02-01.45.46:729][925]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (92)
-[2016.11.02-01.45.46:729][925]LogModuleManager: Shutting down and abandoning module WmfMedia (91)
-[2016.11.02-01.45.46:729][925]LogModuleManager: Shutting down and abandoning module MediaAssets (90)
-[2016.11.02-01.45.46:729][925]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (89)
-[2016.11.02-01.45.46:729][925]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (88)
-[2016.11.02-01.45.46:729][925]LogModuleManager: Shutting down and abandoning module VREditor (87)
-[2016.11.02-01.45.46:729][925]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (86)
-[2016.11.02-01.45.46:729][925]LogModuleManager: Shutting down and abandoning module PropertyEditor (85)
-[2016.11.02-01.45.46:729][925]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (84)
-[2016.11.02-01.45.46:729][925]LogModuleManager: Shutting down and abandoning module FunctionalTesting (83)
-[2016.11.02-01.45.46:729][925]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (82)
-[2016.11.02-01.45.46:729][925]LogModuleManager: Shutting down and abandoning module Sequencer (81)
-[2016.11.02-01.45.46:729][925]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (80)
-[2016.11.02-01.45.46:729][925]LogModuleManager: Shutting down and abandoning module MessageLog (79)
-[2016.11.02-01.45.46:730][925]LogModuleManager: Shutting down and abandoning module AssetTools (78)
-[2016.11.02-01.45.46:730][925]LogModuleManager: Shutting down and abandoning module UMGEditor (77)
-[2016.11.02-01.45.46:730][925]LogModuleManager: Shutting down and abandoning module UMG (76)
-[2016.11.02-01.45.46:730][925]LogModuleManager: Shutting down and abandoning module SlateReflector (75)
-[2016.11.02-01.45.46:730][925]LogModuleManager: Shutting down and abandoning module Slate (74)
-[2016.11.02-01.45.46:730][925]LogModuleManager: Shutting down and abandoning module EditorStyle (73)
-[2016.11.02-01.45.46:732][925]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (72)
-[2016.11.02-01.45.46:732][925]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (71)
-[2016.11.02-01.45.46:732][925]LogModuleManager: Shutting down and abandoning module XAudio2 (70)
-[2016.11.02-01.45.46:732][925]LogModuleManager: Shutting down and abandoning module Networking (68)
-[2016.11.02-01.45.46:732][925]LogModuleManager: Shutting down and abandoning module Core (67)
-[2016.11.02-01.45.46:732][925]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (66)
-[2016.11.02-01.45.46:732][925]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2016.11.02-01.45.46:732][925]LogDirectoryWatcher: A directory notification for 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Content/' was aborted.
-[2016.11.02-01.45.46:732][925]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2016.11.02-01.45.46:732][925]LogModuleManager: Shutting down and abandoning module AssetRegistry (65)
-[2016.11.02-01.45.46:865][925]LogModuleManager: Shutting down and abandoning module KismetCompiler (64)
-[2016.11.02-01.45.46:865][925]LogModuleManager: Shutting down and abandoning module PhysXFormats (63)
-[2016.11.02-01.45.46:865][925]LogModuleManager: Shutting down and abandoning module MeshUtilities (62)
-[2016.11.02-01.45.46:865][925]LogModuleManager: Shutting down and abandoning module DerivedDataCache (61)
-[2016.11.02-01.45.46:891][925]LogDerivedDataCache: Shutdown
-[2016.11.02-01.45.46:891][925]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (60)
-[2016.11.02-01.45.46:891][925]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (59)
-[2016.11.02-01.45.46:891][925]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (58)
-[2016.11.02-01.45.46:891][925]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (57)
-[2016.11.02-01.45.46:891][925]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (56)
-[2016.11.02-01.45.46:891][925]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (55)
-[2016.11.02-01.45.46:891][925]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (54)
-[2016.11.02-01.45.46:891][925]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (53)
-[2016.11.02-01.45.46:891][925]LogModuleManager: Shutting down and abandoning module ImageWrapper (52)
-[2016.11.02-01.45.46:891][925]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (51)
-[2016.11.02-01.45.46:891][925]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (50)
-[2016.11.02-01.45.46:891][925]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (49)
-[2016.11.02-01.45.46:891][925]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (48)
-[2016.11.02-01.45.46:891][925]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (47)
-[2016.11.02-01.45.46:891][925]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (46)
-[2016.11.02-01.45.46:891][925]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (45)
-[2016.11.02-01.45.46:891][925]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (44)
-[2016.11.02-01.45.46:891][925]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (43)
-[2016.11.02-01.45.46:891][925]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (42)
-[2016.11.02-01.45.46:891][925]LogModuleManager: Shutting down and abandoning module Messaging (41)
-[2016.11.02-01.45.46:891][925]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (40)
-[2016.11.02-01.45.46:892][925]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (39)
-[2016.11.02-01.45.46:892][925]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (38)
-[2016.11.02-01.45.46:892][925]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (37)
-[2016.11.02-01.45.46:892][925]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (36)
-[2016.11.02-01.45.46:892][925]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (35)
-[2016.11.02-01.45.46:892][925]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (34)
-[2016.11.02-01.45.46:892][925]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (33)
-[2016.11.02-01.45.46:892][925]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (32)
-[2016.11.02-01.45.46:892][925]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (31)
-[2016.11.02-01.45.46:892][925]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (30)
-[2016.11.02-01.45.46:892][925]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (29)
-[2016.11.02-01.45.46:892][925]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (28)
-[2016.11.02-01.45.46:892][925]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (27)
-[2016.11.02-01.45.46:892][925]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (26)
-[2016.11.02-01.45.46:892][925]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
-[2016.11.02-01.45.46:892][925]LogModuleManager: Shutting down and abandoning module InputCore (24)
-[2016.11.02-01.45.46:892][925]LogModuleManager: Shutting down and abandoning module Settings (23)
-[2016.11.02-01.45.46:892][925]LogModuleManager: Shutting down and abandoning module OculusRift (22)
-[2016.11.02-01.45.46:892][925]LogModuleManager: Shutting down and abandoning module GearVR (21)
-[2016.11.02-01.45.46:892][925]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (20)
-[2016.11.02-01.45.46:892][925]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (19)
-[2016.11.02-01.45.46:892][925]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (17)
-[2016.11.02-01.45.46:892][925]LogOnline:Display: Unloading online subsystem: NULL
-[2016.11.02-01.45.46:892][925]LogModuleManager: Shutting down and abandoning module HTTP (16)
-[2016.11.02-01.45.46:892][925]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2016.11.02-01.45.46:892][925]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BFD19209B-4C77-496D-1BBF-DFB7C586E9B6%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.13.2-3172292%2B%2B%2BUE4%2BRelease-4.13&UserID=56451cfd4fd9a27398ebd49db26bedc3%7C7735729cfacd45018d8e5ad7a2086512%7C64060e57-f965-405a-be8e-4b31e72bcb7e&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2016.11.02-01.45.46:912][925]LogModuleManager: Shutting down and abandoning module XMPP (15)
-[2016.11.02-01.45.46:912][925]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
-[2016.11.02-01.45.46:913][925]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
-[2016.11.02-01.45.46:913][925]LogModuleManager: Shutting down and abandoning module Landscape (12)
-[2016.11.02-01.45.46:913][925]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
-[2016.11.02-01.45.46:916][925]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
-[2016.11.02-01.45.46:916][925]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
-[2016.11.02-01.45.46:916][925]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
-[2016.11.02-01.45.46:916][925]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2016.11.02-01.45.46:916][925]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2016.11.02-01.45.46:916][925]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2016.11.02-01.45.46:916][925]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2016.11.02-01.45.46:916][925]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2016.11.02-01.45.46:916][925]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2016.11.02-01.45.46:916][925]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2016.11.02-01.45.46:918][925]LogExit: Exiting.
-[2016.11.02-01.45.46:921][925]Log file closed, 11/02/16 10:45:46
+[2016.11.02-01.50.38:628][  0]LogInit: Selected Device Profile: [Windows]
+[2016.11.02-01.50.38:628][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.11.02-01.50.38:636][  0]LogInit: Computer: EMPRISE-PC1
+[2016.11.02-01.50.38:636][  0]LogInit: User: emprise
+[2016.11.02-01.50.38:636][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.11.02-01.50.38:636][  0]LogInit: High frequency timer resolution =3.515654 MHz
+[2016.11.02-01.50.38:636][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2016.11.02-01.50.38:636][  0]LogMemory: Platform Memory Stats for Windows
+[2016.11.02-01.50.38:636][  0]LogMemory: Process Physical Memory: 259.99 MB used, 259.99 MB peak
+[2016.11.02-01.50.38:636][  0]LogMemory: Process Virtual Memory: 262.59 MB used, 262.59 MB peak
+[2016.11.02-01.50.38:636][  0]LogMemory: Physical Memory: 8855.12 MB used, 16334.92 MB total
+[2016.11.02-01.50.38:636][  0]LogMemory: Virtual Memory: 593.67 MB used, 8388608.00 MB total
+[2016.11.02-01.50.38:868][  0]LogInit: Overriding culture en w/ editor configuration.
+[2016.11.02-01.50.39:846][  0]LogD3D11RHI: D3D11 adapters:
+[2016.11.02-01.50.40:024][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 750' (Feature Level 11_0)
+[2016.11.02-01.50.40:024][  0]LogD3D11RHI:       972/0/3072 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2016.11.02-01.50.40:024][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.11.02-01.50.40:031][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.11.02-01.50.40:031][  0]LogD3D11RHI:     GPU DeviceId: 0x1381 (for the marketing name, search the web for "GPU Device Id")
+[2016.11.02-01.50.40:031][  0]LogWindows: EnumDisplayDevices:
+[2016.11.02-01.50.40:031][  0]LogWindows:    0. 'NVIDIA GeForce GTX 750' (P:1 D:1)
+[2016.11.02-01.50.40:032][  0]LogWindows:    1. 'NVIDIA GeForce GTX 750' (P:0 D:1)
+[2016.11.02-01.50.40:032][  0]LogWindows:    2. 'NVIDIA GeForce GTX 750' (P:0 D:0)
+[2016.11.02-01.50.40:033][  0]LogWindows:    3. 'NVIDIA GeForce GTX 750' (P:0 D:0)
+[2016.11.02-01.50.40:033][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2016.11.02-01.50.40:033][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2016.11.02-01.50.40:033][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2016.11.02-01.50.40:033][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2016.11.02-01.50.40:033][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 750
+[2016.11.02-01.50.40:033][  0]LogD3D11RHI:   Driver Version: 368.81 (internal:10.18.13.6881, unified:368.81)
+[2016.11.02-01.50.40:033][  0]LogD3D11RHI:      Driver Date: 7-10-2016
+[2016.11.02-01.50.40:033][  0]LogRHI: Texture pool is 680 MB (70% of 972 MB)
+[2016.11.02-01.50.40:178][  0]LogD3D11RHI: Async texture creation enabled
+[2016.11.02-01.50.40:187][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2016.11.02-01.50.40:187][  0]LogShaderCompilers: Guid format shader working directory is 3 characters bigger than the processId version (D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Intermediate/Shaders/WorkingDirectory/2516/).
+[2016.11.02-01.50.40:187][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/EMPRISE/AppData/Local/Temp/UnrealShaderWorkingDir/09A1E2524B4A4B394426C89E6862051F/'.
+[2016.11.02-01.50.40:187][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.11.02-01.50.42:261][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.11.02-01.50.42:273][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.11.02-01.50.42:286][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.11.02-01.50.42:299][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.11.02-01.50.42:312][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.11.02-01.50.42:324][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.11.02-01.50.42:337][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.11.02-01.50.42:349][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.11.02-01.50.42:360][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.11.02-01.50.42:372][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.11.02-01.50.42:384][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.11.02-01.50.42:408][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.11.02-01.50.42:408][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.11.02-01.50.42:415][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.11.02-01.50.42:451][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.11.02-01.50.42:462][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.11.02-01.50.42:473][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2016.11.02-01.50.42:485][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.11.02-01.50.42:496][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.11.02-01.50.42:507][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.11.02-01.50.42:507][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.11.02-01.50.42:785][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.11.02-01.50.42:838][  0]LogDerivedDataCache: Loaded boot cache 0.05s 62MB C:/Users/EMPRISE/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2016.11.02-01.50.42:838][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/EMPRISE/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc
+[2016.11.02-01.50.42:838][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.11.02-01.50.42:838][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.11.02-01.50.42:838][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.11.02-01.50.42:838][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.11.02-01.50.42:854][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.11.02-01.50.42:867][  0]LogDerivedDataCache: Using Local data cache path C:/Users/EMPRISE/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.11.02-01.50.43:172][  0]LogInit: Selected Device Profile: [Windows]
+[2016.11.02-01.50.43:173][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.11.02-01.50.43:176][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.11.02-01.50.43:324][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.11.02-01.50.43:324][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.11.02-01.50.43:324][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.11.02-01.50.43:631][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3106830, ProjectName: tps_ljs, ProjectVersion: , EngineNetworkVersion: 1, GameNetworkVersion: 0, NetworkChecksum: 3890732095
+[2016.11.02-01.50.43:675][  0]LogAssetRegistry: FAssetRegistry took 0.0196 seconds to start up
+[2016.11.02-01.50.43:697][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.014805 seconds
+[2016.11.02-01.50.43:701][  0]LogUObjectArray: 29778 objects as part of root set at end of initial load.
+[2016.11.02-01.50.43:701][  0]LogUObjectAllocator: 6125456 out of 0 bytes used by permanent object pool.
+[2016.11.02-01.50.43:702][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.11.02-01.50.43:780][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.11.02-01.50.44:798][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.11.02-01.50.44:798][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.11.02-01.50.45:706][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2016.11.02-01.50.45:737][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.11.02-01.50.46:237][  0]SourceControl: Info Source control is disabled
+[2016.11.02-01.50.46:237][  0]SourceControl: Info Source control is disabled
+[2016.11.02-01.50.46:286][  0]SourceControl: Info Source control is disabled
+[2016.11.02-01.50.46:313][  0]SourceControl: Info Source control is disabled
+[2016.11.02-01.50.46:995][  0]LogEngine: Initializing Engine...
+[2016.11.02-01.50.46:997][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2016.11.02-01.50.47:173][  0]LogAIModule: Creating AISystem for world Untitled
+[2016.11.02-01.50.47:212][  0]LogInit: XAudio2 using '스피커(2- Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.11.02-01.50.47:227][  0]LogInit: FAudioDevice initialized.
+[2016.11.02-01.50.47:258][  0]LogDerivedDataCache: Saved boot cache 0.03s 62MB C:/Users/EMPRISE/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2016.11.02-01.50.47:263][  0]LogInit: Texture streaming: Enabled
+[2016.11.02-01.50.47:321][  0]LogInit: Transaction tracking system initialized
+[2016.11.02-01.50.47:550][  0]BlueprintLog: New page: Editor Load
+[2016.11.02-01.50.48:034][  0]LocalizationService: Info Localization service is disabled
+[2016.11.02-01.50.48:286][  0]LogConsoleResponse:Display: 
+[2016.11.02-01.50.48:394][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2016.11.02-01.50.48:394][  0]LogCook:Display: Mobile HDR setting 1
+[2016.11.02-01.50.48:777][  0]LogFileCache: Scanning file cache for directory 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Content/' took 0.02s
+[2016.11.02-01.50.48:777][  0]SourceControl: Info Source control is disabled
+[2016.11.02-01.50.48:777][  0]Cmd: MAP LOAD FILE="D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Content/SteamMultiplayer/SteamMaps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.11.02-01.50.48:778][  0]LightingResults: New page: Lighting Build
+[2016.11.02-01.50.48:789][  0]MapCheck: New page: Map Check
+[2016.11.02-01.50.48:789][  0]LightingResults: New page: Lighting Build
+[2016.11.02-01.50.49:101][  0]LogAIModule: Creating AISystem for world MainMenu
+[2016.11.02-01.50.49:102][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.11.02-01.50.49:102][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.11.02-01.50.49:175][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 72.866ms to complete.
+[2016.11.02-01.50.49:175][  0]LogFileHelpers: Loading map 'MainMenu' took 0.398
+[2016.11.02-01.50.49:290][  0]LogCollectionManager: Loaded 0 collections in 0.001397 seconds
+[2016.11.02-01.50.49:340][  0]LogFileCache: Scanning file cache for directory 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Saved/Collections/' took 0.01s
+[2016.11.02-01.50.49:340][  0]LogFileCache: Scanning file cache for directory 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Content/Developers/emprise/Collections/' took 0.01s
+[2016.11.02-01.50.49:340][  0]LogFileCache: Scanning file cache for directory 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Content/Collections/' took 0.01s
+[2016.11.02-01.50.49:340][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.11.02-01.50.49:347][  0]LogContentBrowser: Native class hierarchy populated in 0.0073 seconds. Added 2141 classes and 415 folders.
+[2016.11.02-01.50.49:357][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.11.02-01.50.49:357][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.11.02-01.50.49:358][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0007 seconds. Added 12 classes and 0 folders.
+[2016.11.02-01.50.49:377][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2016.11.02-01.50.49:451][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2016.11.02-01.50.49:475][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2016.11.02-01.50.49:535][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.11.02-01.50.49:539][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.11.02-01.50.49:575][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2016.11.02-01.50.49:575][  0]LogLoad: (Engine Initialization) Total time: 12.84 seconds
+[2016.11.02-01.50.49:575][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.13 seconds
+[2016.11.02-01.50.49:575][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.11.02-01.50.49:575][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.11.02-01.50.49:916][  0]LogOcInput: OculusInput pre-init called
+[2016.11.02-01.50.49:943][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.11.02-01.50.50:080][  0]LogRenderer: Reallocating scene render targets to support 1208x652 (Frame:2).
+[2016.11.02-01.50.50:590][  2]LogAssetRegistry: Asset discovery search completed in 6.9352 seconds
+[2016.11.02-01.50.50:590][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2016.11.02-01.50.50:590][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000016 seconds (updated 0 objects)
+[2016.11.02-01.50.57:301][ 21]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 112 classes and 0 folders.
+[2016.11.02-01.52.24:669][752]BlueprintLog: New page: Compile ServerMenu
+[2016.11.02-01.52.25:077][775]LogSavePackage: Save=32.84ms
+[2016.11.02-01.52.25:077][775]LogSavePackage: Moving 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Saved/ServerMenu68C8920D49431DCC1F759E88A07B6983.tmp' to 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Content/SteamMultiplayer/SteamUI/MainMenu/ServerMenu.uasset'
+[2016.11.02-01.52.25:080][775]LogSavePackage:Display: Finished SavePackage D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Content/SteamMultiplayer/SteamUI/MainMenu/ServerMenu.uasset
+[2016.11.02-01.53.08:327][924]BlueprintLog: New page: Compile ServerMenu
+[2016.11.02-01.53.08:802][959]LogSavePackage: Save=13.28ms
+[2016.11.02-01.53.08:802][959]LogSavePackage: Moving 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Saved/ServerMenu89ECA520430FAB9DE089D6843021D1F5.tmp' to 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Content/SteamMultiplayer/SteamUI/MainMenu/ServerMenu.uasset'
+[2016.11.02-01.53.08:806][959]LogSavePackage:Display: Finished SavePackage D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Content/SteamMultiplayer/SteamUI/MainMenu/ServerMenu.uasset
+[2016.11.02-02.03.17:073][976]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SteamMultiplayer/SteamMaps/MainMenu' took 0.023
+[2016.11.02-02.03.17:075][976]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/SteamMultiplayer/SteamUI/MainMenu/ServerMenu] ([1] browsable assets)...
+[2016.11.02-02.03.17:075][976]OBJ SavePackage: Finished generating thumbnails for package [/Game/SteamMultiplayer/SteamUI/MainMenu/ServerMenu]
+[2016.11.02-02.03.17:105][976]LogSavePackage: Save=24.17ms
+[2016.11.02-02.03.17:105][976]LogSavePackage: Moving 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Saved/ServerMenu_Auto13B86A62543B3976B80A468B7FFEFFA59.tmp' to 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Saved/Autosaves/Game/SteamMultiplayer/SteamUI/MainMenu/ServerMenu_Auto1.uasset'
+[2016.11.02-02.03.17:107][976]LogSavePackage:Display: Finished SavePackage D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Saved/Autosaves/Game/SteamMultiplayer/SteamUI/MainMenu/ServerMenu_Auto1.uasset
+[2016.11.02-02.03.17:107][976]LogFileHelpers: Auto-saving content packages took 0.034
+[2016.11.02-02.03.41:369][992]BlueprintLog: New page: Compile ServerMenu
+[2016.11.02-02.04.23:583][981]BlueprintLog: New page: Compile ServerMenu
+[2016.11.02-02.04.24:073][ 15]LogSavePackage: Save=26.96ms
+[2016.11.02-02.04.24:073][ 15]LogSavePackage: Moving 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Saved/ServerMenuF37CF2BE4C2528BA48E30581A261A4F6.tmp' to 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Content/SteamMultiplayer/SteamUI/MainMenu/ServerMenu.uasset'
+[2016.11.02-02.04.24:077][ 15]LogSavePackage:Display: Finished SavePackage D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Content/SteamMultiplayer/SteamUI/MainMenu/ServerMenu.uasset
+[2016.11.02-02.04.28:946][597]BlueprintLog: New page: Compile ServerMenu
+[2016.11.02-02.04.30:095][713]LogSavePackage: Save=27.55ms
+[2016.11.02-02.04.30:095][713]LogSavePackage: Moving 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Saved/ServerMenu07A192D449862D3F7D76A3BC968F550F.tmp' to 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Content/SteamMultiplayer/SteamUI/MainMenu/ServerMenu.uasset'
+[2016.11.02-02.04.30:099][713]LogSavePackage:Display: Finished SavePackage D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Content/SteamMultiplayer/SteamUI/MainMenu/ServerMenu.uasset
+[2016.11.02-02.07.44:793][296]BlueprintLog: New page: Compile ServerMenu
+[2016.11.02-02.07.45:245][323]LogSavePackage: Save=31.44ms
+[2016.11.02-02.07.45:245][323]LogSavePackage: Moving 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Saved/ServerMenu822D6EB848CE300BED9A7780ABEE89F7.tmp' to 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Content/SteamMultiplayer/SteamUI/MainMenu/ServerMenu.uasset'
+[2016.11.02-02.07.45:249][323]LogSavePackage:Display: Finished SavePackage D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Content/SteamMultiplayer/SteamUI/MainMenu/ServerMenu.uasset
+[2016.11.02-02.09.17:635][891]LogClass:Warning: Type mismatch in FoundSessions of SKEL_ServerMenu_C - Previous (StructProperty) Current(ArrayProperty) for package:  FObjectReader
+[2016.11.02-02.12.46:276][554]BlueprintLog: New page: Compile ServerMenu
+[2016.11.02-02.12.46:985][605]LogSavePackage: Save=58.81ms
+[2016.11.02-02.12.46:985][605]LogSavePackage: Moving 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Saved/ServerMenu923A3A41411E563AF4370CA798AFBC8A.tmp' to 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Content/SteamMultiplayer/SteamUI/MainMenu/ServerMenu.uasset'
+[2016.11.02-02.12.46:988][605]LogSavePackage:Display: Finished SavePackage D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Content/SteamMultiplayer/SteamUI/MainMenu/ServerMenu.uasset
+[2016.11.02-02.12.56:367][719]BlueprintLog: New page: Compile ServerMenu
+[2016.11.02-02.12.56:883][749]LogSavePackage: Save=38.16ms
+[2016.11.02-02.12.56:883][749]LogSavePackage: Moving 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Saved/ServerMenu8968CDB344D5E4859B52AD85D4BEB490.tmp' to 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Content/SteamMultiplayer/SteamUI/MainMenu/ServerMenu.uasset'
+[2016.11.02-02.12.56:886][749]LogSavePackage:Display: Finished SavePackage D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Content/SteamMultiplayer/SteamUI/MainMenu/ServerMenu.uasset
+[2016.11.02-02.20.38:748][349]BlueprintLog: New page: Compile ServerMenu
+[2016.11.02-02.20.39:248][373]LogSavePackage: Save=67.26ms
+[2016.11.02-02.20.39:248][373]LogSavePackage: Moving 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Saved/ServerMenu43884E9B49A5ABDC57AF5681FE5CBBDD.tmp' to 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Content/SteamMultiplayer/SteamUI/MainMenu/ServerMenu.uasset'
+[2016.11.02-02.20.39:251][373]LogSavePackage:Display: Finished SavePackage D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Content/SteamMultiplayer/SteamUI/MainMenu/ServerMenu.uasset
+[2016.11.02-02.21.27:978][139]BlueprintLog: New page: Compile ServerMenu
+[2016.11.02-02.21.28:522][171]LogSavePackage: Save=42.90ms
+[2016.11.02-02.21.28:522][171]LogSavePackage: Moving 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Saved/ServerMenu19351F824FFF29718738C08E9E88C1EC.tmp' to 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Content/SteamMultiplayer/SteamUI/MainMenu/ServerMenu.uasset'
+[2016.11.02-02.21.28:526][171]LogSavePackage:Display: Finished SavePackage D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Content/SteamMultiplayer/SteamUI/MainMenu/ServerMenu.uasset
+[2016.11.02-02.23.12:778][745]BlueprintLog: New page: Compile ServerMenu
+[2016.11.02-02.23.13:304][772]LogSavePackage: Save=45.84ms
+[2016.11.02-02.23.13:304][772]LogSavePackage: Moving 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Saved/ServerMenuFAD6C1C54A6CB69C2A120AB92A8F8686.tmp' to 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Content/SteamMultiplayer/SteamUI/MainMenu/ServerMenu.uasset'
+[2016.11.02-02.23.13:308][772]LogSavePackage:Display: Finished SavePackage D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Content/SteamMultiplayer/SteamUI/MainMenu/ServerMenu.uasset
+[2016.11.02-02.25.22:562][509]Cmd: QUIT_EDITOR
+[2016.11.02-02.25.22:625][509]LogExit: Preparing to exit.
+[2016.11.02-02.25.22:947][509]LogExit: Editor shut down
+[2016.11.02-02.25.22:947][509]LogExit: Transaction tracking system shut down
+[2016.11.02-02.25.23:096][509]LogObj: Freed 0b from 0 cluster array pools.
+[2016.11.02-02.25.23:096][509]LogExit: Object subsystem successfully closed.
+[2016.11.02-02.25.23:108][509]LogD3D11RHI: Shutdown
+[2016.11.02-02.25.23:108][509]LogD3D11RHI: CleanupD3DDevice
+[2016.11.02-02.25.23:133][509]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.11.02-02.25.23:148][509]LogModuleManager: Shutting down and abandoning module SequencerWidgets (236)
+[2016.11.02-02.25.23:149][509]LogModuleManager: Shutting down and abandoning module BlueprintGraph (235)
+[2016.11.02-02.25.23:149][509]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (234)
+[2016.11.02-02.25.23:149][509]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (233)
+[2016.11.02-02.25.23:149][509]LogModuleManager: Shutting down and abandoning module CrashTracker (232)
+[2016.11.02-02.25.23:149][509]LogModuleManager: Shutting down and abandoning module SceneOutliner (231)
+[2016.11.02-02.25.23:149][509]LogModuleManager: Shutting down and abandoning module WidgetCarousel (230)
+[2016.11.02-02.25.23:149][509]LogModuleManager: Shutting down and abandoning module AddContentDialog (229)
+[2016.11.02-02.25.23:149][509]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/4.13/FeaturePacks/' was aborted.
+[2016.11.02-02.25.23:149][509]LogModuleManager: Shutting down and abandoning module GameplayTags (228)
+[2016.11.02-02.25.23:149][509]LogModuleManager: Shutting down and abandoning module EditorWidgets (227)
+[2016.11.02-02.25.23:149][509]LogModuleManager: Shutting down and abandoning module CollectionManager (226)
+[2016.11.02-02.25.23:149][509]LogDirectoryWatcher: A directory notification for 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Content/Collections/' was aborted.
+[2016.11.02-02.25.23:149][509]LogDirectoryWatcher: A directory notification for 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Content/Developers/emprise/Collections/' was aborted.
+[2016.11.02-02.25.23:149][509]LogDirectoryWatcher: A directory notification for 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Saved/Collections/' was aborted.
+[2016.11.02-02.25.23:149][509]LogModuleManager: Shutting down and abandoning module StatsViewer (225)
+[2016.11.02-02.25.23:149][509]LogModuleManager: Shutting down and abandoning module FoliageEdit (224)
+[2016.11.02-02.25.23:150][509]LogModuleManager: Shutting down and abandoning module LandscapeEditor (223)
+[2016.11.02-02.25.23:150][509]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (222)
+[2016.11.02-02.25.23:150][509]LogModuleManager: Shutting down and abandoning module ActorPickerMode (221)
+[2016.11.02-02.25.23:150][509]LogModuleManager: Shutting down and abandoning module GeometryMode (220)
+[2016.11.02-02.25.23:150][509]LogModuleManager: Shutting down and abandoning module TextureAlignMode (219)
+[2016.11.02-02.25.23:150][509]LogModuleManager: Shutting down and abandoning module BspMode (218)
+[2016.11.02-02.25.23:150][509]LogModuleManager: Shutting down and abandoning module HardwareSurvey (217)
+[2016.11.02-02.25.23:150][509]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (216)
+[2016.11.02-02.25.23:150][509]LogModuleManager: Shutting down and abandoning module SequenceRecorder (215)
+[2016.11.02-02.25.23:150][509]LogModuleManager: Shutting down and abandoning module AutomationWorker (214)
+[2016.11.02-02.25.23:150][509]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (213)
+[2016.11.02-02.25.23:150][509]LogModuleManager: Shutting down and abandoning module PlacementMode (212)
+[2016.11.02-02.25.23:150][509]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (211)
+[2016.11.02-02.25.23:150][509]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (210)
+[2016.11.02-02.25.23:150][509]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (209)
+[2016.11.02-02.25.23:150][509]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (208)
+[2016.11.02-02.25.23:150][509]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (207)
+[2016.11.02-02.25.23:150][509]LogModuleManager: Shutting down and abandoning module Media (206)
+[2016.11.02-02.25.23:150][509]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (205)
+[2016.11.02-02.25.23:150][509]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (204)
+[2016.11.02-02.25.23:150][509]LogModuleManager: Shutting down and abandoning module CharacterAI (203)
+[2016.11.02-02.25.23:150][509]LogModuleManager: Shutting down and abandoning module SmartSnapping (202)
+[2016.11.02-02.25.23:150][509]LogModuleManager: Shutting down and abandoning module SessionServices (201)
+[2016.11.02-02.25.23:150][509]LogModuleManager: Shutting down and abandoning module ViewportSnapping (200)
+[2016.11.02-02.25.23:150][509]LogModuleManager: Shutting down and abandoning module ViewportInteraction (199)
+[2016.11.02-02.25.23:150][509]LogModuleManager: Shutting down and abandoning module LogVisualizer (198)
+[2016.11.02-02.25.23:150][509]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (197)
+[2016.11.02-02.25.23:150][509]LogModuleManager: Shutting down and abandoning module IntroTutorials (196)
+[2016.11.02-02.25.23:150][509]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (195)
+[2016.11.02-02.25.23:150][509]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (194)
+[2016.11.02-02.25.23:150][509]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (193)
+[2016.11.02-02.25.23:150][509]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (192)
+[2016.11.02-02.25.23:172][509]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (191)
+[2016.11.02-02.25.23:172][509]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (190)
+[2016.11.02-02.25.23:172][509]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (189)
+[2016.11.02-02.25.23:172][509]LogModuleManager: Shutting down and abandoning module NiagaraEditor (188)
+[2016.11.02-02.25.23:172][509]LogModuleManager: Shutting down and abandoning module MergeActors (187)
+[2016.11.02-02.25.23:172][509]LogModuleManager: Shutting down and abandoning module SizeMap (186)
+[2016.11.02-02.25.23:172][509]LogModuleManager: Shutting down and abandoning module TreeMap (185)
+[2016.11.02-02.25.23:172][509]LogModuleManager: Shutting down and abandoning module ReferenceViewer (184)
+[2016.11.02-02.25.23:172][509]LogModuleManager: Shutting down and abandoning module LocalizationService (183)
+[2016.11.02-02.25.23:172][509]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (182)
+[2016.11.02-02.25.23:172][509]LogModuleManager: Shutting down and abandoning module HardwareTargeting (181)
+[2016.11.02-02.25.23:172][509]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (180)
+[2016.11.02-02.25.23:172][509]LogModuleManager: Shutting down and abandoning module UndoHistory (179)
+[2016.11.02-02.25.23:172][509]LogModuleManager: Shutting down and abandoning module UserFeedback (178)
+[2016.11.02-02.25.23:172][509]LogModuleManager: Shutting down and abandoning module XmlParser (177)
+[2016.11.02-02.25.23:172][509]LogModuleManager: Shutting down and abandoning module Blutility (176)
+[2016.11.02-02.25.23:172][509]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (175)
+[2016.11.02-02.25.23:172][509]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (174)
+[2016.11.02-02.25.23:172][509]LogModuleManager: Shutting down and abandoning module InputBindingEditor (173)
+[2016.11.02-02.25.23:173][509]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (172)
+[2016.11.02-02.25.23:173][509]LogModuleManager: Shutting down and abandoning module SettingsEditor (171)
+[2016.11.02-02.25.23:173][509]LogModuleManager: Shutting down and abandoning module ProjectLauncher (170)
+[2016.11.02-02.25.23:173][509]LogModuleManager: Shutting down and abandoning module SessionFrontend (169)
+[2016.11.02-02.25.23:173][509]LogModuleManager: Shutting down and abandoning module ProfilerClient (168)
+[2016.11.02-02.25.23:173][509]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (167)
+[2016.11.02-02.25.23:173][509]LogModuleManager: Shutting down and abandoning module DeviceManager (166)
+[2016.11.02-02.25.23:223][509]LogModuleManager: Shutting down and abandoning module AutomationController (165)
+[2016.11.02-02.25.23:223][509]LogModuleManager: Shutting down and abandoning module AutomationWindow (164)
+[2016.11.02-02.25.23:223][509]LogModuleManager: Shutting down and abandoning module Layers (163)
+[2016.11.02-02.25.23:223][509]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (162)
+[2016.11.02-02.25.23:223][509]LogModuleManager: Shutting down and abandoning module DetailCustomizations (161)
+[2016.11.02-02.25.23:223][509]LogModuleManager: Shutting down and abandoning module PackagesDialog (160)
+[2016.11.02-02.25.23:223][509]LogModuleManager: Shutting down and abandoning module AnimGraph (159)
+[2016.11.02-02.25.23:224][509]LogModuleManager: Shutting down and abandoning module Persona (158)
+[2016.11.02-02.25.23:224][509]LogModuleManager: Shutting down and abandoning module Kismet (157)
+[2016.11.02-02.25.23:253][509]LogModuleManager: Shutting down and abandoning module GraphEditor (156)
+[2016.11.02-02.25.23:253][509]LogModuleManager: Shutting down and abandoning module ClassViewer (155)
+[2016.11.02-02.25.23:253][509]LogModuleManager: Shutting down and abandoning module Toolbox (154)
+[2016.11.02-02.25.23:253][509]LogModuleManager: Shutting down and abandoning module ModuleUI (153)
+[2016.11.02-02.25.23:253][509]LogModuleManager: Shutting down and abandoning module MovieSceneTools (152)
+[2016.11.02-02.25.23:253][509]LogModuleManager: Shutting down and abandoning module OutputLog (151)
+[2016.11.02-02.25.23:253][509]LogModuleManager: Shutting down and abandoning module GammaUI (150)
+[2016.11.02-02.25.23:253][509]LogModuleManager: Shutting down and abandoning module Documentation (149)
+[2016.11.02-02.25.23:254][509]LogModuleManager: Shutting down and abandoning module Niagara (148)
+[2016.11.02-02.25.23:254][509]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (147)
+[2016.11.02-02.25.23:254][509]LogModuleManager: Shutting down and abandoning module AnalyticsET (146)
+[2016.11.02-02.25.23:254][509]LogModuleManager: Shutting down and abandoning module PortalServices (145)
+[2016.11.02-02.25.23:254][509]LogModuleManager: Shutting down and abandoning module PortalRpc (144)
+[2016.11.02-02.25.23:254][509]LogModuleManager: Shutting down and abandoning module MessagingRpc (143)
+[2016.11.02-02.25.23:254][509]LogModuleManager: Shutting down and abandoning module GameplayDebugger (142)
+[2016.11.02-02.25.23:254][509]LogModuleManager: Shutting down and abandoning module AITestSuite (141)
+[2016.11.02-02.25.23:254][509]LogModuleManager: Shutting down and abandoning module AIModule (140)
+[2016.11.02-02.25.23:254][509]LogModuleManager: Shutting down and abandoning module ProfilerService (139)
+[2016.11.02-02.25.23:291][509]LogModuleManager: Shutting down and abandoning module TaskGraph (138)
+[2016.11.02-02.25.23:291][509]LogModuleManager: Shutting down and abandoning module SlateRemote (137)
+[2016.11.02-02.25.23:291][509]LogModuleManager: Shutting down and abandoning module SteamVRController (136)
+[2016.11.02-02.25.23:291][509]LogModuleManager: Shutting down and abandoning module SteamVR (135)
+[2016.11.02-02.25.23:291][509]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (134)
+[2016.11.02-02.25.23:291][509]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (133)
+[2016.11.02-02.25.23:291][509]LogModuleManager: Shutting down and abandoning module OculusLibrary (132)
+[2016.11.02-02.25.23:291][509]LogModuleManager: Shutting down and abandoning module OculusInput (131)
+[2016.11.02-02.25.23:291][509]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (130)
+[2016.11.02-02.25.23:291][509]LogModuleManager: Shutting down and abandoning module CableComponent (129)
+[2016.11.02-02.25.23:291][509]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (128)
+[2016.11.02-02.25.23:291][509]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (126)
+[2016.11.02-02.25.23:291][509]LogModuleManager: Shutting down and abandoning module HTML5Networking (125)
+[2016.11.02-02.25.23:291][509]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (124)
+[2016.11.02-02.25.23:291][509]LogModuleManager: Shutting down and abandoning module GeometryCache (123)
+[2016.11.02-02.25.23:291][509]LogModuleManager: Shutting down and abandoning module AlembicLibrary (122)
+[2016.11.02-02.25.23:292][509]LogModuleManager: Shutting down and abandoning module AlembicImporter (121)
+[2016.11.02-02.25.23:292][509]LogModuleManager: Shutting down and abandoning module SuperSearch (120)
+[2016.11.02-02.25.23:292][509]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (119)
+[2016.11.02-02.25.23:292][509]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (118)
+[2016.11.02-02.25.23:292][509]LogModuleManager: Shutting down and abandoning module PluginBrowser (117)
+[2016.11.02-02.25.23:292][509]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (116)
+[2016.11.02-02.25.23:292][509]LogModuleManager: Shutting down and abandoning module EpicSurvey (115)
+[2016.11.02-02.25.23:292][509]LogModuleManager: Shutting down and abandoning module DesktopPlatform (114)
+[2016.11.02-02.25.23:292][509]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (113)
+[2016.11.02-02.25.23:292][509]LogModuleManager: Shutting down and abandoning module UObjectPlugin (112)
+[2016.11.02-02.25.23:292][509]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (111)
+[2016.11.02-02.25.23:292][509]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (110)
+[2016.11.02-02.25.23:292][509]LogModuleManager: Shutting down and abandoning module SourceControl (109)
+[2016.11.02-02.25.23:292][509]LogModuleManager: Shutting down and abandoning module GitSourceControl (108)
+[2016.11.02-02.25.23:292][509]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (107)
+[2016.11.02-02.25.23:292][509]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (106)
+[2016.11.02-02.25.23:292][509]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (105)
+[2016.11.02-02.25.23:292][509]LogModuleManager: Shutting down and abandoning module MeshPaint (104)
+[2016.11.02-02.25.23:292][509]LogModuleManager: Shutting down and abandoning module FbxAutomationBuilderModule (103)
+[2016.11.02-02.25.23:292][509]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (102)
+[2016.11.02-02.25.23:293][509]LogModuleManager: Shutting down and abandoning module HotReload (101)
+[2016.11.02-02.25.23:296][509]LogModuleManager: Shutting down and abandoning module MainFrame (100)
+[2016.11.02-02.25.23:296][509]LogModuleManager: Shutting down and abandoning module LevelEditor (99)
+[2016.11.02-02.25.23:297][509]LogModuleManager: Shutting down and abandoning module ContentBrowser (98)
+[2016.11.02-02.25.23:300][509]LogModuleManager: Shutting down and abandoning module Paper2DEditor (97)
+[2016.11.02-02.25.23:300][509]LogModuleManager: Shutting down and abandoning module UdpMessaging (96)
+[2016.11.02-02.25.23:400][509]LogModuleManager: Shutting down and abandoning module TcpMessaging (95)
+[2016.11.02-02.25.23:722][509]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (94)
+[2016.11.02-02.25.23:722][509]LogModuleManager: Shutting down and abandoning module Paper2D (93)
+[2016.11.02-02.25.23:722][509]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (92)
+[2016.11.02-02.25.23:722][509]LogModuleManager: Shutting down and abandoning module WmfMedia (91)
+[2016.11.02-02.25.23:723][509]LogModuleManager: Shutting down and abandoning module MediaAssets (90)
+[2016.11.02-02.25.23:723][509]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (89)
+[2016.11.02-02.25.23:723][509]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (88)
+[2016.11.02-02.25.23:723][509]LogModuleManager: Shutting down and abandoning module VREditor (87)
+[2016.11.02-02.25.23:723][509]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (86)
+[2016.11.02-02.25.23:723][509]LogModuleManager: Shutting down and abandoning module PropertyEditor (85)
+[2016.11.02-02.25.23:723][509]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (84)
+[2016.11.02-02.25.23:723][509]LogModuleManager: Shutting down and abandoning module FunctionalTesting (83)
+[2016.11.02-02.25.23:723][509]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (82)
+[2016.11.02-02.25.23:723][509]LogModuleManager: Shutting down and abandoning module Sequencer (81)
+[2016.11.02-02.25.23:723][509]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (80)
+[2016.11.02-02.25.23:723][509]LogModuleManager: Shutting down and abandoning module MessageLog (79)
+[2016.11.02-02.25.23:723][509]LogModuleManager: Shutting down and abandoning module AssetTools (78)
+[2016.11.02-02.25.23:724][509]LogModuleManager: Shutting down and abandoning module UMGEditor (77)
+[2016.11.02-02.25.23:724][509]LogModuleManager: Shutting down and abandoning module UMG (76)
+[2016.11.02-02.25.23:724][509]LogModuleManager: Shutting down and abandoning module SlateReflector (75)
+[2016.11.02-02.25.23:724][509]LogModuleManager: Shutting down and abandoning module Slate (74)
+[2016.11.02-02.25.23:724][509]LogModuleManager: Shutting down and abandoning module EditorStyle (73)
+[2016.11.02-02.25.23:729][509]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (72)
+[2016.11.02-02.25.23:729][509]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (71)
+[2016.11.02-02.25.23:729][509]LogModuleManager: Shutting down and abandoning module XAudio2 (70)
+[2016.11.02-02.25.23:729][509]LogModuleManager: Shutting down and abandoning module Networking (68)
+[2016.11.02-02.25.23:729][509]LogModuleManager: Shutting down and abandoning module Core (67)
+[2016.11.02-02.25.23:729][509]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (66)
+[2016.11.02-02.25.23:729][509]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2016.11.02-02.25.23:729][509]LogDirectoryWatcher: A directory notification for 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Content/' was aborted.
+[2016.11.02-02.25.23:729][509]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2016.11.02-02.25.23:730][509]LogModuleManager: Shutting down and abandoning module AssetRegistry (65)
+[2016.11.02-02.25.23:875][509]LogModuleManager: Shutting down and abandoning module KismetCompiler (64)
+[2016.11.02-02.25.23:875][509]LogModuleManager: Shutting down and abandoning module PhysXFormats (63)
+[2016.11.02-02.25.23:875][509]LogModuleManager: Shutting down and abandoning module MeshUtilities (62)
+[2016.11.02-02.25.23:875][509]LogModuleManager: Shutting down and abandoning module DerivedDataCache (61)
+[2016.11.02-02.25.23:970][509]LogDerivedDataCache: Shutdown
+[2016.11.02-02.25.23:970][509]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (60)
+[2016.11.02-02.25.23:970][509]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (59)
+[2016.11.02-02.25.23:970][509]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (58)
+[2016.11.02-02.25.23:970][509]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (57)
+[2016.11.02-02.25.23:970][509]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (56)
+[2016.11.02-02.25.23:970][509]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (55)
+[2016.11.02-02.25.23:970][509]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (54)
+[2016.11.02-02.25.23:970][509]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (53)
+[2016.11.02-02.25.23:971][509]LogModuleManager: Shutting down and abandoning module ImageWrapper (52)
+[2016.11.02-02.25.23:971][509]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (51)
+[2016.11.02-02.25.23:971][509]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (50)
+[2016.11.02-02.25.23:971][509]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (49)
+[2016.11.02-02.25.23:971][509]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (48)
+[2016.11.02-02.25.23:971][509]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (47)
+[2016.11.02-02.25.23:971][509]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (46)
+[2016.11.02-02.25.23:971][509]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (45)
+[2016.11.02-02.25.23:971][509]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (44)
+[2016.11.02-02.25.23:971][509]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (43)
+[2016.11.02-02.25.23:971][509]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (42)
+[2016.11.02-02.25.23:971][509]LogModuleManager: Shutting down and abandoning module Messaging (41)
+[2016.11.02-02.25.23:971][509]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (40)
+[2016.11.02-02.25.23:971][509]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (39)
+[2016.11.02-02.25.23:971][509]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (38)
+[2016.11.02-02.25.23:971][509]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (37)
+[2016.11.02-02.25.23:971][509]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (36)
+[2016.11.02-02.25.23:971][509]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (35)
+[2016.11.02-02.25.23:971][509]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (34)
+[2016.11.02-02.25.23:971][509]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (33)
+[2016.11.02-02.25.23:971][509]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (32)
+[2016.11.02-02.25.23:971][509]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (31)
+[2016.11.02-02.25.23:971][509]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (30)
+[2016.11.02-02.25.23:971][509]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (29)
+[2016.11.02-02.25.23:971][509]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (28)
+[2016.11.02-02.25.23:971][509]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (27)
+[2016.11.02-02.25.23:971][509]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (26)
+[2016.11.02-02.25.23:971][509]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
+[2016.11.02-02.25.23:971][509]LogModuleManager: Shutting down and abandoning module InputCore (24)
+[2016.11.02-02.25.23:971][509]LogModuleManager: Shutting down and abandoning module Settings (23)
+[2016.11.02-02.25.23:971][509]LogModuleManager: Shutting down and abandoning module OculusRift (22)
+[2016.11.02-02.25.23:971][509]LogModuleManager: Shutting down and abandoning module GearVR (21)
+[2016.11.02-02.25.23:971][509]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (20)
+[2016.11.02-02.25.23:971][509]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (19)
+[2016.11.02-02.25.23:971][509]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (17)
+[2016.11.02-02.25.23:971][509]LogOnline:Display: Unloading online subsystem: NULL
+[2016.11.02-02.25.23:971][509]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2016.11.02-02.25.23:971][509]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2016.11.02-02.25.23:971][509]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5A2856E9-440D-08BB-D464-98848855D033%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.13.2-3172292%2B%2B%2BUE4%2BRelease-4.13&UserID=56451cfd4fd9a27398ebd49db26bedc3%7C7735729cfacd45018d8e5ad7a2086512%7C64060e57-f965-405a-be8e-4b31e72bcb7e&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2016.11.02-02.25.23:997][509]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2016.11.02-02.25.23:997][509]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.11.02-02.25.23:997][509]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.11.02-02.25.23:997][509]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.11.02-02.25.23:997][509]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.11.02-02.25.24:001][509]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.11.02-02.25.24:001][509]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.11.02-02.25.24:001][509]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.11.02-02.25.24:001][509]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.11.02-02.25.24:001][509]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.11.02-02.25.24:001][509]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.11.02-02.25.24:001][509]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.11.02-02.25.24:001][509]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.11.02-02.25.24:001][509]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.11.02-02.25.24:001][509]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.11.02-02.25.24:003][509]LogExit: Exiting.
+[2016.11.02-02.25.24:005][509]Log file closed, 11/02/16 11:25:24
