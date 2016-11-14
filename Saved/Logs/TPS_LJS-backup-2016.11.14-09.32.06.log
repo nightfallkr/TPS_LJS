@@ -1,0 +1,1429 @@
+﻿Log file open, 11/11/16 09:51:34
+LogInit:Display: Running engine for game: TPS_LJS
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1944647541) SRandInit(-1944647541).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.103328
+LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files/Epic Games/4.13/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin LiveEditor, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Experimental/LiveEditor/LiveEditor.uplugin
+LogPluginManager: Loaded Plugin OSVR, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From C:/Program Files/Epic Games/4.13/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From C:/Program Files/Epic Games/4.13/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From C:/Program Files/Epic Games/4.13/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From C:/Program Files/Epic Games/4.13/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LiveEditorListenServer, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/LiveEditorListenServer/LiveEditorListenServer.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From C:/Program Files/Epic Games/4.13/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogOnline:Display: STEAM: Loading Steam SDK 1.32
+LogOnline:Warning: STEAM: Steam API disabled!
+LogOnline:Display: STEAM: OnlineSubsystemSteam::Shutdown()
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogVoice:Warning: Failed to initialize voice interface
+LogInit: Build: ++UE4+Release-4.13-CL-3172292
+LogInit: Engine Version: 4.13.2-3172292+++UE4+Release-4.13
+LogInit: Compatible Engine Version: 4.13.0-3106830+++UE4+Release-4.13
+LogInit: Net CL: 3172292
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 5
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 6
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 12
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 4
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Oct 24 2016 14:29:06
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.13
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/4.13/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.11.11-00.51.35:491][  0]LogInit: Selected Device Profile: [Windows]
+[2016.11.11-00.51.35:491][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.11.11-00.51.35:502][  0]LogInit: Computer: EMPRISE-PC1
+[2016.11.11-00.51.35:502][  0]LogInit: User: EMPRISE
+[2016.11.11-00.51.35:502][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.11.11-00.51.35:502][  0]LogInit: High frequency timer resolution =3.515654 MHz
+[2016.11.11-00.51.35:502][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2016.11.11-00.51.35:502][  0]LogMemory: Platform Memory Stats for Windows
+[2016.11.11-00.51.35:502][  0]LogMemory: Process Physical Memory: 261.79 MB used, 261.79 MB peak
+[2016.11.11-00.51.35:502][  0]LogMemory: Process Virtual Memory: 262.98 MB used, 262.98 MB peak
+[2016.11.11-00.51.35:502][  0]LogMemory: Physical Memory: 8266.39 MB used, 16334.92 MB total
+[2016.11.11-00.51.35:502][  0]LogMemory: Virtual Memory: 602.81 MB used, 8388608.00 MB total
+[2016.11.11-00.51.35:743][  0]LogInit: Overriding culture en w/ editor configuration.
+[2016.11.11-00.51.36:814][  0]LogD3D11RHI: D3D11 adapters:
+[2016.11.11-00.51.36:973][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 750' (Feature Level 11_0)
+[2016.11.11-00.51.36:973][  0]LogD3D11RHI:       972/0/3072 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2016.11.11-00.51.36:973][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.11.11-00.51.36:979][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.11.11-00.51.36:979][  0]LogD3D11RHI:     GPU DeviceId: 0x1381 (for the marketing name, search the web for "GPU Device Id")
+[2016.11.11-00.51.36:979][  0]LogWindows: EnumDisplayDevices:
+[2016.11.11-00.51.36:979][  0]LogWindows:    0. 'NVIDIA GeForce GTX 750' (P:1 D:1)
+[2016.11.11-00.51.36:980][  0]LogWindows:    1. 'NVIDIA GeForce GTX 750' (P:0 D:1)
+[2016.11.11-00.51.36:980][  0]LogWindows:    2. 'NVIDIA GeForce GTX 750' (P:0 D:0)
+[2016.11.11-00.51.36:981][  0]LogWindows:    3. 'NVIDIA GeForce GTX 750' (P:0 D:0)
+[2016.11.11-00.51.36:981][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2016.11.11-00.51.36:981][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2016.11.11-00.51.36:981][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2016.11.11-00.51.36:981][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2016.11.11-00.51.36:981][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 750
+[2016.11.11-00.51.36:981][  0]LogD3D11RHI:   Driver Version: 368.81 (internal:10.18.13.6881, unified:368.81)
+[2016.11.11-00.51.36:981][  0]LogD3D11RHI:      Driver Date: 7-10-2016
+[2016.11.11-00.51.36:981][  0]LogRHI: Texture pool is 680 MB (70% of 972 MB)
+[2016.11.11-00.51.37:108][  0]LogD3D11RHI: Async texture creation enabled
+[2016.11.11-00.51.37:122][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2016.11.11-00.51.37:122][  0]LogShaderCompilers: Guid format shader working directory is 3 characters bigger than the processId version (D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Intermediate/Shaders/WorkingDirectory/6824/).
+[2016.11.11-00.51.37:122][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/EMPRISE/AppData/Local/Temp/UnrealShaderWorkingDir/35E90B674F673FED707F0D8E069C0690/'.
+[2016.11.11-00.51.37:123][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.11.11-00.51.39:412][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.11.11-00.51.39:427][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.11.11-00.51.39:440][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.11.11-00.51.39:452][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.11.11-00.51.39:465][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.11.11-00.51.39:482][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.11.11-00.51.39:498][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.11.11-00.51.39:510][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.11.11-00.51.39:523][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.11.11-00.51.39:537][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.11.11-00.51.39:551][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.11.11-00.51.39:580][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.11.11-00.51.39:580][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.11.11-00.51.39:587][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.11.11-00.51.39:628][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.11.11-00.51.39:641][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.11.11-00.51.39:666][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2016.11.11-00.51.39:680][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.11.11-00.51.39:705][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.11.11-00.51.39:723][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.11.11-00.51.39:723][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.11.11-00.51.40:108][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.11.11-00.51.40:302][  0]LogDerivedDataCache: Loaded boot cache 0.19s 62MB C:/Users/EMPRISE/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2016.11.11-00.51.40:302][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/EMPRISE/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc
+[2016.11.11-00.51.40:302][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.11.11-00.51.40:302][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.11.11-00.51.40:302][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.11.11-00.51.40:302][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.11.11-00.51.40:322][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.11.11-00.51.40:335][  0]LogDerivedDataCache: Using Local data cache path C:/Users/EMPRISE/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.11.11-00.51.40:878][  0]LogInit: Selected Device Profile: [Windows]
+[2016.11.11-00.51.40:881][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.11.11-00.51.40:882][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.11.11-00.51.41:065][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.11.11-00.51.41:065][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.11.11-00.51.41:065][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.11.11-00.51.41:484][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3106830, ProjectName: tps_ljs, ProjectVersion: , EngineNetworkVersion: 1, GameNetworkVersion: 0, NetworkChecksum: 3890732095
+[2016.11.11-00.51.41:538][  0]LogAssetRegistry: FAssetRegistry took 0.0205 seconds to start up
+[2016.11.11-00.51.41:581][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.035107 seconds
+[2016.11.11-00.51.41:587][  0]LogUObjectArray: 29785 objects as part of root set at end of initial load.
+[2016.11.11-00.51.41:587][  0]LogUObjectAllocator: 6339048 out of 0 bytes used by permanent object pool.
+[2016.11.11-00.51.41:587][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.11.11-00.51.42:943][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.11.11-00.51.42:943][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.11.11-00.51.44:239][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2016.11.11-00.51.44:274][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.11.11-00.51.44:797][  0]SourceControl: Info Source control is disabled
+[2016.11.11-00.51.44:797][  0]SourceControl: Info Source control is disabled
+[2016.11.11-00.51.44:876][  0]SourceControl: Info Source control is disabled
+[2016.11.11-00.51.44:903][  0]SourceControl: Info Source control is disabled
+[2016.11.11-00.51.45:692][  0]LogEngine: Initializing Engine...
+[2016.11.11-00.51.45:693][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2016.11.11-00.51.45:882][  0]LogAIModule: Creating AISystem for world Untitled
+[2016.11.11-00.51.45:924][  0]LogInit: XAudio2 using '스피커(2- Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.11.11-00.51.45:938][  0]LogInit: FAudioDevice initialized.
+[2016.11.11-00.51.45:970][  0]LogDerivedDataCache: Saved boot cache 0.03s 62MB C:/Users/EMPRISE/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2016.11.11-00.51.45:975][  0]LogInit: Texture streaming: Enabled
+[2016.11.11-00.51.46:046][  0]LogInit: Transaction tracking system initialized
+[2016.11.11-00.51.46:292][  0]BlueprintLog: New page: Editor Load
+[2016.11.11-00.51.47:025][  0]LocalizationService: Info Localization service is disabled
+[2016.11.11-00.51.47:437][  0]LogConsoleResponse:Display: 
+[2016.11.11-00.51.47:609][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2016.11.11-00.51.47:609][  0]LogCook:Display: Mobile HDR setting 1
+[2016.11.11-00.51.48:249][  0]LogFileCache: Scanning file cache for directory 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Content/' took 0.02s
+[2016.11.11-00.51.48:249][  0]SourceControl: Info Source control is disabled
+[2016.11.11-00.51.48:249][  0]Cmd: MAP LOAD FILE="D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Content/SteamMultiplayer/SteamMaps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.11.11-00.51.48:287][  0]LightingResults: New page: Lighting Build
+[2016.11.11-00.51.48:297][  0]MapCheck: New page: Map Check
+[2016.11.11-00.51.48:297][  0]LightingResults: New page: Lighting Build
+[2016.11.11-00.51.50:119][  0]LogAIModule: Creating AISystem for world MainMenu
+[2016.11.11-00.51.50:120][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.11.11-00.51.50:120][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.11.11-00.51.50:197][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 76.771ms to complete.
+[2016.11.11-00.51.50:197][  0]LogFileHelpers: Loading map 'MainMenu' took 1.948
+[2016.11.11-00.51.50:401][  0]LogCollectionManager: Loaded 1 collections in 0.054696 seconds
+[2016.11.11-00.51.50:452][  0]LogFileCache: Scanning file cache for directory 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Saved/Collections/' took 0.01s
+[2016.11.11-00.51.50:452][  0]LogFileCache: Scanning file cache for directory 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Content/Developers/EMPRISE/Collections/' took 0.01s
+[2016.11.11-00.51.50:452][  0]LogFileCache: Scanning file cache for directory 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Content/Collections/' took 0.01s
+[2016.11.11-00.51.50:452][  0]LogCollectionManager: Rebuilt the GUID cache for 1 collections in 0.000007 seconds
+[2016.11.11-00.51.50:452][  0]LogCollectionManager: Rebuilt the hierarchy cache for 1 collections in 0.000000 seconds
+[2016.11.11-00.51.50:460][  0]LogContentBrowser: Native class hierarchy populated in 0.0078 seconds. Added 2143 classes and 418 folders.
+[2016.11.11-00.51.50:470][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.11.11-00.51.50:470][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.11.11-00.51.50:471][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0007 seconds. Added 12 classes and 0 folders.
+[2016.11.11-00.51.50:489][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2016.11.11-00.51.50:646][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2016.11.11-00.51.50:678][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2016.11.11-00.51.50:747][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.11.11-00.51.50:751][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.11.11-00.51.50:797][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2016.11.11-00.51.50:798][  0]LogLoad: (Engine Initialization) Total time: 17.85 seconds
+[2016.11.11-00.51.50:798][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.18 seconds
+[2016.11.11-00.51.50:798][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.11.11-00.51.50:798][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.11.11-00.51.51:138][  0]LogOcInput: OculusInput pre-init called
+[2016.11.11-00.51.51:162][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.11.11-00.51.51:323][  0]LogRenderer: Reallocating scene render targets to support 1208x652 (Frame:2).
+[2016.11.11-00.51.51:483][  1]LogAssetRegistry: Asset discovery search completed in 9.9662 seconds
+[2016.11.11-00.51.51:483][  1]LogCollectionManager: Rebuilt the object cache for 1 collections in 0.000006 seconds (found 0 objects)
+[2016.11.11-00.51.51:483][  1]LogCollectionManager: Fixed up redirectors for 1 collections in 0.000020 seconds (updated 0 objects)
+[2016.11.11-00.52.41:741][149]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 112 classes and 0 folders.
+[2016.11.11-00.53.51:420][ 95]LogSavePackage: Save=100.54ms
+[2016.11.11-00.53.51:420][ 95]LogSavePackage: Moving 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Saved/UEDPCMainMenuA0B3F49C4402763A9C0802BDFD86622D.tmp' to 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Saved/Autosaves/Game/SteamMultiplayer/SteamMaps/UEDPCMainMenu.umap'
+[2016.11.11-00.53.51:441][ 95]LogSavePackage:Display: Finished SavePackage D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Saved/Autosaves/Game/SteamMultiplayer/SteamMaps/UEDPCMainMenu.umap
+[2016.11.11-00.53.51:446][ 95]LogEditorTransaction: Undo Spawn Play From Here Start
+[2016.11.11-00.55.51:692][553]LogSavePackage: Save=64.90ms
+[2016.11.11-00.55.51:692][553]LogSavePackage: Moving 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Saved/UEDPCMainMenu7E48531B422D14104071A78098374C3D.tmp' to 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Saved/Autosaves/Game/SteamMultiplayer/SteamMaps/UEDPCMainMenu.umap'
+[2016.11.11-00.55.51:694][553]LogSavePackage:Display: Finished SavePackage D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Saved/Autosaves/Game/SteamMultiplayer/SteamMaps/UEDPCMainMenu.umap
+[2016.11.11-00.55.51:698][553]LogEditorTransaction: Undo Spawn Play From Here Start
+[2016.11.11-00.58.01:882][987]BlueprintLog: New page: Compile LobbyGM
+[2016.11.11-00.58.03:022][ 64]LogSavePackage: Save=46.19ms
+[2016.11.11-00.58.03:022][ 64]LogSavePackage: Moving 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Saved/LobbyGM20B4860847B895DAA03D5C95CE6535C7.tmp' to 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Content/SteamMultiplayer/SteamBluprints/Lobby/LobbyGM.uasset'
+[2016.11.11-00.58.03:026][ 64]LogSavePackage:Display: Finished SavePackage D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Content/SteamMultiplayer/SteamBluprints/Lobby/LobbyGM.uasset
+[2016.11.11-00.58.04:232][145]LogSavePackage: Save=87.95ms
+[2016.11.11-00.58.04:232][145]LogSavePackage: Moving 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Saved/UEDPCMainMenu2A07C63447F92DE74887F1842A29B6C0.tmp' to 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Saved/Autosaves/Game/SteamMultiplayer/SteamMaps/UEDPCMainMenu.umap'
+[2016.11.11-00.58.04:234][145]LogSavePackage:Display: Finished SavePackage D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Saved/Autosaves/Game/SteamMultiplayer/SteamMaps/UEDPCMainMenu.umap
+[2016.11.11-00.58.04:238][145]LogEditorTransaction: Undo Spawn Play From Here Start
+[2016.11.11-00.58.43:122][775]LogSavePackage: Save=80.83ms
+[2016.11.11-00.58.43:122][775]LogSavePackage: Moving 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Saved/UEDPCMainMenu9AD404674A6D80F8823031861B613C85.tmp' to 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Saved/Autosaves/Game/SteamMultiplayer/SteamMaps/UEDPCMainMenu.umap'
+[2016.11.11-00.58.43:123][775]LogSavePackage:Display: Finished SavePackage D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Saved/Autosaves/Game/SteamMultiplayer/SteamMaps/UEDPCMainMenu.umap
+[2016.11.11-00.58.43:128][775]LogEditorTransaction: Undo Spawn Play From Here Start
+[2016.11.11-01.21.49:427][947]LogSavePackage: Save=40.59ms
+[2016.11.11-01.21.49:427][947]LogSavePackage: Moving 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Saved/LobbyGMAD5B7D2A453FBCACDEA3D68F9A28A940.tmp' to 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Content/SteamMultiplayer/SteamBluprints/Lobby/LobbyGM.uasset'
+[2016.11.11-01.21.49:430][947]LogSavePackage:Display: Finished SavePackage D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Content/SteamMultiplayer/SteamBluprints/Lobby/LobbyGM.uasset
+[2016.11.11-01.22.43:928][126]BlueprintLog: New page: Compile LobbyPC
+[2016.11.11-01.22.44:503][155]LogSavePackage: Save=28.38ms
+[2016.11.11-01.22.44:503][155]LogSavePackage: Moving 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Saved/LobbyPC2FC041C14FD341CE0EE72490E0982ED5.tmp' to 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Content/SteamMultiplayer/SteamBluprints/Lobby/LobbyPC.uasset'
+[2016.11.11-01.22.44:506][155]LogSavePackage:Display: Finished SavePackage D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Content/SteamMultiplayer/SteamBluprints/Lobby/LobbyPC.uasset
+[2016.11.11-01.22.53:524][223]LogSavePackage: Save=45.64ms
+[2016.11.11-01.22.53:524][223]LogSavePackage: Moving 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Saved/LobbyPCE25A9EDE4A0EF1FE2A31BF9754CD42E0.tmp' to 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Content/SteamMultiplayer/SteamBluprints/Lobby/LobbyPC.uasset'
+[2016.11.11-01.22.53:528][223]LogSavePackage:Display: Finished SavePackage D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Content/SteamMultiplayer/SteamBluprints/Lobby/LobbyPC.uasset
+[2016.11.11-01.22.55:776][491]BlueprintLog: New page: Compile LobbyPC
+[2016.11.11-01.24.30:099][653]BlueprintLog: New page: Compile LobbyPC
+[2016.11.11-01.26.25:152][  4]BlueprintLog: New page: Compile LobbyPC
+[2016.11.11-01.26.25:680][ 29]LogSavePackage: Save=33.58ms
+[2016.11.11-01.26.25:680][ 29]LogSavePackage: Moving 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Saved/LobbyPCF9A6AC2C44421A25BE8DFD970BEE5BE9.tmp' to 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Content/SteamMultiplayer/SteamBluprints/Lobby/LobbyPC.uasset'
+[2016.11.11-01.26.25:684][ 29]LogSavePackage:Display: Finished SavePackage D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Content/SteamMultiplayer/SteamBluprints/Lobby/LobbyPC.uasset
+[2016.11.11-01.26.56:548][317]BlueprintLog: New page: Compile LobbyPC
+[2016.11.11-01.27.25:318][  9]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SteamMultiplayer/SteamMaps/MainMenu' took 0.014
+[2016.11.11-01.27.25:320][  9]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/SteamMultiplayer/SteamBluprints/Lobby/LobbyPC] ([1] browsable assets)...
+[2016.11.11-01.27.25:320][  9]OBJ SavePackage: Finished generating thumbnails for package [/Game/SteamMultiplayer/SteamBluprints/Lobby/LobbyPC]
+[2016.11.11-01.27.25:372][  9]LogSavePackage: Save=46.56ms
+[2016.11.11-01.27.25:372][  9]LogSavePackage: Moving 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Saved/LobbyPC_Auto1F4D7D9A04EAC8083296B92950A9D6FFA.tmp' to 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Saved/Autosaves/Game/SteamMultiplayer/SteamBluprints/Lobby/LobbyPC_Auto1.uasset'
+[2016.11.11-01.27.25:374][  9]LogSavePackage:Display: Finished SavePackage D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Saved/Autosaves/Game/SteamMultiplayer/SteamBluprints/Lobby/LobbyPC_Auto1.uasset
+[2016.11.11-01.27.25:374][  9]LogFileHelpers: Auto-saving content packages took 0.055
+[2016.11.11-01.37.26:108][612]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SteamMultiplayer/SteamMaps/MainMenu' took 0.015
+[2016.11.11-01.37.26:111][612]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/SteamMultiplayer/SteamBluprints/Lobby/LobbyPC] ([1] browsable assets)...
+[2016.11.11-01.37.26:111][612]OBJ SavePackage: Finished generating thumbnails for package [/Game/SteamMultiplayer/SteamBluprints/Lobby/LobbyPC]
+[2016.11.11-01.37.26:154][612]LogSavePackage: Save=36.27ms
+[2016.11.11-01.37.26:154][612]LogSavePackage: Moving 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Saved/LobbyPC_Auto235165D144BD1A9E428C81CA42D2BE383.tmp' to 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Saved/Autosaves/Game/SteamMultiplayer/SteamBluprints/Lobby/LobbyPC_Auto2.uasset'
+[2016.11.11-01.37.26:155][612]LogSavePackage:Display: Finished SavePackage D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Saved/Autosaves/Game/SteamMultiplayer/SteamBluprints/Lobby/LobbyPC_Auto2.uasset
+[2016.11.11-01.37.26:155][612]LogFileHelpers: Auto-saving content packages took 0.046
+[2016.11.11-02.02.32:393][382]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.11.11-02.03.02:393][967]BlueprintLog: New page: Compile LobbyPC
+[2016.11.11-02.03.03:259][ 39]LogSavePackage: Save=37.92ms
+[2016.11.11-02.03.03:259][ 39]LogSavePackage: Moving 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Saved/LobbyPC68424FFD401E42051B7653BC0102F791.tmp' to 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Content/SteamMultiplayer/SteamBluprints/Lobby/LobbyPC.uasset'
+[2016.11.11-02.03.03:262][ 39]LogSavePackage:Display: Finished SavePackage D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Content/SteamMultiplayer/SteamBluprints/Lobby/LobbyPC.uasset
+[2016.11.11-02.07.32:652][747]BlueprintLog: New page: Compile ConnectedPlayer
+[2016.11.11-02.07.33:315][791]LogSavePackage: Save=6.50ms
+[2016.11.11-02.07.33:315][791]LogSavePackage: Moving 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Saved/ConnectedPlayerD1083F4E4056A40C59239EAB02C68142.tmp' to 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Content/SteamMultiplayer/SteamUI/Lobby/ConnectedPlayer.uasset'
+[2016.11.11-02.07.33:323][791]LogSavePackage:Display: Finished SavePackage D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Content/SteamMultiplayer/SteamUI/Lobby/ConnectedPlayer.uasset
+[2016.11.11-02.11.26:342][170]BlueprintLog: New page: Compile ConnectedPlayer
+[2016.11.11-02.11.26:856][208]LogSavePackage: Save=10.47ms
+[2016.11.11-02.11.26:856][208]LogSavePackage: Moving 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Saved/ConnectedPlayer622BFDCD494B2677DC563DBEC5BFEDE1.tmp' to 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Content/SteamMultiplayer/SteamUI/Lobby/ConnectedPlayer.uasset'
+[2016.11.11-02.11.26:860][208]LogSavePackage:Display: Finished SavePackage D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Content/SteamMultiplayer/SteamUI/Lobby/ConnectedPlayer.uasset
+[2016.11.11-02.11.59:752][990]BlueprintLog: New page: Compile ConnectedPlayer
+[2016.11.11-02.12.00:405][ 34]LogSavePackage: Save=12.01ms
+[2016.11.11-02.12.00:406][ 34]LogSavePackage: Moving 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Saved/ConnectedPlayer871A672741E346F66E492FA08E60C506.tmp' to 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Content/SteamMultiplayer/SteamUI/Lobby/ConnectedPlayer.uasset'
+[2016.11.11-02.12.00:409][ 34]LogSavePackage:Display: Finished SavePackage D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Content/SteamMultiplayer/SteamUI/Lobby/ConnectedPlayer.uasset
+[2016.11.11-02.12.09:916][163]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.11.11-02.12.09:916][163]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.11.11-02.12.09:923][163]PIE: New page: PIE session: MainMenu (Nov 11, 2016, 8:12:09 PM)
+[2016.11.11-02.12.09:924][163]LogPlayLevel: Creating play world package: /Game/SteamMultiplayer/SteamMaps/UEDPIE_1_MainMenu
+[2016.11.11-02.12.09:925][163]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001259s)
+[2016.11.11-02.12.09:926][163]LogAIModule: Creating AISystem for world MainMenu
+[2016.11.11-02.12.09:926][163]LogPlayLevel: PIE: World Init took: (0.000848s)
+[2016.11.11-02.12.09:926][163]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu to /Game/SteamMultiplayer/SteamMaps/UEDPIE_1_MainMenu.MainMenu (0.002340s)
+[2016.11.11-02.12.09:947][163]LogInit: XAudio2 using '스피커(2- Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.11.11-02.12.09:956][163]LogInit: FAudioDevice initialized.
+[2016.11.11-02.12.10:120][163]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.11.11-02.12.10:121][163]LogWorld: Bringing World /Game/SteamMultiplayer/SteamMaps/UEDPIE_1_MainMenu.MainMenu up for play (max tick rate 0) at 2016.11.11-11.12.10
+[2016.11.11-02.12.10:121][163]LogWorld: Bringing up level for play took: 0.000626
+[2016.11.11-02.12.10:133][163]LogVoice:Warning: Failed to initialize voice interface
+[2016.11.11-02.12.10:133][163]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.11.11-02.12.10:148][163]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2016.11.11-02.12.10:148][163]LogInit: WinSock: Socket queue 131072 / 131072
+[2016.11.11-02.12.10:149][163]LogInit: WinSock: I am emprise-PC1 (10.10.64.6:0)
+[2016.11.11-02.12.10:149][163]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2016.11.11-02.12.10:149][163]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 7777
+[2016.11.11-02.12.10:149][163]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.11.11-02.12.10:149][163]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.11.11-02.12.10:149][163]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.11.11-02.12.10:151][163]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.11.11-02.12.10:153][163]PIE: Info Play in editor start time for /Game/SteamMultiplayer/SteamMaps/UEDPIE_1_MainMenu -0.564
+[2016.11.11-02.12.10:161][163]PIE: New page: PIE session: MainMenu (Nov 11, 2016, 8:12:10 PM)
+[2016.11.11-02.12.10:211][163]LogNet: Browse: 127.0.0.1//Game/SteamMultiplayer/SteamMaps/MainMenu
+[2016.11.11-02.12.10:211][163]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.11.11-02.12.10:211][163]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2016.11.11-02.12.10:211][163]LogNet: Game client on port 7777, rate 10000
+[2016.11.11-02.12.10:212][163]LogNetVersion: GetLocalNetworkVersion: CL: 3106830, ProjectName: tps_ljs, ProjectVersion: 1.0.0.0, EngineNetworkVersion: 1, GameNetworkVersion: 0, NetworkChecksum: 4027345
+[2016.11.11-02.12.10:212][163]LogNet: UPendingNetGame::InitNetDriver: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_0, Driver: PendingNetDriver IpNetDriver_1, IsServer: NO, PC: NULL, Owner: NULL
+[2016.11.11-02.12.10:213][163]PIE: Info Play in editor start time for /Game/SteamMultiplayer/SteamMaps/MainMenu -0.504
+[2016.11.11-02.12.10:222][163]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.11.11-02.12.10:222][163]LogHandshake: SendConnectChallenge. Timestamp: 0.008334, Cookie: 055018135053197138250062178004205019172241076088163059231046
+[2016.11.11-02.12.10:233][163]LogHandshake: SendChallengeResponse. Timestamp: 0.008334, Cookie: 055018135053197138250062178004205019172241076088163059231046
+[2016.11.11-02.12.10:267][163]LogRenderer: Reallocating scene render targets to support 1292x756 (Frame:9104).
+[2016.11.11-02.12.10:326][164]LogNet: Server accepting post-challenge connection from: 127.0.0.1:60039
+[2016.11.11-02.12.10:326][164]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2016.11.11-02.12.10:326][164]LogNet: NotifyAcceptedConnection: Name: MainMenu, TimeStamp: 11/11/16 11:12:10, [UNetConnection] RemoteAddr: 127.0.0.1:60039, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL
+[2016.11.11-02.12.10:326][164]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:60039, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL
+[2016.11.11-02.12.10:457][166]LogNet: NotifyAcceptingChannel Control 0 server World /Game/SteamMultiplayer/SteamMaps/UEDPIE_1_MainMenu.MainMenu: Accepted
+[2016.11.11-02.12.10:457][166]LogNet: Remote platform little endian=1
+[2016.11.11-02.12.10:457][166]LogNet: This platform little endian=1
+[2016.11.11-02.12.10:469][166]LogVoice:Warning: Failed to initialize voice interface
+[2016.11.11-02.12.10:479][167]LogNet: Login request: /Game/SteamMultiplayer/SteamMaps/MainMenu?Name=emprise-PC1-752DFAF5489FF8D071A36FA392A560AF userId: emprise-PC1-752DFAF5489FF8D071A36FA392A560AF
+[2016.11.11-02.12.10:480][167]LogNet: Welcomed by server (Level: /Game/SteamMultiplayer/SteamMaps/UEDPIE_1_MainMenu, Game: /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C)
+[2016.11.11-02.12.10:480][167]LogLoad: LoadMap: 127.0.0.1//Game/SteamMultiplayer/SteamMaps/UEDPIE_1_MainMenu?game=/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C
+[2016.11.11-02.12.10:525][167]Cmd: MEM
+[2016.11.11-02.12.10:538][167]LogMemory: Platform Memory Stats for Windows
+[2016.11.11-02.12.10:538][167]LogMemory: Process Physical Memory: 1379.67 MB used, 1379.67 MB peak
+[2016.11.11-02.12.10:538][167]LogMemory: Process Virtual Memory: 2025.89 MB used, 2158.46 MB peak
+[2016.11.11-02.12.10:538][167]LogMemory: Physical Memory: 9791.18 MB used, 16334.92 MB total
+[2016.11.11-02.12.10:538][167]LogMemory: Virtual Memory: 2739.63 MB used, 8388608.00 MB total
+[2016.11.11-02.12.10:538][167]LogMemory: 
+[2016.11.11-02.12.10:538][167]Allocator Stats for TBB: (not implemented)
+[2016.11.11-02.12.10:540][167]LogWorld: PIE: Copying PIE streaming level from /Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu to /Game/SteamMultiplayer/SteamMaps/UEDPIE_2_MainMenu.MainMenu. OwningWorld: <null>
+[2016.11.11-02.12.10:541][167]LogAIModule: Creating AISystem for world MainMenu
+[2016.11.11-02.12.10:542][167]LogWorld: Bringing World /Game/SteamMultiplayer/SteamMaps/UEDPIE_2_MainMenu.MainMenu up for play (max tick rate 0) at 2016.11.11-11.12.10
+[2016.11.11-02.12.10:542][167]LogWorld: Bringing up level for play took: 0.000860
+[2016.11.11-02.12.10:543][167]LogLoad: Took 0.062358 seconds to LoadMap(/Game/SteamMultiplayer/SteamMaps/UEDPIE_1_MainMenu)
+[2016.11.11-02.12.10:554][168]LogNet: Client netspeed is 10000
+[2016.11.11-02.12.10:554][168]LogNet: Join request: /Game/SteamMultiplayer/SteamMaps/MainMenu?Name=emprise-PC1-752DFAF5489FF8D071A36FA392A560AF?SplitscreenCount=1
+[2016.11.11-02.12.10:554][168]LogOnline:Warning: NULL: No game present to join for session (Game)
+[2016.11.11-02.12.10:555][168]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.11.11-02.12.10:556][168]LogNet: Join succeeded: emprise-PC1-752DFAF5
+[2016.11.11-02.12.10:557][168]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.287550 > MaxSimulationTimeStep (0.050) for 'ThirdPersonCharacter_C_1', movement 'Falling'
+[2016.11.11-02.12.10:600][171]LogOnline:Warning: NULL: No game present to join for session (Game)
+[2016.11.11-02.12.10:620][172]LogOnline:Warning: NULL: No game present to join for session (Game)
+[2016.11.11-02.12.19:403][528]LogGameMode:Display: Match State Changed from InProgress to LeavingMap
+[2016.11.11-02.12.19:403][528]LogGameState: Match State Changed from InProgress to LeavingMap
+[2016.11.11-02.12.19:404][528]LogNet: Browse: /Game/SteamMultiplayer/SteamMaps/Lobby?listen
+[2016.11.11-02.12.19:404][528]LogLoad: LoadMap: /Game/SteamMultiplayer/SteamMaps/Lobby?listen
+[2016.11.11-02.12.19:404][528]LogNet: World NetDriver shutdown IpNetDriver_0 [GameNetDriver]
+[2016.11.11-02.12.19:404][528]LogNet: DestroyNamedNetDriver IpNetDriver_0 [GameNetDriver]
+[2016.11.11-02.12.19:404][528]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 127.0.0.1:60039, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1
+[2016.11.11-02.12.19:404][528]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:60039, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, Channels: 11, Time: 2016.11.11-02.12.19
+[2016.11.11-02.12.19:404][528]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:60039, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1
+[2016.11.11-02.12.19:405][528]LogExit: GameNetDriver IpNetDriver_0 shut down
+[2016.11.11-02.12.19:433][528]Cmd: MEM
+[2016.11.11-02.12.19:446][528]LogMemory: Platform Memory Stats for Windows
+[2016.11.11-02.12.19:446][528]LogMemory: Process Physical Memory: 1389.32 MB used, 1396.77 MB peak
+[2016.11.11-02.12.19:446][528]LogMemory: Process Virtual Memory: 1990.38 MB used, 2158.46 MB peak
+[2016.11.11-02.12.19:446][528]LogMemory: Physical Memory: 9774.55 MB used, 16334.92 MB total
+[2016.11.11-02.12.19:446][528]LogMemory: Virtual Memory: 2711.76 MB used, 8388608.00 MB total
+[2016.11.11-02.12.19:446][528]LogMemory: 
+[2016.11.11-02.12.19:446][528]Allocator Stats for TBB: (not implemented)
+[2016.11.11-02.12.20:073][528]LogAIModule: Creating AISystem for world Lobby
+[2016.11.11-02.12.20:073][528]LogWorld: Game class is 'LobbyGM_C'
+[2016.11.11-02.12.20:073][528]LogInit: WinSock: Socket queue 131072 / 131072
+[2016.11.11-02.12.20:074][528]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2016.11.11-02.12.20:074][528]LogNet: GameNetDriver IpNetDriver_2 IpNetDriver listening on port 7777
+[2016.11.11-02.12.20:077][528]LogWorld: Bringing World /Game/SteamMultiplayer/SteamMaps/UEDPIE_1_Lobby.Lobby up for play (max tick rate 0) at 2016.11.11-11.12.20
+[2016.11.11-02.12.20:077][528]LogWorld: Bringing up level for play took: 0.002424
+[2016.11.11-02.12.20:083][528]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.11.11-02.12.20:083][528]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.11.11-02.12.20:083][528]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.11.11-02.12.20:084][528]LogOnline:Warning: NULL: Can't start an online session (Game) in state InProgress
+[2016.11.11-02.12.20:084][528]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.11.11-02.12.20:084][528]LogLoad: Took 0.680081 seconds to LoadMap(/Game/SteamMultiplayer/SteamMaps/Lobby)
+[2016.11.11-02.12.20:084][528]LogNet:Warning: Network Failure: GameNetDriver[FailureReceived]: Host closed the connection.
+[2016.11.11-02.12.20:084][528]LogNet:Warning: Network Failure: GameNetDriver[FailureReceived]: Host closed the connection.
+[2016.11.11-02.12.20:084][528]LogNet: NetworkFailure: FailureReceived, Error: 'Host closed the connection.'
+[2016.11.11-02.12.20:084][528]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, Channels: 11, Time: 2016.11.11-02.12.20
+[2016.11.11-02.12.20:084][528]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1
+[2016.11.11-02.12.20:085][528]LogNet:Warning: Network Failure: GameNetDriver[ConnectionLost]: Your connection to the host has been lost.
+[2016.11.11-02.12.20:085][528]LogNet:Warning: Network Failure: GameNetDriver[ConnectionLost]: Your connection to the host has been lost.
+[2016.11.11-02.12.20:085][528]LogNet: NetworkFailure: ConnectionLost, Error: 'Your connection to the host has been lost.'
+[2016.11.11-02.12.20:118][529]LogNet: Browse: /Game/SteamMultiplayer/SteamMaps/MainMenu?closed
+[2016.11.11-02.12.20:118][529]LogNet: Failed; returning to Entry
+[2016.11.11-02.12.20:118][529]LogLoad: LoadMap: /Game/SteamMultiplayer/SteamMaps/MainMenu?closed
+[2016.11.11-02.12.20:118][529]LogNet: World NetDriver shutdown IpNetDriver_1 [GameNetDriver]
+[2016.11.11-02.12.20:118][529]LogNet: DestroyNamedNetDriver IpNetDriver_1 [GameNetDriver]
+[2016.11.11-02.12.20:118][529]LogExit: GameNetDriver IpNetDriver_1 shut down
+[2016.11.11-02.12.20:136][529]Cmd: MEM
+[2016.11.11-02.12.20:150][529]LogMemory: Platform Memory Stats for Windows
+[2016.11.11-02.12.20:150][529]LogMemory: Process Physical Memory: 1477.07 MB used, 1477.07 MB peak
+[2016.11.11-02.12.20:150][529]LogMemory: Process Virtual Memory: 2167.04 MB used, 2167.04 MB peak
+[2016.11.11-02.12.20:150][529]LogMemory: Physical Memory: 9866.19 MB used, 16334.92 MB total
+[2016.11.11-02.12.20:150][529]LogMemory: Virtual Memory: 2887.57 MB used, 8388608.00 MB total
+[2016.11.11-02.12.20:150][529]LogMemory: 
+[2016.11.11-02.12.20:150][529]Allocator Stats for TBB: (not implemented)
+[2016.11.11-02.12.20:150][529]LogPlayLevel: Creating play world package: /Game/SteamMultiplayer/SteamMaps/UEDPIE_2_MainMenu
+[2016.11.11-02.12.20:151][529]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000878s)
+[2016.11.11-02.12.20:152][529]LogAIModule: Creating AISystem for world MainMenu
+[2016.11.11-02.12.20:152][529]LogPlayLevel: PIE: World Init took: (0.000608s)
+[2016.11.11-02.12.20:152][529]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu to /Game/SteamMultiplayer/SteamMaps/UEDPIE_2_MainMenu.MainMenu (0.001684s)
+[2016.11.11-02.12.20:152][529]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.11.11-02.12.20:154][529]LogWorld: Bringing World /Game/SteamMultiplayer/SteamMaps/UEDPIE_2_MainMenu.MainMenu up for play (max tick rate 0) at 2016.11.11-11.12.20
+[2016.11.11-02.12.20:154][529]LogWorld: Bringing up level for play took: 0.000632
+[2016.11.11-02.12.20:154][529]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.11.11-02.12.20:154][529]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.11.11-02.12.20:154][529]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.11.11-02.12.20:154][529]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.11.11-02.12.20:156][529]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.11.11-02.12.20:156][529]LogLoad: Took 0.038271 seconds to LoadMap(/Game/SteamMultiplayer/SteamMaps/UEDPIE_2_MainMenu)
+[2016.11.11-02.12.35:170][289]LogGameMode:Display: Match State Changed from InProgress to LeavingMap
+[2016.11.11-02.12.35:170][289]LogGameState: Match State Changed from InProgress to LeavingMap
+[2016.11.11-02.12.35:170][289]LogNet: Browse: 10.10.64.234//Game/SteamMultiplayer/SteamMaps/MainMenu
+[2016.11.11-02.12.35:171][289]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.11.11-02.12.35:171][289]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2016.11.11-02.12.35:171][289]LogNet: Game client on port 7777, rate 10000
+[2016.11.11-02.12.35:172][289]LogNet: UPendingNetGame::InitNetDriver: Sending hello. [UNetConnection] RemoteAddr: 10.10.64.234:7777, Name: IpConnection_2, Driver: PendingNetDriver IpNetDriver_3, IsServer: NO, PC: NULL, Owner: NULL
+[2016.11.11-02.13.13:323][  6]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.11.11-02.13.13:350][  6]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.11.11-02.13.13:350][  6]LogScriptCore:Warning: Script Msg: DestroySession - Invalid player state
+[2016.11.11-02.13.13:350][  6]LogScriptCore:Warning: 
+[2016.11.11-02.13.13:384][  6]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.11.11-02.13.13:384][  6]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2016.11.11-02.13.13:384][  6]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.11.11-02.13.13:397][  6]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 10.10.64.234:7777, Name: IpConnection_2, Driver: PendingNetDriver IpNetDriver_3, IsServer: NO, PC: NULL, Owner: NULL
+[2016.11.11-02.13.13:397][  6]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 10.10.64.234:7777, Name: IpConnection_2, Driver: PendingNetDriver IpNetDriver_3, IsServer: NO, PC: NULL, Owner: NULL, Channels: 2, Time: 2016.11.11-02.13.13
+[2016.11.11-02.13.13:397][  6]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 10.10.64.234:7777, Name: IpConnection_2, Driver: PendingNetDriver IpNetDriver_3, IsServer: NO, PC: NULL, Owner: NULL
+[2016.11.11-02.13.13:400][  6]LogExit: GameNetDriver None shut down
+[2016.11.11-02.13.13:400][  6]LogExit: PendingNetDriver None shut down
+[2016.11.11-02.13.13:414][  7]LogPlayLevel:Display: Destroying online subsystem :Context_8
+[2016.11.11-02.13.13:414][  7]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.11.11-02.13.13:414][  7]LogPlayLevel:Display: Destroying online subsystem :Context_7
+[2016.11.11-02.13.13:414][  7]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.11.11-02.13.18:067][320]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.11.11-02.13.18:067][320]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.11.11-02.13.18:073][320]PIE: New page: PIE session: MainMenu (Nov 11, 2016, 8:13:18 PM)
+[2016.11.11-02.13.18:114][320]LogPlayLevel: Creating play world package: /Game/SteamMultiplayer/SteamMaps/UEDPIE_1_MainMenu
+[2016.11.11-02.13.18:115][320]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000791s)
+[2016.11.11-02.13.18:115][320]LogAIModule: Creating AISystem for world MainMenu
+[2016.11.11-02.13.18:115][320]LogPlayLevel: PIE: World Init took: (0.000621s)
+[2016.11.11-02.13.18:115][320]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu to /Game/SteamMultiplayer/SteamMaps/UEDPIE_1_MainMenu.MainMenu (0.001595s)
+[2016.11.11-02.13.18:134][320]LogInit: XAudio2 using '스피커(2- Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.11.11-02.13.18:145][320]LogInit: FAudioDevice initialized.
+[2016.11.11-02.13.18:195][320]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.11.11-02.13.18:197][320]LogWorld: Bringing World /Game/SteamMultiplayer/SteamMaps/UEDPIE_1_MainMenu.MainMenu up for play (max tick rate 0) at 2016.11.11-11.13.18
+[2016.11.11-02.13.18:197][320]LogWorld: Bringing up level for play took: 0.000741
+[2016.11.11-02.13.18:208][320]LogVoice:Warning: Failed to initialize voice interface
+[2016.11.11-02.13.18:209][320]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.11.11-02.13.18:209][320]LogInit: WinSock: Socket queue 131072 / 131072
+[2016.11.11-02.13.18:210][320]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2016.11.11-02.13.18:210][320]LogNet: GameNetDriver IpNetDriver_4 IpNetDriver listening on port 7777
+[2016.11.11-02.13.18:210][320]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.11.11-02.13.18:210][320]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.11.11-02.13.18:210][320]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.11.11-02.13.18:211][320]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.11.11-02.13.18:213][320]PIE: Info Play in editor start time for /Game/SteamMultiplayer/SteamMaps/UEDPIE_1_MainMenu -0.501
+[2016.11.11-02.13.18:219][320]PIE: New page: PIE session: MainMenu (Nov 11, 2016, 8:13:18 PM)
+[2016.11.11-02.13.18:268][320]LogNet: Browse: 127.0.0.1//Game/SteamMultiplayer/SteamMaps/MainMenu
+[2016.11.11-02.13.18:268][320]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.11.11-02.13.18:269][320]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2016.11.11-02.13.18:269][320]LogNet: Game client on port 7777, rate 10000
+[2016.11.11-02.13.18:269][320]LogNet: UPendingNetGame::InitNetDriver: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_3, Driver: PendingNetDriver IpNetDriver_5, IsServer: NO, PC: NULL, Owner: NULL
+[2016.11.11-02.13.18:271][320]PIE: Info Play in editor start time for /Game/SteamMultiplayer/SteamMaps/MainMenu -0.444
+[2016.11.11-02.13.18:280][320]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.11.11-02.13.18:280][320]LogHandshake: SendConnectChallenge. Timestamp: 0.008334, Cookie: 203154233205032083079091241169087233132086066028030066099107
+[2016.11.11-02.13.18:281][320]LogHandshake: SendChallengeResponse. Timestamp: 0.008334, Cookie: 203154233205032083079091241169087233132086066028030066099107
+[2016.11.11-02.13.18:349][321]LogNet: Server accepting post-challenge connection from: 127.0.0.1:50188
+[2016.11.11-02.13.18:349][321]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2016.11.11-02.13.18:349][321]LogNet: NotifyAcceptedConnection: Name: MainMenu, TimeStamp: 11/11/16 11:13:18, [UNetConnection] RemoteAddr: 127.0.0.1:50188, Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: NULL, Owner: NULL
+[2016.11.11-02.13.18:349][321]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:50188, Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: NULL, Owner: NULL
+[2016.11.11-02.13.18:385][323]LogNet: NotifyAcceptingChannel Control 0 server World /Game/SteamMultiplayer/SteamMaps/UEDPIE_1_MainMenu.MainMenu: Accepted
+[2016.11.11-02.13.18:385][323]LogNet: Remote platform little endian=1
+[2016.11.11-02.13.18:385][323]LogNet: This platform little endian=1
+[2016.11.11-02.13.18:397][323]LogVoice:Warning: Failed to initialize voice interface
+[2016.11.11-02.13.18:409][324]LogNet: Login request: /Game/SteamMultiplayer/SteamMaps/MainMenu?Name=emprise-PC1-D70C154447378D93FA8E739FDEEFD713 userId: emprise-PC1-D70C154447378D93FA8E739FDEEFD713
+[2016.11.11-02.13.18:410][324]LogNet: Welcomed by server (Level: /Game/SteamMultiplayer/SteamMaps/UEDPIE_1_MainMenu, Game: /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C)
+[2016.11.11-02.13.18:410][324]LogLoad: LoadMap: 127.0.0.1//Game/SteamMultiplayer/SteamMaps/UEDPIE_1_MainMenu?game=/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C
+[2016.11.11-02.13.18:426][324]Cmd: MEM
+[2016.11.11-02.13.18:442][324]LogMemory: Platform Memory Stats for Windows
+[2016.11.11-02.13.18:442][324]LogMemory: Process Physical Memory: 1475.19 MB used, 1479.92 MB peak
+[2016.11.11-02.13.18:442][324]LogMemory: Process Virtual Memory: 2108.21 MB used, 2167.92 MB peak
+[2016.11.11-02.13.18:442][324]LogMemory: Physical Memory: 9851.51 MB used, 16334.92 MB total
+[2016.11.11-02.13.18:442][324]LogMemory: Virtual Memory: 2837.88 MB used, 8388608.00 MB total
+[2016.11.11-02.13.18:442][324]LogMemory: 
+[2016.11.11-02.13.18:442][324]Allocator Stats for TBB: (not implemented)
+[2016.11.11-02.13.18:443][324]LogWorld: PIE: Copying PIE streaming level from /Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu to /Game/SteamMultiplayer/SteamMaps/UEDPIE_2_MainMenu.MainMenu. OwningWorld: <null>
+[2016.11.11-02.13.18:443][324]LogAIModule: Creating AISystem for world MainMenu
+[2016.11.11-02.13.18:445][324]LogWorld: Bringing World /Game/SteamMultiplayer/SteamMaps/UEDPIE_2_MainMenu.MainMenu up for play (max tick rate 0) at 2016.11.11-11.13.18
+[2016.11.11-02.13.18:445][324]LogWorld: Bringing up level for play took: 0.000625
+[2016.11.11-02.13.18:445][324]LogLoad: Took 0.035173 seconds to LoadMap(/Game/SteamMultiplayer/SteamMaps/UEDPIE_1_MainMenu)
+[2016.11.11-02.13.18:455][325]LogNet: Client netspeed is 10000
+[2016.11.11-02.13.18:455][325]LogNet: Join request: /Game/SteamMultiplayer/SteamMaps/MainMenu?Name=emprise-PC1-D70C154447378D93FA8E739FDEEFD713?SplitscreenCount=1
+[2016.11.11-02.13.18:456][325]LogOnline:Warning: NULL: No game present to join for session (Game)
+[2016.11.11-02.13.18:456][325]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.11.11-02.13.18:457][325]LogNet: Join succeeded: emprise-PC1-D70C1544
+[2016.11.11-02.13.18:457][325]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.081178 > MaxSimulationTimeStep (0.050) for 'ThirdPersonCharacter_C_1', movement 'Falling'
+[2016.11.11-02.13.18:497][328]LogOnline:Warning: NULL: No game present to join for session (Game)
+[2016.11.11-02.13.18:516][329]LogOnline:Warning: NULL: No game present to join for session (Game)
+[2016.11.11-02.13.22:700][581]LogGameMode:Display: Match State Changed from InProgress to LeavingMap
+[2016.11.11-02.13.22:700][581]LogGameState: Match State Changed from InProgress to LeavingMap
+[2016.11.11-02.13.22:700][581]LogNet: Browse: /Game/SteamMultiplayer/SteamMaps/Lobby?listen
+[2016.11.11-02.13.22:700][581]LogLoad: LoadMap: /Game/SteamMultiplayer/SteamMaps/Lobby?listen
+[2016.11.11-02.13.22:700][581]LogNet: World NetDriver shutdown IpNetDriver_4 [GameNetDriver]
+[2016.11.11-02.13.22:700][581]LogNet: DestroyNamedNetDriver IpNetDriver_4 [GameNetDriver]
+[2016.11.11-02.13.22:701][581]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 127.0.0.1:50188, Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1
+[2016.11.11-02.13.22:701][581]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:50188, Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, Channels: 11, Time: 2016.11.11-02.13.22
+[2016.11.11-02.13.22:701][581]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:50188, Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1
+[2016.11.11-02.13.22:701][581]LogExit: GameNetDriver IpNetDriver_4 shut down
+[2016.11.11-02.13.22:729][581]Cmd: MEM
+[2016.11.11-02.13.22:741][581]LogMemory: Platform Memory Stats for Windows
+[2016.11.11-02.13.22:741][581]LogMemory: Process Physical Memory: 1468.65 MB used, 1479.92 MB peak
+[2016.11.11-02.13.22:741][581]LogMemory: Process Virtual Memory: 2089.68 MB used, 2167.92 MB peak
+[2016.11.11-02.13.22:741][581]LogMemory: Physical Memory: 9843.45 MB used, 16334.92 MB total
+[2016.11.11-02.13.22:741][581]LogMemory: Virtual Memory: 2819.38 MB used, 8388608.00 MB total
+[2016.11.11-02.13.22:741][581]LogMemory: 
+[2016.11.11-02.13.22:741][581]Allocator Stats for TBB: (not implemented)
+[2016.11.11-02.13.22:823][581]LogAIModule: Creating AISystem for world Lobby
+[2016.11.11-02.13.22:823][581]LogWorld: Game class is 'LobbyGM_C'
+[2016.11.11-02.13.22:823][581]LogInit: WinSock: Socket queue 131072 / 131072
+[2016.11.11-02.13.22:824][581]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2016.11.11-02.13.22:824][581]LogNet: GameNetDriver IpNetDriver_6 IpNetDriver listening on port 7777
+[2016.11.11-02.13.22:827][581]LogWorld: Bringing World /Game/SteamMultiplayer/SteamMaps/UEDPIE_1_Lobby.Lobby up for play (max tick rate 0) at 2016.11.11-11.13.22
+[2016.11.11-02.13.22:827][581]LogWorld: Bringing up level for play took: 0.002080
+[2016.11.11-02.13.22:831][581]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.11.11-02.13.22:831][581]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.11.11-02.13.22:831][581]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.11.11-02.13.22:831][581]LogOnline:Warning: NULL: Can't start an online session (Game) in state InProgress
+[2016.11.11-02.13.22:832][581]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.11.11-02.13.22:832][581]LogLoad: Took 0.131566 seconds to LoadMap(/Game/SteamMultiplayer/SteamMaps/Lobby)
+[2016.11.11-02.13.22:832][581]LogNet:Warning: Network Failure: GameNetDriver[FailureReceived]: Host closed the connection.
+[2016.11.11-02.13.22:832][581]LogNet:Warning: Network Failure: GameNetDriver[FailureReceived]: Host closed the connection.
+[2016.11.11-02.13.22:832][581]LogNet: NetworkFailure: FailureReceived, Error: 'Host closed the connection.'
+[2016.11.11-02.13.22:832][581]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_5, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, Channels: 11, Time: 2016.11.11-02.13.22
+[2016.11.11-02.13.22:832][581]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_5, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1
+[2016.11.11-02.13.22:832][581]LogNet:Warning: Network Failure: GameNetDriver[ConnectionLost]: Your connection to the host has been lost.
+[2016.11.11-02.13.22:832][581]LogNet:Warning: Network Failure: GameNetDriver[ConnectionLost]: Your connection to the host has been lost.
+[2016.11.11-02.13.22:832][581]LogNet: NetworkFailure: ConnectionLost, Error: 'Your connection to the host has been lost.'
+[2016.11.11-02.13.22:861][582]LogNet: Browse: /Game/SteamMultiplayer/SteamMaps/MainMenu?closed
+[2016.11.11-02.13.22:861][582]LogNet: Failed; returning to Entry
+[2016.11.11-02.13.22:861][582]LogLoad: LoadMap: /Game/SteamMultiplayer/SteamMaps/MainMenu?closed
+[2016.11.11-02.13.22:861][582]LogNet: World NetDriver shutdown IpNetDriver_5 [GameNetDriver]
+[2016.11.11-02.13.22:861][582]LogNet: DestroyNamedNetDriver IpNetDriver_5 [GameNetDriver]
+[2016.11.11-02.13.22:861][582]LogExit: GameNetDriver IpNetDriver_5 shut down
+[2016.11.11-02.13.22:878][582]Cmd: MEM
+[2016.11.11-02.13.22:891][582]LogMemory: Platform Memory Stats for Windows
+[2016.11.11-02.13.22:891][582]LogMemory: Process Physical Memory: 1489.58 MB used, 1489.59 MB peak
+[2016.11.11-02.13.22:891][582]LogMemory: Process Virtual Memory: 2183.15 MB used, 2183.15 MB peak
+[2016.11.11-02.13.22:891][582]LogMemory: Physical Memory: 9866.04 MB used, 16334.92 MB total
+[2016.11.11-02.13.22:891][582]LogMemory: Virtual Memory: 2912.70 MB used, 8388608.00 MB total
+[2016.11.11-02.13.22:891][582]LogMemory: 
+[2016.11.11-02.13.22:891][582]Allocator Stats for TBB: (not implemented)
+[2016.11.11-02.13.22:891][582]LogPlayLevel: Creating play world package: /Game/SteamMultiplayer/SteamMaps/UEDPIE_2_MainMenu
+[2016.11.11-02.13.22:892][582]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000832s)
+[2016.11.11-02.13.22:892][582]LogAIModule: Creating AISystem for world MainMenu
+[2016.11.11-02.13.22:892][582]LogPlayLevel: PIE: World Init took: (0.000507s)
+[2016.11.11-02.13.22:892][582]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu to /Game/SteamMultiplayer/SteamMaps/UEDPIE_2_MainMenu.MainMenu (0.001507s)
+[2016.11.11-02.13.22:892][582]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.11.11-02.13.22:894][582]LogWorld: Bringing World /Game/SteamMultiplayer/SteamMaps/UEDPIE_2_MainMenu.MainMenu up for play (max tick rate 0) at 2016.11.11-11.13.22
+[2016.11.11-02.13.22:894][582]LogWorld: Bringing up level for play took: 0.000602
+[2016.11.11-02.13.22:894][582]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.11.11-02.13.22:895][582]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.11.11-02.13.22:895][582]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.11.11-02.13.22:895][582]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.11.11-02.13.22:896][582]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.11.11-02.13.22:896][582]LogLoad: Took 0.035317 seconds to LoadMap(/Game/SteamMultiplayer/SteamMaps/UEDPIE_2_MainMenu)
+[2016.11.11-02.13.32:035][ 72]LogGameMode:Display: Match State Changed from InProgress to LeavingMap
+[2016.11.11-02.13.32:035][ 72]LogGameState: Match State Changed from InProgress to LeavingMap
+[2016.11.11-02.13.32:035][ 72]LogNet: Browse: 10.10.64.234//Game/SteamMultiplayer/SteamMaps/MainMenu
+[2016.11.11-02.13.32:035][ 72]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.11.11-02.13.32:036][ 72]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2016.11.11-02.13.32:036][ 72]LogNet: Game client on port 7777, rate 10000
+[2016.11.11-02.13.32:036][ 72]LogNet: UPendingNetGame::InitNetDriver: Sending hello. [UNetConnection] RemoteAddr: 10.10.64.234:7777, Name: IpConnection_5, Driver: PendingNetDriver IpNetDriver_7, IsServer: NO, PC: NULL, Owner: NULL
+[2016.11.11-02.13.57:008][390]PIE:Warning: Warning This widget does not support focus.  If this is a UserWidget, you should set bIsFocusable to true.
+[2016.11.11-02.14.03:449][745]LogGameMode:Display: Match State Changed from InProgress to LeavingMap
+[2016.11.11-02.14.03:449][745]LogGameState: Match State Changed from InProgress to LeavingMap
+[2016.11.11-02.14.03:450][745]LogNet: Browse: /Game/SteamMultiplayer/SteamMaps/MainMenu
+[2016.11.11-02.14.03:450][745]LogLoad: LoadMap: /Game/SteamMultiplayer/SteamMaps/MainMenu
+[2016.11.11-02.14.03:450][745]LogNet: World NetDriver shutdown IpNetDriver_6 [GameNetDriver]
+[2016.11.11-02.14.03:450][745]LogNet: DestroyNamedNetDriver IpNetDriver_6 [GameNetDriver]
+[2016.11.11-02.14.03:450][745]LogExit: GameNetDriver IpNetDriver_6 shut down
+[2016.11.11-02.14.03:451][745]LogScriptCore:Warning: Script Msg: DestroySession - Invalid player state
+[2016.11.11-02.14.03:451][745]LogScriptCore:Warning: 
+[2016.11.11-02.14.03:481][745]Cmd: MEM
+[2016.11.11-02.14.03:494][745]LogMemory: Platform Memory Stats for Windows
+[2016.11.11-02.14.03:494][745]LogMemory: Process Physical Memory: 1475.77 MB used, 1489.59 MB peak
+[2016.11.11-02.14.03:494][745]LogMemory: Process Virtual Memory: 2101.50 MB used, 2183.15 MB peak
+[2016.11.11-02.14.03:494][745]LogMemory: Physical Memory: 9831.73 MB used, 16334.92 MB total
+[2016.11.11-02.14.03:494][745]LogMemory: Virtual Memory: 2835.94 MB used, 8388608.00 MB total
+[2016.11.11-02.14.03:494][745]LogMemory: 
+[2016.11.11-02.14.03:494][745]Allocator Stats for TBB: (not implemented)
+[2016.11.11-02.14.03:494][745]LogPlayLevel: Creating play world package: /Game/SteamMultiplayer/SteamMaps/UEDPIE_1_MainMenu
+[2016.11.11-02.14.03:495][745]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000851s)
+[2016.11.11-02.14.03:495][745]LogAIModule: Creating AISystem for world MainMenu
+[2016.11.11-02.14.03:495][745]LogPlayLevel: PIE: World Init took: (0.000513s)
+[2016.11.11-02.14.03:495][745]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu to /Game/SteamMultiplayer/SteamMaps/UEDPIE_1_MainMenu.MainMenu (0.001546s)
+[2016.11.11-02.14.03:495][745]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.11.11-02.14.03:497][745]LogWorld: Bringing World /Game/SteamMultiplayer/SteamMaps/UEDPIE_1_MainMenu.MainMenu up for play (max tick rate 0) at 2016.11.11-11.14.03
+[2016.11.11-02.14.03:497][745]LogWorld: Bringing up level for play took: 0.000670
+[2016.11.11-02.14.03:497][745]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.11.11-02.14.03:497][745]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.11.11-02.14.03:497][745]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.11.11-02.14.03:497][745]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.11.11-02.14.03:499][745]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.11.11-02.14.03:499][745]LogLoad: Took 0.048886 seconds to LoadMap(/Game/SteamMultiplayer/SteamMaps/UEDPIE_1_MainMenu)
+[2016.11.11-02.14.06:195][915]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.11.11-02.14.06:237][915]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.11.11-02.14.06:271][915]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.11.11-02.14.06:271][915]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2016.11.11-02.14.06:271][915]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.11.11-02.14.06:284][915]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 10.10.64.234:7777, Name: IpConnection_5, Driver: PendingNetDriver IpNetDriver_7, IsServer: NO, PC: NULL, Owner: NULL
+[2016.11.11-02.14.06:284][915]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 10.10.64.234:7777, Name: IpConnection_5, Driver: PendingNetDriver IpNetDriver_7, IsServer: NO, PC: NULL, Owner: NULL, Channels: 2, Time: 2016.11.11-02.14.06
+[2016.11.11-02.14.06:284][915]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 10.10.64.234:7777, Name: IpConnection_5, Driver: PendingNetDriver IpNetDriver_7, IsServer: NO, PC: NULL, Owner: NULL
+[2016.11.11-02.14.06:287][915]LogExit: PendingNetDriver None shut down
+[2016.11.11-02.14.06:308][916]LogPlayLevel:Display: Destroying online subsystem :Context_10
+[2016.11.11-02.14.06:309][916]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.11.11-02.14.06:309][916]LogPlayLevel:Display: Destroying online subsystem :Context_9
+[2016.11.11-02.14.06:309][916]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.11.11-02.16.33:390][618]BlueprintLog: New page: Compile LobbyMenu
+[2016.11.11-02.16.37:014][  7]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.11.11-02.16.37:014][  7]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.11.11-02.16.37:020][  7]PIE: New page: PIE session: MainMenu (Nov 11, 2016, 8:16:37 PM)
+[2016.11.11-02.16.37:059][  7]LogPlayLevel: Creating play world package: /Game/SteamMultiplayer/SteamMaps/UEDPIE_1_MainMenu
+[2016.11.11-02.16.37:060][  7]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000741s)
+[2016.11.11-02.16.37:060][  7]LogAIModule: Creating AISystem for world MainMenu
+[2016.11.11-02.16.37:061][  7]LogPlayLevel: PIE: World Init took: (0.000547s)
+[2016.11.11-02.16.37:061][  7]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu to /Game/SteamMultiplayer/SteamMaps/UEDPIE_1_MainMenu.MainMenu (0.001492s)
+[2016.11.11-02.16.37:080][  7]LogInit: XAudio2 using '스피커(2- Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.11.11-02.16.37:091][  7]LogInit: FAudioDevice initialized.
+[2016.11.11-02.16.37:159][  7]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.11.11-02.16.37:162][  7]LogWorld: Bringing World /Game/SteamMultiplayer/SteamMaps/UEDPIE_1_MainMenu.MainMenu up for play (max tick rate 0) at 2016.11.11-11.16.37
+[2016.11.11-02.16.37:162][  7]LogWorld: Bringing up level for play took: 0.001129
+[2016.11.11-02.16.37:173][  7]LogVoice:Warning: Failed to initialize voice interface
+[2016.11.11-02.16.37:174][  7]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.11.11-02.16.37:174][  7]LogInit: WinSock: Socket queue 131072 / 131072
+[2016.11.11-02.16.37:175][  7]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2016.11.11-02.16.37:175][  7]LogNet: GameNetDriver IpNetDriver_8 IpNetDriver listening on port 7777
+[2016.11.11-02.16.37:175][  7]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.11.11-02.16.37:175][  7]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.11.11-02.16.37:175][  7]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.11.11-02.16.37:178][  7]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.11.11-02.16.37:180][  7]PIE: Info Play in editor start time for /Game/SteamMultiplayer/SteamMaps/UEDPIE_1_MainMenu 0.475
+[2016.11.11-02.16.37:191][  7]PIE: New page: PIE session: MainMenu (Nov 11, 2016, 8:16:37 PM)
+[2016.11.11-02.16.37:264][  7]LogNet: Browse: 127.0.0.1//Game/SteamMultiplayer/SteamMaps/MainMenu
+[2016.11.11-02.16.37:264][  7]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.11.11-02.16.37:265][  7]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2016.11.11-02.16.37:265][  7]LogNet: Game client on port 7777, rate 10000
+[2016.11.11-02.16.37:265][  7]LogNet: UPendingNetGame::InitNetDriver: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_6, Driver: PendingNetDriver IpNetDriver_9, IsServer: NO, PC: NULL, Owner: NULL
+[2016.11.11-02.16.37:268][  7]PIE: Info Play in editor start time for /Game/SteamMultiplayer/SteamMaps/MainMenu 0.563
+[2016.11.11-02.16.37:282][  7]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.11.11-02.16.37:282][  7]LogHandshake: SendConnectChallenge. Timestamp: 0.008334, Cookie: 083189176020189161052053169235199029242029110100202251073182
+[2016.11.11-02.16.37:283][  7]LogHandshake: SendChallengeResponse. Timestamp: 0.008334, Cookie: 083189176020189161052053169235199029242029110100202251073182
+[2016.11.11-02.16.37:479][  8]LogNet: Server accepting post-challenge connection from: 127.0.0.1:65477
+[2016.11.11-02.16.37:479][  8]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2016.11.11-02.16.37:479][  8]LogNet: NotifyAcceptedConnection: Name: MainMenu, TimeStamp: 11/11/16 11:16:37, [UNetConnection] RemoteAddr: 127.0.0.1:65477, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_8, IsServer: YES, PC: NULL, Owner: NULL
+[2016.11.11-02.16.37:479][  8]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:65477, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_8, IsServer: YES, PC: NULL, Owner: NULL
+[2016.11.11-02.16.37:500][ 10]LogNet: NotifyAcceptingChannel Control 0 server World /Game/SteamMultiplayer/SteamMaps/UEDPIE_1_MainMenu.MainMenu: Accepted
+[2016.11.11-02.16.37:500][ 10]LogNet: Remote platform little endian=1
+[2016.11.11-02.16.37:500][ 10]LogNet: This platform little endian=1
+[2016.11.11-02.16.37:511][ 10]LogVoice:Warning: Failed to initialize voice interface
+[2016.11.11-02.16.37:518][ 11]LogNet: Login request: /Game/SteamMultiplayer/SteamMaps/MainMenu?Name=emprise-PC1-DA8D7FBA4FEBE4EE2653F5811D233763 userId: emprise-PC1-DA8D7FBA4FEBE4EE2653F5811D233763
+[2016.11.11-02.16.37:519][ 11]LogNet: Welcomed by server (Level: /Game/SteamMultiplayer/SteamMaps/UEDPIE_1_MainMenu, Game: /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C)
+[2016.11.11-02.16.37:519][ 11]LogLoad: LoadMap: 127.0.0.1//Game/SteamMultiplayer/SteamMaps/UEDPIE_1_MainMenu?game=/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C
+[2016.11.11-02.16.37:535][ 11]Cmd: MEM
+[2016.11.11-02.16.37:549][ 11]LogMemory: Platform Memory Stats for Windows
+[2016.11.11-02.16.37:549][ 11]LogMemory: Process Physical Memory: 1548.33 MB used, 1548.52 MB peak
+[2016.11.11-02.16.37:549][ 11]LogMemory: Process Virtual Memory: 2232.35 MB used, 2240.25 MB peak
+[2016.11.11-02.16.37:549][ 11]LogMemory: Physical Memory: 9892.12 MB used, 16334.92 MB total
+[2016.11.11-02.16.37:549][ 11]LogMemory: Virtual Memory: 2975.17 MB used, 8388608.00 MB total
+[2016.11.11-02.16.37:549][ 11]LogMemory: 
+[2016.11.11-02.16.37:549][ 11]Allocator Stats for TBB: (not implemented)
+[2016.11.11-02.16.37:550][ 11]LogWorld: PIE: Copying PIE streaming level from /Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu to /Game/SteamMultiplayer/SteamMaps/UEDPIE_2_MainMenu.MainMenu. OwningWorld: <null>
+[2016.11.11-02.16.37:550][ 11]LogAIModule: Creating AISystem for world MainMenu
+[2016.11.11-02.16.37:552][ 11]LogWorld: Bringing World /Game/SteamMultiplayer/SteamMaps/UEDPIE_2_MainMenu.MainMenu up for play (max tick rate 0) at 2016.11.11-11.16.37
+[2016.11.11-02.16.37:552][ 11]LogWorld: Bringing up level for play took: 0.000578
+[2016.11.11-02.16.37:552][ 11]LogLoad: Took 0.033023 seconds to LoadMap(/Game/SteamMultiplayer/SteamMaps/UEDPIE_1_MainMenu)
+[2016.11.11-02.16.37:665][ 12]LogNet: Client netspeed is 10000
+[2016.11.11-02.16.37:665][ 12]LogNet: Join request: /Game/SteamMultiplayer/SteamMaps/MainMenu?Name=emprise-PC1-DA8D7FBA4FEBE4EE2653F5811D233763?SplitscreenCount=1
+[2016.11.11-02.16.37:665][ 12]LogOnline:Warning: NULL: No game present to join for session (Game)
+[2016.11.11-02.16.37:665][ 12]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.11.11-02.16.37:667][ 12]LogNet: Join succeeded: emprise-PC1-DA8D7FBA
+[2016.11.11-02.16.37:667][ 12]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.225975 > MaxSimulationTimeStep (0.050) for 'ThirdPersonCharacter_C_1', movement 'Falling'
+[2016.11.11-02.16.37:689][ 14]LogOnline:Warning: NULL: No game present to join for session (Game)
+[2016.11.11-02.16.37:689][ 14]LogOnline:Warning: NULL: No game present to join for session (Game)
+[2016.11.11-02.16.41:240][220]LogGameMode:Display: Match State Changed from InProgress to LeavingMap
+[2016.11.11-02.16.41:240][220]LogGameState: Match State Changed from InProgress to LeavingMap
+[2016.11.11-02.16.41:240][220]LogNet: Browse: /Game/SteamMultiplayer/SteamMaps/Lobby?listen
+[2016.11.11-02.16.41:240][220]LogLoad: LoadMap: /Game/SteamMultiplayer/SteamMaps/Lobby?listen
+[2016.11.11-02.16.41:240][220]LogNet: World NetDriver shutdown IpNetDriver_8 [GameNetDriver]
+[2016.11.11-02.16.41:240][220]LogNet: DestroyNamedNetDriver IpNetDriver_8 [GameNetDriver]
+[2016.11.11-02.16.41:240][220]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 127.0.0.1:65477, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_8, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1
+[2016.11.11-02.16.41:240][220]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:65477, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_8, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, Channels: 10, Time: 2016.11.11-02.16.41
+[2016.11.11-02.16.41:240][220]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:65477, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_8, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1
+[2016.11.11-02.16.41:241][220]LogExit: GameNetDriver IpNetDriver_8 shut down
+[2016.11.11-02.16.41:268][220]Cmd: MEM
+[2016.11.11-02.16.41:281][220]LogMemory: Platform Memory Stats for Windows
+[2016.11.11-02.16.41:281][220]LogMemory: Process Physical Memory: 1547.36 MB used, 1551.37 MB peak
+[2016.11.11-02.16.41:281][220]LogMemory: Process Virtual Memory: 2226.15 MB used, 2277.63 MB peak
+[2016.11.11-02.16.41:281][220]LogMemory: Physical Memory: 9896.53 MB used, 16334.92 MB total
+[2016.11.11-02.16.41:281][220]LogMemory: Virtual Memory: 2969.16 MB used, 8388608.00 MB total
+[2016.11.11-02.16.41:281][220]LogMemory: 
+[2016.11.11-02.16.41:282][220]Allocator Stats for TBB: (not implemented)
+[2016.11.11-02.16.41:362][220]LogAIModule: Creating AISystem for world Lobby
+[2016.11.11-02.16.41:362][220]LogWorld: Game class is 'LobbyGM_C'
+[2016.11.11-02.16.41:362][220]LogInit: WinSock: Socket queue 131072 / 131072
+[2016.11.11-02.16.41:363][220]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2016.11.11-02.16.41:363][220]LogNet: GameNetDriver IpNetDriver_10 IpNetDriver listening on port 7777
+[2016.11.11-02.16.41:366][220]LogWorld: Bringing World /Game/SteamMultiplayer/SteamMaps/UEDPIE_1_Lobby.Lobby up for play (max tick rate 0) at 2016.11.11-11.16.41
+[2016.11.11-02.16.41:366][220]LogWorld: Bringing up level for play took: 0.002241
+[2016.11.11-02.16.41:370][220]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.11.11-02.16.41:370][220]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.11.11-02.16.41:370][220]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.11.11-02.16.41:370][220]LogOnline:Warning: NULL: Can't start an online session (Game) in state InProgress
+[2016.11.11-02.16.41:370][220]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.11.11-02.16.41:371][220]LogLoad: Took 0.130559 seconds to LoadMap(/Game/SteamMultiplayer/SteamMaps/Lobby)
+[2016.11.11-02.16.41:371][220]LogNet:Warning: Network Failure: GameNetDriver[FailureReceived]: Host closed the connection.
+[2016.11.11-02.16.41:371][220]LogNet:Warning: Network Failure: GameNetDriver[FailureReceived]: Host closed the connection.
+[2016.11.11-02.16.41:371][220]LogNet: NetworkFailure: FailureReceived, Error: 'Host closed the connection.'
+[2016.11.11-02.16.41:371][220]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_6, Driver: GameNetDriver IpNetDriver_9, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, Channels: 10, Time: 2016.11.11-02.16.41
+[2016.11.11-02.16.41:371][220]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_6, Driver: GameNetDriver IpNetDriver_9, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1
+[2016.11.11-02.16.41:371][220]LogNet:Warning: Network Failure: GameNetDriver[ConnectionLost]: Your connection to the host has been lost.
+[2016.11.11-02.16.41:371][220]LogNet:Warning: Network Failure: GameNetDriver[ConnectionLost]: Your connection to the host has been lost.
+[2016.11.11-02.16.41:371][220]LogNet: NetworkFailure: ConnectionLost, Error: 'Your connection to the host has been lost.'
+[2016.11.11-02.16.41:521][221]LogNet: Browse: /Game/SteamMultiplayer/SteamMaps/MainMenu?closed
+[2016.11.11-02.16.41:521][221]LogNet: Failed; returning to Entry
+[2016.11.11-02.16.41:521][221]LogLoad: LoadMap: /Game/SteamMultiplayer/SteamMaps/MainMenu?closed
+[2016.11.11-02.16.41:521][221]LogNet: World NetDriver shutdown IpNetDriver_9 [GameNetDriver]
+[2016.11.11-02.16.41:521][221]LogNet: DestroyNamedNetDriver IpNetDriver_9 [GameNetDriver]
+[2016.11.11-02.16.41:521][221]LogExit: GameNetDriver IpNetDriver_9 shut down
+[2016.11.11-02.16.41:536][221]Cmd: MEM
+[2016.11.11-02.16.41:550][221]LogMemory: Platform Memory Stats for Windows
+[2016.11.11-02.16.41:550][221]LogMemory: Process Physical Memory: 1555.05 MB used, 1557.47 MB peak
+[2016.11.11-02.16.41:550][221]LogMemory: Process Virtual Memory: 2305.48 MB used, 2307.92 MB peak
+[2016.11.11-02.16.41:550][221]LogMemory: Physical Memory: 9909.70 MB used, 16334.92 MB total
+[2016.11.11-02.16.41:550][221]LogMemory: Virtual Memory: 3048.52 MB used, 8388608.00 MB total
+[2016.11.11-02.16.41:550][221]LogMemory: 
+[2016.11.11-02.16.41:550][221]Allocator Stats for TBB: (not implemented)
+[2016.11.11-02.16.41:550][221]LogPlayLevel: Creating play world package: /Game/SteamMultiplayer/SteamMaps/UEDPIE_2_MainMenu
+[2016.11.11-02.16.41:551][221]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000842s)
+[2016.11.11-02.16.41:551][221]LogAIModule: Creating AISystem for world MainMenu
+[2016.11.11-02.16.41:551][221]LogPlayLevel: PIE: World Init took: (0.000488s)
+[2016.11.11-02.16.41:552][221]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu to /Game/SteamMultiplayer/SteamMaps/UEDPIE_2_MainMenu.MainMenu (0.001534s)
+[2016.11.11-02.16.41:552][221]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.11.11-02.16.41:553][221]LogWorld: Bringing World /Game/SteamMultiplayer/SteamMaps/UEDPIE_2_MainMenu.MainMenu up for play (max tick rate 0) at 2016.11.11-11.16.41
+[2016.11.11-02.16.41:553][221]LogWorld: Bringing up level for play took: 0.000581
+[2016.11.11-02.16.41:553][221]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.11.11-02.16.41:554][221]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.11.11-02.16.41:554][221]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.11.11-02.16.41:554][221]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.11.11-02.16.41:555][221]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.11.11-02.16.41:555][221]LogLoad: Took 0.034406 seconds to LoadMap(/Game/SteamMultiplayer/SteamMaps/UEDPIE_2_MainMenu)
+[2016.11.11-02.16.51:395][726]LogGameMode:Display: Match State Changed from InProgress to LeavingMap
+[2016.11.11-02.16.51:395][726]LogGameState: Match State Changed from InProgress to LeavingMap
+[2016.11.11-02.16.51:395][726]LogNet: Browse: 10.10.64.234//Game/SteamMultiplayer/SteamMaps/MainMenu
+[2016.11.11-02.16.51:395][726]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.11.11-02.16.51:396][726]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2016.11.11-02.16.51:396][726]LogNet: Game client on port 7777, rate 10000
+[2016.11.11-02.16.51:396][726]LogNet: UPendingNetGame::InitNetDriver: Sending hello. [UNetConnection] RemoteAddr: 10.10.64.234:7777, Name: IpConnection_8, Driver: PendingNetDriver IpNetDriver_11, IsServer: NO, PC: NULL, Owner: NULL
+[2016.11.11-02.17.05:413][452]LogScriptCore:Warning: Script Msg: DestroySession - Invalid player state
+[2016.11.11-02.17.05:413][452]LogScriptCore:Warning: 
+[2016.11.11-02.17.05:413][452]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.11.11-02.17.05:451][452]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.11.11-02.17.05:473][452]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.11.11-02.17.05:473][452]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2016.11.11-02.17.05:473][452]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.11.11-02.17.05:487][452]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 10.10.64.234:7777, Name: IpConnection_8, Driver: PendingNetDriver IpNetDriver_11, IsServer: NO, PC: NULL, Owner: NULL
+[2016.11.11-02.17.05:487][452]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 10.10.64.234:7777, Name: IpConnection_8, Driver: PendingNetDriver IpNetDriver_11, IsServer: NO, PC: NULL, Owner: NULL, Channels: 2, Time: 2016.11.11-02.17.05
+[2016.11.11-02.17.05:487][452]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 10.10.64.234:7777, Name: IpConnection_8, Driver: PendingNetDriver IpNetDriver_11, IsServer: NO, PC: NULL, Owner: NULL
+[2016.11.11-02.17.05:489][452]LogExit: PendingNetDriver None shut down
+[2016.11.11-02.17.05:489][452]LogExit: GameNetDriver None shut down
+[2016.11.11-02.17.05:630][453]LogPlayLevel:Display: Destroying online subsystem :Context_13
+[2016.11.11-02.17.05:630][453]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.11.11-02.17.05:630][453]LogPlayLevel:Display: Destroying online subsystem :Context_12
+[2016.11.11-02.17.05:631][453]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.11.11-02.18.43:485][968]BlueprintLog: New page: Compile GameInfoInstance
+[2016.11.11-02.18.44:763][ 85]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.11.11-02.18.44:764][ 85]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.11.11-02.18.44:770][ 85]PIE: New page: PIE session: MainMenu (Nov 11, 2016, 8:18:44 PM)
+[2016.11.11-02.18.44:810][ 85]LogPlayLevel: Creating play world package: /Game/SteamMultiplayer/SteamMaps/UEDPIE_1_MainMenu
+[2016.11.11-02.18.44:810][ 85]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000756s)
+[2016.11.11-02.18.44:811][ 85]LogAIModule: Creating AISystem for world MainMenu
+[2016.11.11-02.18.44:811][ 85]LogPlayLevel: PIE: World Init took: (0.000562s)
+[2016.11.11-02.18.44:811][ 85]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu to /Game/SteamMultiplayer/SteamMaps/UEDPIE_1_MainMenu.MainMenu (0.001521s)
+[2016.11.11-02.18.44:832][ 85]LogInit: XAudio2 using '스피커(2- Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.11.11-02.18.44:843][ 85]LogInit: FAudioDevice initialized.
+[2016.11.11-02.18.44:894][ 85]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.11.11-02.18.44:895][ 85]LogWorld: Bringing World /Game/SteamMultiplayer/SteamMaps/UEDPIE_1_MainMenu.MainMenu up for play (max tick rate 0) at 2016.11.11-11.18.44
+[2016.11.11-02.18.44:896][ 85]LogWorld: Bringing up level for play took: 0.000651
+[2016.11.11-02.18.44:906][ 85]LogVoice:Warning: Failed to initialize voice interface
+[2016.11.11-02.18.44:906][ 85]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.11.11-02.18.44:907][ 85]LogInit: WinSock: Socket queue 131072 / 131072
+[2016.11.11-02.18.44:907][ 85]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2016.11.11-02.18.44:907][ 85]LogNet: GameNetDriver IpNetDriver_12 IpNetDriver listening on port 7777
+[2016.11.11-02.18.44:907][ 85]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.11.11-02.18.44:907][ 85]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.11.11-02.18.44:907][ 85]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.11.11-02.18.44:909][ 85]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.11.11-02.18.44:913][ 85]PIE: Info Play in editor start time for /Game/SteamMultiplayer/SteamMaps/UEDPIE_1_MainMenu 0.215
+[2016.11.11-02.18.44:920][ 85]PIE: New page: PIE session: MainMenu (Nov 11, 2016, 8:18:44 PM)
+[2016.11.11-02.18.44:974][ 85]LogNet: Browse: 127.0.0.1//Game/SteamMultiplayer/SteamMaps/MainMenu
+[2016.11.11-02.18.44:974][ 85]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.11.11-02.18.44:974][ 85]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2016.11.11-02.18.44:975][ 85]LogNet: Game client on port 7777, rate 10000
+[2016.11.11-02.18.44:975][ 85]LogNet: UPendingNetGame::InitNetDriver: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_9, Driver: PendingNetDriver IpNetDriver_13, IsServer: NO, PC: NULL, Owner: NULL
+[2016.11.11-02.18.44:979][ 85]PIE: Info Play in editor start time for /Game/SteamMultiplayer/SteamMaps/MainMenu 0.281
+[2016.11.11-02.18.44:991][ 85]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.11.11-02.18.44:991][ 85]LogHandshake: SendConnectChallenge. Timestamp: 0.008334, Cookie: 077208098148167255057021245234199178218241206172191223049243
+[2016.11.11-02.18.44:992][ 85]LogHandshake: SendChallengeResponse. Timestamp: 0.008334, Cookie: 077208098148167255057021245234199178218241206172191223049243
+[2016.11.11-02.18.45:227][ 86]LogNet: Server accepting post-challenge connection from: 127.0.0.1:58178
+[2016.11.11-02.18.45:227][ 86]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2016.11.11-02.18.45:227][ 86]LogNet: NotifyAcceptedConnection: Name: MainMenu, TimeStamp: 11/11/16 11:18:45, [UNetConnection] RemoteAddr: 127.0.0.1:58178, Name: IpConnection_10, Driver: GameNetDriver IpNetDriver_12, IsServer: YES, PC: NULL, Owner: NULL
+[2016.11.11-02.18.45:227][ 86]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:58178, Name: IpConnection_10, Driver: GameNetDriver IpNetDriver_12, IsServer: YES, PC: NULL, Owner: NULL
+[2016.11.11-02.18.45:241][ 88]LogNet: NotifyAcceptingChannel Control 0 server World /Game/SteamMultiplayer/SteamMaps/UEDPIE_1_MainMenu.MainMenu: Accepted
+[2016.11.11-02.18.45:241][ 88]LogNet: Remote platform little endian=1
+[2016.11.11-02.18.45:241][ 88]LogNet: This platform little endian=1
+[2016.11.11-02.18.45:253][ 88]LogVoice:Warning: Failed to initialize voice interface
+[2016.11.11-02.18.45:258][ 89]LogNet: Login request: /Game/SteamMultiplayer/SteamMaps/MainMenu?Name=emprise-PC1-BE71D30545E54E1ED8668489D3C99377 userId: emprise-PC1-BE71D30545E54E1ED8668489D3C99377
+[2016.11.11-02.18.45:259][ 89]LogNet: Welcomed by server (Level: /Game/SteamMultiplayer/SteamMaps/UEDPIE_1_MainMenu, Game: /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C)
+[2016.11.11-02.18.45:260][ 89]LogLoad: LoadMap: 127.0.0.1//Game/SteamMultiplayer/SteamMaps/UEDPIE_1_MainMenu?game=/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C
+[2016.11.11-02.18.45:283][ 89]Cmd: MEM
+[2016.11.11-02.18.45:298][ 89]LogMemory: Platform Memory Stats for Windows
+[2016.11.11-02.18.45:298][ 89]LogMemory: Process Physical Memory: 1624.79 MB used, 1637.02 MB peak
+[2016.11.11-02.18.45:298][ 89]LogMemory: Process Virtual Memory: 2522.82 MB used, 2540.70 MB peak
+[2016.11.11-02.18.45:298][ 89]LogMemory: Physical Memory: 9977.89 MB used, 16334.92 MB total
+[2016.11.11-02.18.45:298][ 89]LogMemory: Virtual Memory: 3269.04 MB used, 8388608.00 MB total
+[2016.11.11-02.18.45:298][ 89]LogMemory: 
+[2016.11.11-02.18.45:298][ 89]Allocator Stats for TBB: (not implemented)
+[2016.11.11-02.18.45:299][ 89]LogWorld: PIE: Copying PIE streaming level from /Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu to /Game/SteamMultiplayer/SteamMaps/UEDPIE_2_MainMenu.MainMenu. OwningWorld: <null>
+[2016.11.11-02.18.45:300][ 89]LogAIModule: Creating AISystem for world MainMenu
+[2016.11.11-02.18.45:301][ 89]LogWorld: Bringing World /Game/SteamMultiplayer/SteamMaps/UEDPIE_2_MainMenu.MainMenu up for play (max tick rate 0) at 2016.11.11-11.18.45
+[2016.11.11-02.18.45:301][ 89]LogWorld: Bringing up level for play took: 0.000574
+[2016.11.11-02.18.45:301][ 89]LogLoad: Took 0.041789 seconds to LoadMap(/Game/SteamMultiplayer/SteamMaps/UEDPIE_1_MainMenu)
+[2016.11.11-02.18.45:545][ 90]LogNet: Client netspeed is 10000
+[2016.11.11-02.18.45:545][ 90]LogNet: Join request: /Game/SteamMultiplayer/SteamMaps/MainMenu?Name=emprise-PC1-BE71D30545E54E1ED8668489D3C99377?SplitscreenCount=1
+[2016.11.11-02.18.45:546][ 90]LogOnline:Warning: NULL: No game present to join for session (Game)
+[2016.11.11-02.18.45:546][ 90]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.11.11-02.18.45:547][ 90]LogNet: Join succeeded: emprise-PC1-BE71D305
+[2016.11.11-02.18.45:547][ 90]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.221214 > MaxSimulationTimeStep (0.050) for 'ThirdPersonCharacter_C_1', movement 'Falling'
+[2016.11.11-02.18.45:566][ 92]LogOnline:Warning: NULL: No game present to join for session (Game)
+[2016.11.11-02.18.45:566][ 92]LogOnline:Warning: NULL: No game present to join for session (Game)
+[2016.11.11-02.18.49:969][345]LogGameMode:Display: Match State Changed from InProgress to LeavingMap
+[2016.11.11-02.18.49:969][345]LogGameState: Match State Changed from InProgress to LeavingMap
+[2016.11.11-02.18.49:969][345]LogNet: Browse: /Game/SteamMultiplayer/SteamMaps/Lobby?listen
+[2016.11.11-02.18.49:970][345]LogLoad: LoadMap: /Game/SteamMultiplayer/SteamMaps/Lobby?listen
+[2016.11.11-02.18.49:970][345]LogNet: World NetDriver shutdown IpNetDriver_12 [GameNetDriver]
+[2016.11.11-02.18.49:970][345]LogNet: DestroyNamedNetDriver IpNetDriver_12 [GameNetDriver]
+[2016.11.11-02.18.49:970][345]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 127.0.0.1:58178, Name: IpConnection_10, Driver: GameNetDriver IpNetDriver_12, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1
+[2016.11.11-02.18.49:970][345]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:58178, Name: IpConnection_10, Driver: GameNetDriver IpNetDriver_12, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, Channels: 10, Time: 2016.11.11-02.18.49
+[2016.11.11-02.18.49:970][345]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:58178, Name: IpConnection_10, Driver: GameNetDriver IpNetDriver_12, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1
+[2016.11.11-02.18.49:970][345]LogExit: GameNetDriver IpNetDriver_12 shut down
+[2016.11.11-02.18.50:000][345]Cmd: MEM
+[2016.11.11-02.18.50:016][345]LogMemory: Platform Memory Stats for Windows
+[2016.11.11-02.18.50:016][345]LogMemory: Process Physical Memory: 1633.01 MB used, 1637.03 MB peak
+[2016.11.11-02.18.50:016][345]LogMemory: Process Virtual Memory: 2528.02 MB used, 2576.08 MB peak
+[2016.11.11-02.18.50:016][345]LogMemory: Physical Memory: 9982.11 MB used, 16334.92 MB total
+[2016.11.11-02.18.50:016][345]LogMemory: Virtual Memory: 3273.72 MB used, 8388608.00 MB total
+[2016.11.11-02.18.50:016][345]LogMemory: 
+[2016.11.11-02.18.50:016][345]Allocator Stats for TBB: (not implemented)
+[2016.11.11-02.18.50:097][345]LogAIModule: Creating AISystem for world Lobby
+[2016.11.11-02.18.50:097][345]LogWorld: Game class is 'LobbyGM_C'
+[2016.11.11-02.18.50:097][345]LogInit: WinSock: Socket queue 131072 / 131072
+[2016.11.11-02.18.50:098][345]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2016.11.11-02.18.50:098][345]LogNet: GameNetDriver IpNetDriver_14 IpNetDriver listening on port 7777
+[2016.11.11-02.18.50:100][345]LogWorld: Bringing World /Game/SteamMultiplayer/SteamMaps/UEDPIE_1_Lobby.Lobby up for play (max tick rate 0) at 2016.11.11-11.18.50
+[2016.11.11-02.18.50:101][345]LogWorld: Bringing up level for play took: 0.002072
+[2016.11.11-02.18.50:105][345]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.11.11-02.18.50:105][345]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.11.11-02.18.50:105][345]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.11.11-02.18.50:105][345]LogOnline:Warning: NULL: Can't start an online session (Game) in state InProgress
+[2016.11.11-02.18.50:105][345]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.11.11-02.18.50:105][345]LogLoad: Took 0.135620 seconds to LoadMap(/Game/SteamMultiplayer/SteamMaps/Lobby)
+[2016.11.11-02.18.50:106][345]LogNet:Warning: Network Failure: GameNetDriver[FailureReceived]: Host closed the connection.
+[2016.11.11-02.18.50:106][345]LogNet:Warning: Network Failure: GameNetDriver[FailureReceived]: Host closed the connection.
+[2016.11.11-02.18.50:106][345]LogNet: NetworkFailure: FailureReceived, Error: 'Host closed the connection.'
+[2016.11.11-02.18.50:106][345]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_9, Driver: GameNetDriver IpNetDriver_13, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, Channels: 10, Time: 2016.11.11-02.18.50
+[2016.11.11-02.18.50:106][345]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_9, Driver: GameNetDriver IpNetDriver_13, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1
+[2016.11.11-02.18.50:106][345]LogNet:Warning: Network Failure: GameNetDriver[ConnectionLost]: Your connection to the host has been lost.
+[2016.11.11-02.18.50:106][345]LogNet:Warning: Network Failure: GameNetDriver[ConnectionLost]: Your connection to the host has been lost.
+[2016.11.11-02.18.50:106][345]LogNet: NetworkFailure: ConnectionLost, Error: 'Your connection to the host has been lost.'
+[2016.11.11-02.18.50:394][346]LogNet: Browse: /Game/SteamMultiplayer/SteamMaps/MainMenu?closed
+[2016.11.11-02.18.50:394][346]LogNet: Failed; returning to Entry
+[2016.11.11-02.18.50:394][346]LogLoad: LoadMap: /Game/SteamMultiplayer/SteamMaps/MainMenu?closed
+[2016.11.11-02.18.50:394][346]LogNet: World NetDriver shutdown IpNetDriver_13 [GameNetDriver]
+[2016.11.11-02.18.50:394][346]LogNet: DestroyNamedNetDriver IpNetDriver_13 [GameNetDriver]
+[2016.11.11-02.18.50:394][346]LogExit: GameNetDriver IpNetDriver_13 shut down
+[2016.11.11-02.18.50:411][346]Cmd: MEM
+[2016.11.11-02.18.50:427][346]LogMemory: Platform Memory Stats for Windows
+[2016.11.11-02.18.50:427][346]LogMemory: Process Physical Memory: 1644.67 MB used, 1644.67 MB peak
+[2016.11.11-02.18.50:427][346]LogMemory: Process Virtual Memory: 2630.80 MB used, 2630.80 MB peak
+[2016.11.11-02.18.50:427][346]LogMemory: Physical Memory: 9990.00 MB used, 16334.92 MB total
+[2016.11.11-02.18.50:427][346]LogMemory: Virtual Memory: 3375.79 MB used, 8388608.00 MB total
+[2016.11.11-02.18.50:427][346]LogMemory: 
+[2016.11.11-02.18.50:427][346]Allocator Stats for TBB: (not implemented)
+[2016.11.11-02.18.50:427][346]LogPlayLevel: Creating play world package: /Game/SteamMultiplayer/SteamMaps/UEDPIE_2_MainMenu
+[2016.11.11-02.18.50:428][346]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000852s)
+[2016.11.11-02.18.50:428][346]LogAIModule: Creating AISystem for world MainMenu
+[2016.11.11-02.18.50:428][346]LogPlayLevel: PIE: World Init took: (0.000555s)
+[2016.11.11-02.18.50:428][346]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu to /Game/SteamMultiplayer/SteamMaps/UEDPIE_2_MainMenu.MainMenu (0.001611s)
+[2016.11.11-02.18.50:428][346]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.11.11-02.18.50:430][346]LogWorld: Bringing World /Game/SteamMultiplayer/SteamMaps/UEDPIE_2_MainMenu.MainMenu up for play (max tick rate 0) at 2016.11.11-11.18.50
+[2016.11.11-02.18.50:430][346]LogWorld: Bringing up level for play took: 0.000676
+[2016.11.11-02.18.50:430][346]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.11.11-02.18.50:430][346]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.11.11-02.18.50:430][346]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.11.11-02.18.50:430][346]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.11.11-02.18.50:432][346]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.11.11-02.18.50:432][346]LogLoad: Took 0.038302 seconds to LoadMap(/Game/SteamMultiplayer/SteamMaps/UEDPIE_2_MainMenu)
+[2016.11.11-02.18.59:596][796]LogBlueprintUserMessages: [GameInfoInstance_C_1] Show Loading Screen
+[2016.11.11-02.18.59:597][796]LogGameMode:Display: Match State Changed from InProgress to LeavingMap
+[2016.11.11-02.18.59:597][796]LogGameState: Match State Changed from InProgress to LeavingMap
+[2016.11.11-02.18.59:597][796]LogNet: Browse: 10.10.64.234//Game/SteamMultiplayer/SteamMaps/MainMenu
+[2016.11.11-02.18.59:598][796]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.11.11-02.18.59:598][796]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2016.11.11-02.18.59:598][796]LogNet: Game client on port 7777, rate 10000
+[2016.11.11-02.18.59:598][796]LogNet: UPendingNetGame::InitNetDriver: Sending hello. [UNetConnection] RemoteAddr: 10.10.64.234:7777, Name: IpConnection_11, Driver: PendingNetDriver IpNetDriver_15, IsServer: NO, PC: NULL, Owner: NULL
+[2016.11.11-02.19.03:285][981]LogScriptCore:Warning: Script Msg: DestroySession - Invalid player state
+[2016.11.11-02.19.03:285][981]LogScriptCore:Warning: 
+[2016.11.11-02.19.03:285][981]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.11.11-02.19.03:325][981]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.11.11-02.19.03:348][981]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.11.11-02.19.03:349][981]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2016.11.11-02.19.03:349][981]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.11.11-02.19.03:379][981]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 10.10.64.234:7777, Name: IpConnection_11, Driver: PendingNetDriver IpNetDriver_15, IsServer: NO, PC: NULL, Owner: NULL
+[2016.11.11-02.19.03:379][981]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 10.10.64.234:7777, Name: IpConnection_11, Driver: PendingNetDriver IpNetDriver_15, IsServer: NO, PC: NULL, Owner: NULL, Channels: 2, Time: 2016.11.11-02.19.03
+[2016.11.11-02.19.03:379][981]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 10.10.64.234:7777, Name: IpConnection_11, Driver: PendingNetDriver IpNetDriver_15, IsServer: NO, PC: NULL, Owner: NULL
+[2016.11.11-02.19.03:382][981]LogExit: PendingNetDriver None shut down
+[2016.11.11-02.19.03:382][981]LogExit: GameNetDriver None shut down
+[2016.11.11-02.19.03:760][982]LogPlayLevel:Display: Destroying online subsystem :Context_18
+[2016.11.11-02.19.03:760][982]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.11.11-02.19.03:760][982]LogPlayLevel:Display: Destroying online subsystem :Context_17
+[2016.11.11-02.19.03:760][982]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.11.11-02.19.32:849][394]BlueprintLog: New page: Compile GameInfoInstance
+[2016.11.11-02.19.33:604][413]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.11.11-02.19.33:604][413]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.11.11-02.19.33:610][413]PIE: New page: PIE session: MainMenu (Nov 11, 2016, 8:19:33 PM)
+[2016.11.11-02.19.33:651][413]LogPlayLevel: Creating play world package: /Game/SteamMultiplayer/SteamMaps/UEDPIE_1_MainMenu
+[2016.11.11-02.19.33:652][413]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000732s)
+[2016.11.11-02.19.33:652][413]LogAIModule: Creating AISystem for world MainMenu
+[2016.11.11-02.19.33:652][413]LogPlayLevel: PIE: World Init took: (0.000505s)
+[2016.11.11-02.19.33:652][413]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu to /Game/SteamMultiplayer/SteamMaps/UEDPIE_1_MainMenu.MainMenu (0.001405s)
+[2016.11.11-02.19.33:674][413]LogInit: XAudio2 using '스피커(2- Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.11.11-02.19.33:684][413]LogInit: FAudioDevice initialized.
+[2016.11.11-02.19.33:734][413]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.11.11-02.19.33:736][413]LogWorld: Bringing World /Game/SteamMultiplayer/SteamMaps/UEDPIE_1_MainMenu.MainMenu up for play (max tick rate 0) at 2016.11.11-11.19.33
+[2016.11.11-02.19.33:736][413]LogWorld: Bringing up level for play took: 0.000747
+[2016.11.11-02.19.33:747][413]LogVoice:Warning: Failed to initialize voice interface
+[2016.11.11-02.19.33:747][413]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.11.11-02.19.33:748][413]LogInit: WinSock: Socket queue 131072 / 131072
+[2016.11.11-02.19.33:748][413]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2016.11.11-02.19.33:748][413]LogNet: GameNetDriver IpNetDriver_16 IpNetDriver listening on port 7777
+[2016.11.11-02.19.33:748][413]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.11.11-02.19.33:748][413]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.11.11-02.19.33:748][413]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.11.11-02.19.33:750][413]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.11.11-02.19.33:755][413]PIE: Info Play in editor start time for /Game/SteamMultiplayer/SteamMaps/UEDPIE_1_MainMenu 1.058
+[2016.11.11-02.19.33:761][413]PIE: New page: PIE session: MainMenu (Nov 11, 2016, 8:19:33 PM)
+[2016.11.11-02.19.33:815][413]LogNet: Browse: 127.0.0.1//Game/SteamMultiplayer/SteamMaps/MainMenu
+[2016.11.11-02.19.33:815][413]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.11.11-02.19.33:815][413]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2016.11.11-02.19.33:815][413]LogNet: Game client on port 7777, rate 10000
+[2016.11.11-02.19.33:816][413]LogNet: UPendingNetGame::InitNetDriver: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_12, Driver: PendingNetDriver IpNetDriver_17, IsServer: NO, PC: NULL, Owner: NULL
+[2016.11.11-02.19.33:821][413]PIE: Info Play in editor start time for /Game/SteamMultiplayer/SteamMaps/MainMenu 1.125
+[2016.11.11-02.19.33:832][413]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.11.11-02.19.33:832][413]LogHandshake: SendConnectChallenge. Timestamp: 0.008334, Cookie: 151007070074150073027158035038118028081112028013103106044167
+[2016.11.11-02.19.33:833][413]LogHandshake: SendChallengeResponse. Timestamp: 0.008334, Cookie: 151007070074150073027158035038118028081112028013103106044167
+[2016.11.11-02.19.34:327][414]LogNet: Server accepting post-challenge connection from: 127.0.0.1:59136
+[2016.11.11-02.19.34:327][414]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2016.11.11-02.19.34:327][414]LogNet: NotifyAcceptedConnection: Name: MainMenu, TimeStamp: 11/11/16 11:19:34, [UNetConnection] RemoteAddr: 127.0.0.1:59136, Name: IpConnection_13, Driver: GameNetDriver IpNetDriver_16, IsServer: YES, PC: NULL, Owner: NULL
+[2016.11.11-02.19.34:327][414]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:59136, Name: IpConnection_13, Driver: GameNetDriver IpNetDriver_16, IsServer: YES, PC: NULL, Owner: NULL
+[2016.11.11-02.19.34:343][416]LogNet: NotifyAcceptingChannel Control 0 server World /Game/SteamMultiplayer/SteamMaps/UEDPIE_1_MainMenu.MainMenu: Accepted
+[2016.11.11-02.19.34:343][416]LogNet: Remote platform little endian=1
+[2016.11.11-02.19.34:343][416]LogNet: This platform little endian=1
+[2016.11.11-02.19.34:354][416]LogVoice:Warning: Failed to initialize voice interface
+[2016.11.11-02.19.34:360][417]LogNet: Login request: /Game/SteamMultiplayer/SteamMaps/MainMenu?Name=emprise-PC1-5E93E2984BFEFD9D9A3648B00D9914B1 userId: emprise-PC1-5E93E2984BFEFD9D9A3648B00D9914B1
+[2016.11.11-02.19.34:361][417]LogNet: Welcomed by server (Level: /Game/SteamMultiplayer/SteamMaps/UEDPIE_1_MainMenu, Game: /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C)
+[2016.11.11-02.19.34:361][417]LogLoad: LoadMap: 127.0.0.1//Game/SteamMultiplayer/SteamMaps/UEDPIE_1_MainMenu?game=/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C
+[2016.11.11-02.19.34:391][417]Cmd: MEM
+[2016.11.11-02.19.34:407][417]LogMemory: Platform Memory Stats for Windows
+[2016.11.11-02.19.34:407][417]LogMemory: Process Physical Memory: 1688.13 MB used, 1696.34 MB peak
+[2016.11.11-02.19.34:407][417]LogMemory: Process Virtual Memory: 2605.56 MB used, 2630.80 MB peak
+[2016.11.11-02.19.34:407][417]LogMemory: Physical Memory: 10086.13 MB used, 16334.92 MB total
+[2016.11.11-02.19.34:407][417]LogMemory: Virtual Memory: 3348.01 MB used, 8388608.00 MB total
+[2016.11.11-02.19.34:407][417]LogMemory: 
+[2016.11.11-02.19.34:407][417]Allocator Stats for TBB: (not implemented)
+[2016.11.11-02.19.34:408][417]LogWorld: PIE: Copying PIE streaming level from /Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu to /Game/SteamMultiplayer/SteamMaps/UEDPIE_2_MainMenu.MainMenu. OwningWorld: <null>
+[2016.11.11-02.19.34:408][417]LogAIModule: Creating AISystem for world MainMenu
+[2016.11.11-02.19.34:410][417]LogWorld: Bringing World /Game/SteamMultiplayer/SteamMaps/UEDPIE_2_MainMenu.MainMenu up for play (max tick rate 0) at 2016.11.11-11.19.34
+[2016.11.11-02.19.34:410][417]LogWorld: Bringing up level for play took: 0.000592
+[2016.11.11-02.19.34:410][417]LogLoad: Took 0.049618 seconds to LoadMap(/Game/SteamMultiplayer/SteamMaps/UEDPIE_1_MainMenu)
+[2016.11.11-02.19.34:874][418]LogNet: Client netspeed is 10000
+[2016.11.11-02.19.34:874][418]LogNet: Join request: /Game/SteamMultiplayer/SteamMaps/MainMenu?Name=emprise-PC1-5E93E2984BFEFD9D9A3648B00D9914B1?SplitscreenCount=1
+[2016.11.11-02.19.34:875][418]LogOnline:Warning: NULL: No game present to join for session (Game)
+[2016.11.11-02.19.34:875][418]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.11.11-02.19.34:876][418]LogNet: Join succeeded: emprise-PC1-5E93E298
+[2016.11.11-02.19.34:876][418]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.456652 > MaxSimulationTimeStep (0.050) for 'ThirdPersonCharacter_C_1', movement 'Falling'
+[2016.11.11-02.19.34:900][420]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.066626 > MaxSimulationTimeStep (0.050) for 'ThirdPersonCharacter_C_1', movement 'Falling'
+[2016.11.11-02.19.34:902][420]LogOnline:Warning: NULL: No game present to join for session (Game)
+[2016.11.11-02.19.34:902][420]LogOnline:Warning: NULL: No game present to join for session (Game)
+[2016.11.11-02.19.37:047][539]LogGameMode:Display: Match State Changed from InProgress to LeavingMap
+[2016.11.11-02.19.37:047][539]LogGameState: Match State Changed from InProgress to LeavingMap
+[2016.11.11-02.19.37:047][539]LogNet: Browse: /Game/SteamMultiplayer/SteamMaps/Lobby?listen
+[2016.11.11-02.19.37:047][539]LogLoad: LoadMap: /Game/SteamMultiplayer/SteamMaps/Lobby?listen
+[2016.11.11-02.19.37:047][539]LogNet: World NetDriver shutdown IpNetDriver_16 [GameNetDriver]
+[2016.11.11-02.19.37:047][539]LogNet: DestroyNamedNetDriver IpNetDriver_16 [GameNetDriver]
+[2016.11.11-02.19.37:048][539]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 127.0.0.1:59136, Name: IpConnection_13, Driver: GameNetDriver IpNetDriver_16, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1
+[2016.11.11-02.19.37:048][539]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:59136, Name: IpConnection_13, Driver: GameNetDriver IpNetDriver_16, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, Channels: 10, Time: 2016.11.11-02.19.37
+[2016.11.11-02.19.37:048][539]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:59136, Name: IpConnection_13, Driver: GameNetDriver IpNetDriver_16, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1
+[2016.11.11-02.19.37:048][539]LogExit: GameNetDriver IpNetDriver_16 shut down
+[2016.11.11-02.19.37:076][539]Cmd: MEM
+[2016.11.11-02.19.37:091][539]LogMemory: Platform Memory Stats for Windows
+[2016.11.11-02.19.37:091][539]LogMemory: Process Physical Memory: 1706.66 MB used, 1706.66 MB peak
+[2016.11.11-02.19.37:091][539]LogMemory: Process Virtual Memory: 2621.89 MB used, 2661.64 MB peak
+[2016.11.11-02.19.37:091][539]LogMemory: Physical Memory: 10103.84 MB used, 16334.92 MB total
+[2016.11.11-02.19.37:091][539]LogMemory: Virtual Memory: 3363.58 MB used, 8388608.00 MB total
+[2016.11.11-02.19.37:091][539]LogMemory: 
+[2016.11.11-02.19.37:091][539]Allocator Stats for TBB: (not implemented)
+[2016.11.11-02.19.37:172][539]LogAIModule: Creating AISystem for world Lobby
+[2016.11.11-02.19.37:172][539]LogWorld: Game class is 'LobbyGM_C'
+[2016.11.11-02.19.37:173][539]LogInit: WinSock: Socket queue 131072 / 131072
+[2016.11.11-02.19.37:173][539]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2016.11.11-02.19.37:173][539]LogNet: GameNetDriver IpNetDriver_18 IpNetDriver listening on port 7777
+[2016.11.11-02.19.37:176][539]LogWorld: Bringing World /Game/SteamMultiplayer/SteamMaps/UEDPIE_1_Lobby.Lobby up for play (max tick rate 0) at 2016.11.11-11.19.37
+[2016.11.11-02.19.37:176][539]LogWorld: Bringing up level for play took: 0.002107
+[2016.11.11-02.19.37:180][539]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.11.11-02.19.37:180][539]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.11.11-02.19.37:180][539]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.11.11-02.19.37:181][539]LogOnline:Warning: NULL: Can't start an online session (Game) in state InProgress
+[2016.11.11-02.19.37:181][539]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.11.11-02.19.37:181][539]LogLoad: Took 0.133688 seconds to LoadMap(/Game/SteamMultiplayer/SteamMaps/Lobby)
+[2016.11.11-02.19.37:181][539]LogNet:Warning: Network Failure: GameNetDriver[FailureReceived]: Host closed the connection.
+[2016.11.11-02.19.37:181][539]LogNet:Warning: Network Failure: GameNetDriver[FailureReceived]: Host closed the connection.
+[2016.11.11-02.19.37:181][539]LogNet: NetworkFailure: FailureReceived, Error: 'Host closed the connection.'
+[2016.11.11-02.19.37:181][539]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_12, Driver: GameNetDriver IpNetDriver_17, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, Channels: 10, Time: 2016.11.11-02.19.37
+[2016.11.11-02.19.37:181][539]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_12, Driver: GameNetDriver IpNetDriver_17, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1
+[2016.11.11-02.19.37:181][539]LogNet:Warning: Network Failure: GameNetDriver[ConnectionLost]: Your connection to the host has been lost.
+[2016.11.11-02.19.37:182][539]LogNet:Warning: Network Failure: GameNetDriver[ConnectionLost]: Your connection to the host has been lost.
+[2016.11.11-02.19.37:182][539]LogNet: NetworkFailure: ConnectionLost, Error: 'Your connection to the host has been lost.'
+[2016.11.11-02.19.37:686][540]LogNet: Browse: /Game/SteamMultiplayer/SteamMaps/MainMenu?closed
+[2016.11.11-02.19.37:686][540]LogNet: Failed; returning to Entry
+[2016.11.11-02.19.37:686][540]LogLoad: LoadMap: /Game/SteamMultiplayer/SteamMaps/MainMenu?closed
+[2016.11.11-02.19.37:686][540]LogNet: World NetDriver shutdown IpNetDriver_17 [GameNetDriver]
+[2016.11.11-02.19.37:686][540]LogNet: DestroyNamedNetDriver IpNetDriver_17 [GameNetDriver]
+[2016.11.11-02.19.37:686][540]LogExit: GameNetDriver IpNetDriver_17 shut down
+[2016.11.11-02.19.37:705][540]Cmd: MEM
+[2016.11.11-02.19.37:721][540]LogMemory: Platform Memory Stats for Windows
+[2016.11.11-02.19.37:721][540]LogMemory: Process Physical Memory: 1724.87 MB used, 1724.88 MB peak
+[2016.11.11-02.19.37:721][540]LogMemory: Process Virtual Memory: 2695.83 MB used, 2695.83 MB peak
+[2016.11.11-02.19.37:721][540]LogMemory: Physical Memory: 10127.54 MB used, 16334.92 MB total
+[2016.11.11-02.19.37:721][540]LogMemory: Virtual Memory: 3436.95 MB used, 8388608.00 MB total
+[2016.11.11-02.19.37:721][540]LogMemory: 
+[2016.11.11-02.19.37:721][540]Allocator Stats for TBB: (not implemented)
+[2016.11.11-02.19.37:721][540]LogPlayLevel: Creating play world package: /Game/SteamMultiplayer/SteamMaps/UEDPIE_2_MainMenu
+[2016.11.11-02.19.37:722][540]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000884s)
+[2016.11.11-02.19.37:723][540]LogAIModule: Creating AISystem for world MainMenu
+[2016.11.11-02.19.37:723][540]LogPlayLevel: PIE: World Init took: (0.000513s)
+[2016.11.11-02.19.37:723][540]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu to /Game/SteamMultiplayer/SteamMaps/UEDPIE_2_MainMenu.MainMenu (0.001588s)
+[2016.11.11-02.19.37:723][540]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.11.11-02.19.37:724][540]LogWorld: Bringing World /Game/SteamMultiplayer/SteamMaps/UEDPIE_2_MainMenu.MainMenu up for play (max tick rate 0) at 2016.11.11-11.19.37
+[2016.11.11-02.19.37:724][540]LogWorld: Bringing up level for play took: 0.000784
+[2016.11.11-02.19.37:725][540]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.11.11-02.19.37:725][540]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.11.11-02.19.37:725][540]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.11.11-02.19.37:725][540]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.11.11-02.19.37:726][540]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.11.11-02.19.37:727][540]LogLoad: Took 0.040148 seconds to LoadMap(/Game/SteamMultiplayer/SteamMaps/UEDPIE_2_MainMenu)
+[2016.11.11-02.19.45:687][932]LogBlueprintUserMessages: [GameInfoInstance_C_1] Show Loading Screen
+[2016.11.11-02.19.45:687][932]LogBlueprintUserMessages: [GameInfoInstance_C_1] Join Session
+[2016.11.11-02.19.45:689][932]LogGameMode:Display: Match State Changed from InProgress to LeavingMap
+[2016.11.11-02.19.45:689][932]LogGameState: Match State Changed from InProgress to LeavingMap
+[2016.11.11-02.19.45:689][932]LogNet: Browse: 10.10.64.234//Game/SteamMultiplayer/SteamMaps/MainMenu
+[2016.11.11-02.19.45:689][932]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.11.11-02.19.45:690][932]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2016.11.11-02.19.45:690][932]LogNet: Game client on port 7777, rate 10000
+[2016.11.11-02.19.45:690][932]LogNet: UPendingNetGame::InitNetDriver: Sending hello. [UNetConnection] RemoteAddr: 10.10.64.234:7777, Name: IpConnection_14, Driver: PendingNetDriver IpNetDriver_19, IsServer: NO, PC: NULL, Owner: NULL
+[2016.11.11-02.19.54:180][389]LogScriptCore:Warning: Script Msg: DestroySession - Invalid player state
+[2016.11.11-02.19.54:180][389]LogScriptCore:Warning: 
+[2016.11.11-02.19.54:180][389]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.11.11-02.19.54:219][389]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.11.11-02.19.54:242][389]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.11.11-02.19.54:242][389]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2016.11.11-02.19.54:243][389]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/SteamMultiplayer/SteamMaps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.11.11-02.19.54:264][389]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 10.10.64.234:7777, Name: IpConnection_14, Driver: PendingNetDriver IpNetDriver_19, IsServer: NO, PC: NULL, Owner: NULL
+[2016.11.11-02.19.54:264][389]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 10.10.64.234:7777, Name: IpConnection_14, Driver: PendingNetDriver IpNetDriver_19, IsServer: NO, PC: NULL, Owner: NULL, Channels: 2, Time: 2016.11.11-02.19.54
+[2016.11.11-02.19.54:264][389]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 10.10.64.234:7777, Name: IpConnection_14, Driver: PendingNetDriver IpNetDriver_19, IsServer: NO, PC: NULL, Owner: NULL
+[2016.11.11-02.19.54:266][389]LogExit: PendingNetDriver None shut down
+[2016.11.11-02.19.54:266][389]LogExit: GameNetDriver None shut down
+[2016.11.11-02.19.54:917][390]LogPlayLevel:Display: Destroying online subsystem :Context_20
+[2016.11.11-02.19.54:918][390]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.11.11-02.19.54:918][390]LogPlayLevel:Display: Destroying online subsystem :Context_19
+[2016.11.11-02.19.54:918][390]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.11.11-02.21.02:145][127]LogSavePackage: Save=41.08ms
+[2016.11.11-02.21.02:145][127]LogSavePackage: Moving 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Saved/GameInfoInstanceEAF3A4014120F9604713FC9616A109DD.tmp' to 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Content/SteamMultiplayer/SteamBluprints/AllLevels/GameInfoInstance.uasset'
+[2016.11.11-02.21.02:149][127]LogSavePackage:Display: Finished SavePackage D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Content/SteamMultiplayer/SteamBluprints/AllLevels/GameInfoInstance.uasset
+[2016.11.11-02.21.02:151][127]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SteamMultiplayer/SteamUI/Lobby/LobbyMenu" FILE="D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Content/SteamMultiplayer/SteamUI/Lobby/LobbyMenu.uasset" SILENT=true
+[2016.11.11-02.21.02:210][127]LogSavePackage: Save=52.97ms
+[2016.11.11-02.21.02:210][127]LogSavePackage: Moving 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Saved/LobbyMenuCB869C094C0A7EECA5097CA777C9155F.tmp' to 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Content/SteamMultiplayer/SteamUI/Lobby/LobbyMenu.uasset'
+[2016.11.11-02.21.02:224][127]LogSavePackage:Display: Finished SavePackage D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Content/SteamMultiplayer/SteamUI/Lobby/LobbyMenu.uasset
+[2016.11.11-02.21.02:552][127]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.11.11-02.21.02:849][128]Cmd: QUIT_EDITOR
+[2016.11.11-02.21.03:038][128]LogExit: Preparing to exit.
+[2016.11.11-02.21.03:603][128]LogExit: Editor shut down
+[2016.11.11-02.21.03:604][128]LogExit: Transaction tracking system shut down
+[2016.11.11-02.21.03:761][128]LogObj: Freed 0b from 0 cluster array pools.
+[2016.11.11-02.21.03:761][128]LogExit: Object subsystem successfully closed.
+[2016.11.11-02.21.03:775][128]LogD3D11RHI: Shutdown
+[2016.11.11-02.21.03:775][128]LogD3D11RHI: CleanupD3DDevice
+[2016.11.11-02.21.03:818][128]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.11.11-02.21.03:837][128]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (239)
+[2016.11.11-02.21.03:837][128]LogModuleManager: Shutting down and abandoning module SequencerWidgets (238)
+[2016.11.11-02.21.03:837][128]LogModuleManager: Shutting down and abandoning module BlueprintGraph (237)
+[2016.11.11-02.21.03:837][128]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (236)
+[2016.11.11-02.21.03:837][128]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (235)
+[2016.11.11-02.21.03:837][128]LogModuleManager: Shutting down and abandoning module CrashTracker (234)
+[2016.11.11-02.21.03:838][128]LogModuleManager: Shutting down and abandoning module SceneOutliner (233)
+[2016.11.11-02.21.03:838][128]LogModuleManager: Shutting down and abandoning module WidgetCarousel (232)
+[2016.11.11-02.21.03:838][128]LogModuleManager: Shutting down and abandoning module AddContentDialog (231)
+[2016.11.11-02.21.03:838][128]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/4.13/FeaturePacks/' was aborted.
+[2016.11.11-02.21.03:838][128]LogModuleManager: Shutting down and abandoning module GameplayTags (230)
+[2016.11.11-02.21.03:838][128]LogModuleManager: Shutting down and abandoning module EditorWidgets (229)
+[2016.11.11-02.21.03:838][128]LogModuleManager: Shutting down and abandoning module CollectionManager (228)
+[2016.11.11-02.21.03:838][128]LogDirectoryWatcher: A directory notification for 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Content/Collections/' was aborted.
+[2016.11.11-02.21.03:838][128]LogDirectoryWatcher: A directory notification for 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Content/Developers/EMPRISE/Collections/' was aborted.
+[2016.11.11-02.21.03:838][128]LogDirectoryWatcher: A directory notification for 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Saved/Collections/' was aborted.
+[2016.11.11-02.21.03:839][128]LogModuleManager: Shutting down and abandoning module StatsViewer (227)
+[2016.11.11-02.21.03:839][128]LogModuleManager: Shutting down and abandoning module FoliageEdit (226)
+[2016.11.11-02.21.03:839][128]LogModuleManager: Shutting down and abandoning module LandscapeEditor (225)
+[2016.11.11-02.21.03:839][128]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (224)
+[2016.11.11-02.21.03:839][128]LogModuleManager: Shutting down and abandoning module ActorPickerMode (223)
+[2016.11.11-02.21.03:839][128]LogModuleManager: Shutting down and abandoning module GeometryMode (222)
+[2016.11.11-02.21.03:839][128]LogModuleManager: Shutting down and abandoning module TextureAlignMode (221)
+[2016.11.11-02.21.03:839][128]LogModuleManager: Shutting down and abandoning module BspMode (220)
+[2016.11.11-02.21.03:839][128]LogModuleManager: Shutting down and abandoning module HardwareSurvey (219)
+[2016.11.11-02.21.03:839][128]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (218)
+[2016.11.11-02.21.03:839][128]LogModuleManager: Shutting down and abandoning module SequenceRecorder (217)
+[2016.11.11-02.21.03:839][128]LogModuleManager: Shutting down and abandoning module AutomationWorker (216)
+[2016.11.11-02.21.03:839][128]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (215)
+[2016.11.11-02.21.03:839][128]LogModuleManager: Shutting down and abandoning module PlacementMode (214)
+[2016.11.11-02.21.03:839][128]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (213)
+[2016.11.11-02.21.03:839][128]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (212)
+[2016.11.11-02.21.03:839][128]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (211)
+[2016.11.11-02.21.03:839][128]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (210)
+[2016.11.11-02.21.03:839][128]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (209)
+[2016.11.11-02.21.03:839][128]LogModuleManager: Shutting down and abandoning module Media (208)
+[2016.11.11-02.21.03:839][128]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (207)
+[2016.11.11-02.21.03:839][128]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (206)
+[2016.11.11-02.21.03:839][128]LogModuleManager: Shutting down and abandoning module CharacterAI (205)
+[2016.11.11-02.21.03:839][128]LogModuleManager: Shutting down and abandoning module SmartSnapping (204)
+[2016.11.11-02.21.03:839][128]LogModuleManager: Shutting down and abandoning module SessionServices (203)
+[2016.11.11-02.21.03:839][128]LogModuleManager: Shutting down and abandoning module ViewportSnapping (202)
+[2016.11.11-02.21.03:839][128]LogModuleManager: Shutting down and abandoning module ViewportInteraction (201)
+[2016.11.11-02.21.03:839][128]LogModuleManager: Shutting down and abandoning module LogVisualizer (200)
+[2016.11.11-02.21.03:839][128]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (199)
+[2016.11.11-02.21.03:839][128]LogModuleManager: Shutting down and abandoning module IntroTutorials (198)
+[2016.11.11-02.21.03:839][128]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (197)
+[2016.11.11-02.21.03:839][128]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (196)
+[2016.11.11-02.21.03:840][128]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (195)
+[2016.11.11-02.21.03:840][128]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (194)
+[2016.11.11-02.21.04:419][128]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (193)
+[2016.11.11-02.21.04:419][128]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (192)
+[2016.11.11-02.21.04:419][128]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (191)
+[2016.11.11-02.21.04:419][128]LogModuleManager: Shutting down and abandoning module NiagaraEditor (190)
+[2016.11.11-02.21.04:419][128]LogModuleManager: Shutting down and abandoning module MergeActors (189)
+[2016.11.11-02.21.04:419][128]LogModuleManager: Shutting down and abandoning module SizeMap (188)
+[2016.11.11-02.21.04:419][128]LogModuleManager: Shutting down and abandoning module TreeMap (187)
+[2016.11.11-02.21.04:419][128]LogModuleManager: Shutting down and abandoning module ReferenceViewer (186)
+[2016.11.11-02.21.04:419][128]LogModuleManager: Shutting down and abandoning module LocalizationService (185)
+[2016.11.11-02.21.04:419][128]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (184)
+[2016.11.11-02.21.04:419][128]LogModuleManager: Shutting down and abandoning module HardwareTargeting (183)
+[2016.11.11-02.21.04:419][128]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (182)
+[2016.11.11-02.21.04:419][128]LogModuleManager: Shutting down and abandoning module UndoHistory (181)
+[2016.11.11-02.21.04:419][128]LogModuleManager: Shutting down and abandoning module UserFeedback (180)
+[2016.11.11-02.21.04:419][128]LogModuleManager: Shutting down and abandoning module XmlParser (179)
+[2016.11.11-02.21.04:420][128]LogModuleManager: Shutting down and abandoning module Blutility (178)
+[2016.11.11-02.21.04:421][128]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (177)
+[2016.11.11-02.21.04:421][128]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (176)
+[2016.11.11-02.21.04:421][128]LogModuleManager: Shutting down and abandoning module InputBindingEditor (175)
+[2016.11.11-02.21.04:421][128]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (174)
+[2016.11.11-02.21.04:421][128]LogModuleManager: Shutting down and abandoning module SettingsEditor (173)
+[2016.11.11-02.21.04:421][128]LogModuleManager: Shutting down and abandoning module ProjectLauncher (172)
+[2016.11.11-02.21.04:421][128]LogModuleManager: Shutting down and abandoning module SessionFrontend (171)
+[2016.11.11-02.21.04:421][128]LogModuleManager: Shutting down and abandoning module ProfilerClient (170)
+[2016.11.11-02.21.04:421][128]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (169)
+[2016.11.11-02.21.04:421][128]LogModuleManager: Shutting down and abandoning module DeviceManager (168)
+[2016.11.11-02.21.04:477][128]LogModuleManager: Shutting down and abandoning module AutomationController (167)
+[2016.11.11-02.21.04:477][128]LogModuleManager: Shutting down and abandoning module AutomationWindow (166)
+[2016.11.11-02.21.04:477][128]LogModuleManager: Shutting down and abandoning module Layers (165)
+[2016.11.11-02.21.04:477][128]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (164)
+[2016.11.11-02.21.04:477][128]LogModuleManager: Shutting down and abandoning module DetailCustomizations (163)
+[2016.11.11-02.21.04:477][128]LogModuleManager: Shutting down and abandoning module PackagesDialog (162)
+[2016.11.11-02.21.04:477][128]LogModuleManager: Shutting down and abandoning module AnimGraph (161)
+[2016.11.11-02.21.04:477][128]LogModuleManager: Shutting down and abandoning module Persona (160)
+[2016.11.11-02.21.04:477][128]LogModuleManager: Shutting down and abandoning module Kismet (159)
+[2016.11.11-02.21.04:482][128]LogModuleManager: Shutting down and abandoning module GraphEditor (158)
+[2016.11.11-02.21.04:482][128]LogModuleManager: Shutting down and abandoning module ClassViewer (157)
+[2016.11.11-02.21.04:483][128]LogModuleManager: Shutting down and abandoning module Toolbox (156)
+[2016.11.11-02.21.04:484][128]LogModuleManager: Shutting down and abandoning module ModuleUI (155)
+[2016.11.11-02.21.04:484][128]LogModuleManager: Shutting down and abandoning module MovieSceneTools (154)
+[2016.11.11-02.21.04:484][128]LogModuleManager: Shutting down and abandoning module OutputLog (153)
+[2016.11.11-02.21.04:484][128]LogModuleManager: Shutting down and abandoning module GammaUI (152)
+[2016.11.11-02.21.04:484][128]LogModuleManager: Shutting down and abandoning module Documentation (151)
+[2016.11.11-02.21.04:484][128]LogModuleManager: Shutting down and abandoning module Niagara (150)
+[2016.11.11-02.21.04:484][128]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (149)
+[2016.11.11-02.21.04:484][128]LogModuleManager: Shutting down and abandoning module AnalyticsET (148)
+[2016.11.11-02.21.04:484][128]LogModuleManager: Shutting down and abandoning module PortalServices (147)
+[2016.11.11-02.21.04:484][128]LogModuleManager: Shutting down and abandoning module PortalRpc (146)
+[2016.11.11-02.21.04:484][128]LogModuleManager: Shutting down and abandoning module MessagingRpc (145)
+[2016.11.11-02.21.04:484][128]LogModuleManager: Shutting down and abandoning module GameplayDebugger (144)
+[2016.11.11-02.21.04:484][128]LogModuleManager: Shutting down and abandoning module AITestSuite (143)
+[2016.11.11-02.21.04:484][128]LogModuleManager: Shutting down and abandoning module AIModule (142)
+[2016.11.11-02.21.04:484][128]LogModuleManager: Shutting down and abandoning module ProfilerService (141)
+[2016.11.11-02.21.04:603][128]LogModuleManager: Shutting down and abandoning module TaskGraph (140)
+[2016.11.11-02.21.04:603][128]LogModuleManager: Shutting down and abandoning module SlateRemote (139)
+[2016.11.11-02.21.04:603][128]LogModuleManager: Shutting down and abandoning module SteamVRController (138)
+[2016.11.11-02.21.04:603][128]LogModuleManager: Shutting down and abandoning module SteamVR (137)
+[2016.11.11-02.21.04:603][128]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (136)
+[2016.11.11-02.21.04:603][128]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (135)
+[2016.11.11-02.21.04:603][128]LogModuleManager: Shutting down and abandoning module OculusLibrary (134)
+[2016.11.11-02.21.04:603][128]LogModuleManager: Shutting down and abandoning module OculusInput (133)
+[2016.11.11-02.21.04:603][128]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (132)
+[2016.11.11-02.21.04:603][128]LogModuleManager: Shutting down and abandoning module CableComponent (131)
+[2016.11.11-02.21.04:603][128]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (130)
+[2016.11.11-02.21.04:603][128]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (129)
+[2016.11.11-02.21.04:603][128]LogModuleManager: Shutting down and abandoning module HTML5Networking (128)
+[2016.11.11-02.21.04:603][128]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (127)
+[2016.11.11-02.21.04:603][128]LogModuleManager: Shutting down and abandoning module GeometryCache (126)
+[2016.11.11-02.21.04:603][128]LogModuleManager: Shutting down and abandoning module AlembicLibrary (125)
+[2016.11.11-02.21.04:603][128]LogModuleManager: Shutting down and abandoning module AlembicImporter (124)
+[2016.11.11-02.21.04:603][128]LogModuleManager: Shutting down and abandoning module SuperSearch (123)
+[2016.11.11-02.21.04:603][128]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (122)
+[2016.11.11-02.21.04:603][128]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (121)
+[2016.11.11-02.21.04:603][128]LogModuleManager: Shutting down and abandoning module PluginBrowser (120)
+[2016.11.11-02.21.04:603][128]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (119)
+[2016.11.11-02.21.04:603][128]LogModuleManager: Shutting down and abandoning module EpicSurvey (118)
+[2016.11.11-02.21.04:603][128]LogModuleManager: Shutting down and abandoning module DesktopPlatform (117)
+[2016.11.11-02.21.04:603][128]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (116)
+[2016.11.11-02.21.04:603][128]LogModuleManager: Shutting down and abandoning module UObjectPlugin (115)
+[2016.11.11-02.21.04:603][128]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (114)
+[2016.11.11-02.21.04:603][128]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (113)
+[2016.11.11-02.21.04:603][128]LogModuleManager: Shutting down and abandoning module SourceControl (112)
+[2016.11.11-02.21.04:603][128]LogModuleManager: Shutting down and abandoning module GitSourceControl (111)
+[2016.11.11-02.21.04:605][128]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (110)
+[2016.11.11-02.21.04:605][128]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (109)
+[2016.11.11-02.21.04:605][128]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (108)
+[2016.11.11-02.21.04:605][128]LogModuleManager: Shutting down and abandoning module MeshPaint (107)
+[2016.11.11-02.21.04:605][128]LogModuleManager: Shutting down and abandoning module FbxAutomationBuilderModule (106)
+[2016.11.11-02.21.04:605][128]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (105)
+[2016.11.11-02.21.04:605][128]LogModuleManager: Shutting down and abandoning module HotReload (104)
+[2016.11.11-02.21.04:605][128]LogDirectoryWatcher: A directory notification for 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Binaries/Win64' was aborted.
+[2016.11.11-02.21.04:606][128]LogModuleManager: Shutting down and abandoning module MainFrame (103)
+[2016.11.11-02.21.04:606][128]LogModuleManager: Shutting down and abandoning module LevelEditor (102)
+[2016.11.11-02.21.04:607][128]LogModuleManager: Shutting down and abandoning module ContentBrowser (101)
+[2016.11.11-02.21.04:609][128]LogModuleManager: Shutting down and abandoning module Paper2DEditor (100)
+[2016.11.11-02.21.04:609][128]LogModuleManager: Shutting down and abandoning module UdpMessaging (99)
+[2016.11.11-02.21.04:709][128]LogModuleManager: Shutting down and abandoning module TcpMessaging (98)
+[2016.11.11-02.21.04:811][128]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (97)
+[2016.11.11-02.21.04:811][128]LogModuleManager: Shutting down and abandoning module Paper2D (96)
+[2016.11.11-02.21.04:811][128]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (95)
+[2016.11.11-02.21.04:811][128]LogModuleManager: Shutting down and abandoning module WmfMedia (94)
+[2016.11.11-02.21.04:811][128]LogModuleManager: Shutting down and abandoning module MediaAssets (93)
+[2016.11.11-02.21.04:811][128]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (92)
+[2016.11.11-02.21.04:811][128]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (91)
+[2016.11.11-02.21.04:811][128]LogModuleManager: Shutting down and abandoning module VREditor (90)
+[2016.11.11-02.21.04:811][128]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (89)
+[2016.11.11-02.21.04:811][128]LogModuleManager: Shutting down and abandoning module PropertyEditor (88)
+[2016.11.11-02.21.04:812][128]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (87)
+[2016.11.11-02.21.04:812][128]LogModuleManager: Shutting down and abandoning module FunctionalTesting (86)
+[2016.11.11-02.21.04:812][128]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (85)
+[2016.11.11-02.21.04:812][128]LogModuleManager: Shutting down and abandoning module Sequencer (84)
+[2016.11.11-02.21.04:812][128]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (83)
+[2016.11.11-02.21.04:812][128]LogModuleManager: Shutting down and abandoning module MessageLog (82)
+[2016.11.11-02.21.04:812][128]LogModuleManager: Shutting down and abandoning module AssetTools (81)
+[2016.11.11-02.21.04:812][128]LogModuleManager: Shutting down and abandoning module UMGEditor (80)
+[2016.11.11-02.21.04:812][128]LogModuleManager: Shutting down and abandoning module UMG (79)
+[2016.11.11-02.21.04:812][128]LogModuleManager: Shutting down and abandoning module SlateReflector (78)
+[2016.11.11-02.21.04:812][128]LogModuleManager: Shutting down and abandoning module Slate (77)
+[2016.11.11-02.21.04:812][128]LogModuleManager: Shutting down and abandoning module EditorStyle (76)
+[2016.11.11-02.21.04:817][128]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (75)
+[2016.11.11-02.21.04:817][128]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (74)
+[2016.11.11-02.21.04:817][128]LogModuleManager: Shutting down and abandoning module XAudio2 (73)
+[2016.11.11-02.21.04:817][128]LogModuleManager: Shutting down and abandoning module Networking (72)
+[2016.11.11-02.21.04:817][128]LogModuleManager: Shutting down and abandoning module Core (71)
+[2016.11.11-02.21.04:817][128]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (70)
+[2016.11.11-02.21.04:817][128]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2016.11.11-02.21.04:819][128]LogDirectoryWatcher: A directory notification for 'D:/Wifun_작업문서 이정상/MyOwnUnrealProjects/TPS_LJS/Content/' was aborted.
+[2016.11.11-02.21.04:819][128]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2016.11.11-02.21.04:819][128]LogModuleManager: Shutting down and abandoning module AssetRegistry (69)
+[2016.11.11-02.21.04:962][128]LogModuleManager: Shutting down and abandoning module KismetCompiler (68)
+[2016.11.11-02.21.04:962][128]LogModuleManager: Shutting down and abandoning module PhysXFormats (67)
+[2016.11.11-02.21.04:962][128]LogModuleManager: Shutting down and abandoning module MeshUtilities (66)
+[2016.11.11-02.21.04:962][128]LogModuleManager: Shutting down and abandoning module DerivedDataCache (65)
+[2016.11.11-02.21.05:020][128]LogDerivedDataCache: Shutdown
+[2016.11.11-02.21.05:020][128]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (64)
+[2016.11.11-02.21.05:020][128]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (63)
+[2016.11.11-02.21.05:020][128]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (62)
+[2016.11.11-02.21.05:020][128]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (61)
+[2016.11.11-02.21.05:020][128]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (60)
+[2016.11.11-02.21.05:020][128]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (59)
+[2016.11.11-02.21.05:020][128]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (58)
+[2016.11.11-02.21.05:020][128]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (57)
+[2016.11.11-02.21.05:020][128]LogModuleManager: Shutting down and abandoning module ImageWrapper (56)
+[2016.11.11-02.21.05:020][128]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (55)
+[2016.11.11-02.21.05:020][128]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (54)
+[2016.11.11-02.21.05:020][128]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (53)
+[2016.11.11-02.21.05:020][128]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (52)
+[2016.11.11-02.21.05:020][128]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (51)
+[2016.11.11-02.21.05:020][128]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (50)
+[2016.11.11-02.21.05:020][128]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (49)
+[2016.11.11-02.21.05:020][128]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (48)
+[2016.11.11-02.21.05:020][128]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (47)
+[2016.11.11-02.21.05:020][128]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (46)
+[2016.11.11-02.21.05:020][128]LogModuleManager: Shutting down and abandoning module Messaging (45)
+[2016.11.11-02.21.05:020][128]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (44)
+[2016.11.11-02.21.05:020][128]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (43)
+[2016.11.11-02.21.05:020][128]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (42)
+[2016.11.11-02.21.05:020][128]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (41)
+[2016.11.11-02.21.05:020][128]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (40)
+[2016.11.11-02.21.05:021][128]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (39)
+[2016.11.11-02.21.05:021][128]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (38)
+[2016.11.11-02.21.05:021][128]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (37)
+[2016.11.11-02.21.05:021][128]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (36)
+[2016.11.11-02.21.05:021][128]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (35)
+[2016.11.11-02.21.05:021][128]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (34)
+[2016.11.11-02.21.05:021][128]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (33)
+[2016.11.11-02.21.05:021][128]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (32)
+[2016.11.11-02.21.05:021][128]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (31)
+[2016.11.11-02.21.05:021][128]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (30)
+[2016.11.11-02.21.05:021][128]LogModuleManager: Shutting down and abandoning module TargetPlatform (29)
+[2016.11.11-02.21.05:021][128]LogModuleManager: Shutting down and abandoning module InputCore (28)
+[2016.11.11-02.21.05:021][128]LogModuleManager: Shutting down and abandoning module Settings (27)
+[2016.11.11-02.21.05:021][128]LogModuleManager: Shutting down and abandoning module OculusRift (26)
+[2016.11.11-02.21.05:021][128]LogModuleManager: Shutting down and abandoning module GearVR (25)
+[2016.11.11-02.21.05:021][128]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (24)
+[2016.11.11-02.21.05:021][128]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (23)
+[2016.11.11-02.21.05:021][128]LogModuleManager: Shutting down and abandoning module Voice (21)
+[2016.11.11-02.21.05:021][128]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (17)
+[2016.11.11-02.21.05:021][128]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.11.11-02.21.05:021][128]LogOnline:Display: Unloading online subsystem: STEAM
+[2016.11.11-02.21.05:021][128]LogOnline:Display: Unloading online subsystem: NULL
+[2016.11.11-02.21.05:021][128]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2016.11.11-02.21.05:021][128]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2016.11.11-02.21.05:021][128]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6B76A64F-4FBB-FC36-F52A-ECB108E2257A%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.13.2-3172292%2B%2B%2BUE4%2BRelease-4.13&UserID=56451cfd4fd9a27398ebd49db26bedc3%7C7735729cfacd45018d8e5ad7a2086512%7C64060e57-f965-405a-be8e-4b31e72bcb7e&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2016.11.11-02.21.05:022][128]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2016.11.11-02.21.05:022][128]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.11.11-02.21.05:022][128]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.11.11-02.21.05:022][128]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.11.11-02.21.05:022][128]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.11.11-02.21.05:025][128]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.11.11-02.21.05:025][128]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.11.11-02.21.05:025][128]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.11.11-02.21.05:025][128]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.11.11-02.21.05:025][128]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.11.11-02.21.05:025][128]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.11.11-02.21.05:025][128]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.11.11-02.21.05:025][128]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.11.11-02.21.05:025][128]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.11.11-02.21.05:025][128]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.11.11-02.21.05:027][128]LogExit: Exiting.
+[2016.11.11-02.21.05:028][128]Log file closed, 11/11/16 11:21:05
